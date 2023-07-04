@@ -2288,12 +2288,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0670db757234e4c459623a202837f534, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lineRenderer: {fileID: 0}
-  Wheel: {fileID: 0}
-  Handle: {fileID: 0}
-  Indicator: {fileID: 0}
-  End: {fileID: 0}
-  SuggestedWireLength: 10
 --- !u!114 &1221563098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3939,7 +3933,7 @@ MonoBehaviour:
   thumbCollider: {fileID: 7585266836274898130}
   touchCollider: {fileID: 5929520802159921594}
   sliderValue: 0
-  useSliderStepDivisions: 1
+  useSliderStepDivisions: 0
   sliderStepDivisions: 15
   trackVisuals: {fileID: 3663475534391701335}
   tickMarks: {fileID: 0}

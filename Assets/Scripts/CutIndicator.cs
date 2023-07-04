@@ -25,6 +25,10 @@ public class CutIndicator : MonoBehaviour {
         ClampVecs[1] = Line.GetPosition(1);
     }
     private void FixedUpdate() {
+        if(!CableController.i.MR) FollowMouse();
+    }
+    #region NonMR
+    void FollowMouse(){
         bool Hit;
         Vector3 MousePos = MouseToWorld(out Hit);
         if(Hit)
@@ -54,6 +58,7 @@ public class CutIndicator : MonoBehaviour {
         }
         return Target;
     }
+    #endregion
     void NewWire(){
         if(!cd){
             cd = true;
@@ -61,7 +66,7 @@ public class CutIndicator : MonoBehaviour {
             LineRenderer ren = Instantiate(Line.gameObject, Line.transform.position, Line.transform.rotation).GetComponent<LineRenderer>();
             freeLines.Add(ren.gameObject);
             ren.SetPosition(0, transform.position);
-            ren.transform.Translate(new(0,10 * freeLines.Count,0));
+            ren.transform.Translate(new(0,Vector3.Distance(ClampVecs[1], ClampVecs[2]) / 10 * freeLines.Count,0));
             ren.gameObject.name = "Wire " + freeLines.Count;
         }
     }

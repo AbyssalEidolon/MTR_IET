@@ -53,6 +53,7 @@
      <Compile Include="Assets\Scripts\CableController.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\BoundingBox\Scripts\BoundingBoxExampleTest.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Utilities\Scripts\MixedRealityCapabilityDemo.cs" />
+     <Compile Include="Assets\Scripts\NonVR\Drag.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoScrollPanZoom\Scripts\BaseClasses\PanZoomBase.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\AudioFeedbackPlayer.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoBasicSetup\Scripts\ColorTap.cs" />
@@ -123,6 +124,7 @@
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Experimental - SceneUnderstanding\Scripts\DemoSceneUnderstandingController.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\OnSelectVisualizerInputController.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\FaceUser.cs" />
+     <Compile Include="Assets\Scripts\CableMove.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Input\Scenes\InputData\InputDataExampleGizmo.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ProgressIndicator\Scripts\ProgressIndicatorDemo.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\UserInputRecorderFeedback.cs" />
@@ -147,8 +149,7 @@
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\Dwell\ListItemDwell.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\OnLoadStartScene.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\HandInteractionTouchRotate.cs" />
-     <Compile Include="Assets\Scripts\CableMove.cs" />
-     <Compile Include="Assets\Scripts\NonVR\Drag.cs" />
+     <Compile Include="Assets\Scripts\MR\MRWireHandler.cs" />
      <None Include="Assets\Unity\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\MRTK+\MRTK\Shaders\Text3DShader.shader" />
      <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
