@@ -17,9 +17,9 @@ Material:
   - _HOVER_LIGHT
   - _SPECULAR_HIGHLIGHTS
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3002
+  m_CustomRenderQueue: 3000
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses: []
@@ -129,7 +129,7 @@ Material:
     - _IridescenceAngle: -0.78
     - _IridescenceIntensity: 0.5
     - _IridescenceThreshold: 0.05
-    - _Metallic: 0.288
+    - _Metallic: 1
     - _MipmapBias: -2
     - _Mode: 3
     - _NearLightFade: 0
