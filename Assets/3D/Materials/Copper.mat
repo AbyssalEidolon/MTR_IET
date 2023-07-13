@@ -118,7 +118,7 @@ Material:
     - _FadeMinValue: 0
     - _FluentLightIntensity: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0.624
     - _GlossyReflections: 1
     - _HoverLight: 1
     - _IgnoreZScale: 0
@@ -129,7 +129,7 @@ Material:
     - _IridescenceAngle: -0.78
     - _IridescenceIntensity: 0.5
     - _IridescenceThreshold: 0.05
-    - _Metallic: 1
+    - _Metallic: 0
     - _MipmapBias: -2
     - _Mode: 3
     - _NearLightFade: 0

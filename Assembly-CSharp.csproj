@@ -36,7 +36,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\TestScripts\TestFollow.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Experimental - Joystick\JoystickSliders.cs" />
      <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ProgressIndicator\Scripts\ProgressIndicatorDemoAnimation.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetSelections\Scripts\RotateWithConstSpeedDir.cs" />
@@ -50,6 +49,7 @@
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Input\Scenes\DisablePointers\DisablePointersExample.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Utils\Utils.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\HandInteractionTouch.cs" />
+     <Compile Include="Assets\Scripts\WireConstraints.cs" />
      <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ObjectManipulator\Scripts\ReturnToBounds.cs" />
      <Compile Include="Assets\Scripts\CableController.cs" />
      <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\BoundingBox\Scripts\BoundingBoxExampleTest.cs" />
@@ -116,6 +116,7 @@
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\ToggleBoundingBox.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoScrollPanZoom\Scripts\BaseClasses\PanZoomBaseTexture.cs" />
      <Compile Include="Assets\Scripts\NonVR\CableNonVR.cs" />
+     <Compile Include="Assets\Scripts\NonVR\SkinIndicator.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Utils\KeepThisAlive.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Targeting\TargetEventArgs.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoScrollPanZoom\Scripts\ScrollRectTransf.cs" />
@@ -133,6 +134,7 @@
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Input\Scenes\InputData\InputDataExampleGizmo.cs" />
      <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ProgressIndicator\Scripts\ProgressIndicatorDemo.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\UserInputRecorderFeedback.cs" />
+     <Compile Include="Assets\Scripts\FaceCamera.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\BasicInputLogger.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Input\Scenes\InputData\InputDataExample.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - SpatialAwareness\Scripts\ShowPlaneFindingInstructions.cs" />
@@ -155,9 +157,7 @@
      <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\Dwell\ListItemDwell.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\OnLoadStartScene.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\HandInteractionTouchRotate.cs" />
-     <Compile Include="Assets\Scripts\FaceCamera.cs" />
-     <Compile Include="Assets\Scripts\NonVR\SkinIndicator.cs" />
-     <Compile Include="Assets\Scripts\WireConstraints.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\TestFollow.cs" />
      <None Include="Assets\Unity\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\MRTK+\MRTK\Shaders\Text3DShader.shader" />
      <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -433,13 +433,13 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\PackageCache\com.unity.testtools.codecoverage@1.2.3\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\PackageCache\com.unity.testtools.codecoverage@1.2.3\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.27f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -807,350 +807,390 @@
     <Reference Include="System.Xml.Serialization">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.StandardAssets.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.WorldLocking.ASA">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.WorldLocking.ASA.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.WorldLocking.ASA.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.Tracking.Editor.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.Tracking.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputAnimation">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Gltf">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputAnimation">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Services.TeleportSystem">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.WorldLocking.Tools">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.WorldLocking.Tools.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.OpenXR.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.HandPhysics">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.WorldLocking.Tools.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.PlaneFinding">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.PlaneFinding.dll</HintPath>
-    </Reference>
-    <Reference Include="AzureSpatialAnchors.SDK.Core.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\AzureSpatialAnchors.SDK.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.PlaneFinding.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.WorldLocking.Core.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.WorldLocking.Core.Editor.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.WorldLocking.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InputSystem">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Services.SceneSystem">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.Fbx">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Autodesk.Fbx.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Unity.FrozenWorld.Engine">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Unity.FrozenWorld.Engine.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.CoreUtils.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Unity.FrozenWorld.Engine.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll</HintPath>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.GpuStats">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.GpuStats.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll</HintPath>
+    <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.MicStream">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.MicStream.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.Tracking.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.MicStream.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Tests.Utilities">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Tests.Utilities.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Tests.Utilities.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.ObjectAnchors.Runtime.Core">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.ObjectAnchors.Runtime.Core.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.ObjectAnchors.Runtime.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARSubsystems.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARSubsystems">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.Inspectors">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll</HintPath>
-    </Reference>
-    <Reference Include="FigmaToolkit">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\FigmaToolkit.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARFoundation.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll</HintPath>
-    </Reference>
-    <Reference Include="AzureSpatialAnchors.SDK.Core.Runtime">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\AzureSpatialAnchors.SDK.Core.Runtime.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.SDK">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll</HintPath>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Examples">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Examples.dll</HintPath>
+    <Reference Include="Unity.XR.ARFoundation.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll</HintPath>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.CameraSystem">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    <Reference Include="Autodesk.Fbx.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Providers.OpenXR">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Tools.Runtime">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Tools.Runtime.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Tools.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    <Reference Include="Unity.ProBuilder.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.OpenXR">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    <Reference Include="Unity.TerrainTools">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.TerrainTools.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll</HintPath>
     </Reference>
     <Reference Include="AzureSpatialAnchors.SDK.Windows.Runtime">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\AzureSpatialAnchors.SDK.Windows.Runtime.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\AzureSpatialAnchors.SDK.Windows.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll</HintPath>
+    <Reference Include="Unity.TerrainTools.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InputSystem.ForUI">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Editor.ClassExtensions">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.CoreUtils">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.OpenXR.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
-    </Reference>
-    <Reference Include="WorldLocking.Tools.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\WorldLocking.Tools.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Async">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.WorldLocking.Engine">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.WorldLocking.Engine.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.WorldLocking.Engine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Gltf.Importers">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.ObjectAnchors.Initializer.Editor">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.ObjectAnchors.Initializer.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.WorldLocking.Core">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.WorldLocking.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.ObjectAnchors.Runtime.Api">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.ObjectAnchors.Runtime.Api.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARFoundation">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Tools">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Tools.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Formats.Fbx.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.OpenXR.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.HandPhysics">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.dll</HintPath>
+    </Reference>
+    <Reference Include="AzureSpatialAnchors.SDK.Core.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\AzureSpatialAnchors.SDK.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.CoreUtils.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.GpuStats">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.GpuStats.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Formats.Fbx.Runtime">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.Tracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="FigmaToolkit">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\FigmaToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.Inspectors">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll</HintPath>
+    </Reference>
+    <Reference Include="AzureSpatialAnchors.SDK.Core.Runtime">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\AzureSpatialAnchors.SDK.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.SDK">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Examples">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Examples.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.CameraSystem">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Polybrush.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Polybrush">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.Polybrush.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem.ForUI">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.OpenXR.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="WorldLocking.Tools.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\WorldLocking.Tools.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Async">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ObjectAnchors.Initializer.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.ObjectAnchors.Initializer.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.WorldLocking.Core">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.WorldLocking.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ObjectAnchors.Runtime.Api">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.ObjectAnchors.Runtime.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARFoundation">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors">
-        <HintPath>E:\MRTKTest\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll</HintPath>
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.StandardAssets.Editor">
+        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj">
+      <Project>{f6c3eb0b-28f3-e228-515e-44c211ef16ed}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors</Name>
+    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.Audio.csproj">
       <Project>{c0942b3a-73ea-d831-92e4-123631e8ef11}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.Audio</Name>
@@ -1158,10 +1198,6 @@
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj">
       <Project>{09d2dc79-51f1-15ec-6af6-b6c34562e9f3}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.InspectorFields</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj">
-      <Project>{f6c3eb0b-28f3-e228-515e-44c211ef16ed}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj">
       <Project>{b53b0fc1-389d-3a73-8e68-c383e1c757ca}</Project>

@@ -20,8 +20,8 @@ public class LineManipulator : MonoBehaviour
     }
     public void UpdateLine()
     {
-        Line.SetPosition(0, Start.position);
-        Line.SetPosition(1, SceneController.i.SliderThumb.transform.position);
+        Line.SetPosition(0, Start.localPosition);
+        Line.SetPosition(1, SceneController.i.SliderThumb.transform.localPosition);
     }
     public void Pickup(){
         Tick = true;

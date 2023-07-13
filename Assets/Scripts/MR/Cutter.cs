@@ -13,6 +13,7 @@ public class Cutter : ToolBase
     LineRenderer newLine = null;
     GameObject oldLineObject => LineManipulator.i.Line.gameObject;
     LineRenderer oldLine => oldLineObject.GetComponent<LineRenderer>();
+    public bool DisableOldLine = false;
     
     public override void Duplicate(ManipulationEventData eventData)
     {
@@ -33,21 +34,23 @@ public class Cutter : ToolBase
     }
     void OnCollisionEnter(Collision other)
     {
-        print(other.gameObject.name);
+        // print(other.gameObject.name);
         if (other.gameObject.name == "PinchSlider" && !newLine)
         {
             if(SceneController.i.TestText) SceneController.i.TestText.text += "<br>" + other.gameObject.name;
             newLine = Instantiate(new GameObject(), oldLineObject.transform.position, oldLine.transform.rotation, oldLine.transform.parent).AddComponent<LineRenderer>(); 
             newLine.name = "Wire";
-            DupeLineInfo(SceneController.Clamp(other.GetContact(0).point, oldLine.GetPosition(1), oldLine.GetPosition(0)));
             newLine.useWorldSpace = false;
-            oldLine.gameObject.SetActive(false);
+            DupeLineInfo(SceneController.Clamp(other.GetContact(0).point, oldLine.GetPosition(1), oldLine.GetPosition(0)));
+            oldLine.gameObject.SetActive(!DisableOldLine);
+            // print("AAAAAAAAAAAAA");
+            gameObject.GetComponent<AudioSource>().Play();
             Delete(new ManipulationEventData());
         }
     }
     void DupeLineInfo(Vector3 PosOnLine){
         newLine.SetPosition(0, PosOnLine);
-        newLine.SetPosition(1, SceneController.i.SliderThumb.transform.position);
+        newLine.SetPosition(1, SceneController.i.SliderThumb.transform.localPosition);
         newLine.startWidth = oldLine.startWidth;
         newLine.endWidth = oldLine.endWidth;
         newLine.material = oldLine.material;

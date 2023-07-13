@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.27f1\Editor\Unity.exe
 -name
 AssetImportWorker3
 -projectPath
-E:/MRTKTest/MRTKTest
+E:/Pacific/MRTKTest
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-56365
-Successfully changed project path to: E:/MRTKTest/MRTKTest
-E:/MRTKTest/MRTKTest
+53841
+Successfully changed project path to: E:/Pacific/MRTKTest
+E:/Pacific/MRTKTest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,15 +47,15 @@ E:/MRTKTest/MRTKTest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16472] Host "[IP] 192.168.34.113 [Port] 0 [Flags] 2 [Guid] 1144053322 [EditorId] 1144053322 [Version] 1048832 [Id] WindowsEditor(7,ST-ENG-JADA-LUNG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21116] Host "[IP] 192.168.34.113 [Port] 0 [Flags] 2 [Guid] 2464684675 [EditorId] 2464684675 [Version] 1048832 [Id] WindowsEditor(7,ST-ENG-JADA-LUNG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16472] Host "[IP] 192.168.34.113 [Port] 0 [Flags] 2 [Guid] 1144053322 [EditorId] 1144053322 [Version] 1048832 [Id] WindowsEditor(7,ST-ENG-JADA-LUNG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21116] Host "[IP] 192.168.34.113 [Port] 0 [Flags] 2 [Guid] 2464684675 [EditorId] 2464684675 [Version] 1048832 [Id] WindowsEditor(7,ST-ENG-JADA-LUNG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 288.14 ms, found 23 plugins.
+Refreshing native plugins compatible for Editor in 227.43 ms, found 24 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.27f1 (ca3ffb99bcc6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/MRTKTest/MRTKTest/Assets
+[Subsystems] Discovering subsystems at path E:/Pacific/MRTKTest/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -67,94 +67,94 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.013505 seconds.
+Registered in 0.011034 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 291.94 ms, found 23 plugins.
+Refreshing native plugins compatible for Editor in 199.49 ms, found 24 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.372 seconds
+- Completed reload, in  0.888 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1373ms)
-		BeginReloadAssembly (160ms)
+	ReloadAssembly (889ms)
+		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1000ms)
-			LoadAssemblies (156ms)
+		EndReloadAssembly (643ms)
+			LoadAssemblies (104ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (206ms)
+			SetupTypeCache (127ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (640ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (410ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (292ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (232ms)
-				ProcessInitializeOnLoadMethodAttributes (98ms)
+				RefreshPlugins (200ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015150 seconds.
+Registered in 0.011397 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\MRTKTest\MRTKTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Pacific\MRTKTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image E:\MRTKTest\MRTKTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Pacific\MRTKTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 230.92 ms, found 23 plugins.
+Refreshing native plugins compatible for Editor in 172.56 ms, found 24 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  2.952 seconds
+- Completed reload, in  2.159 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2953ms)
-		BeginReloadAssembly (215ms)
+	ReloadAssembly (2160ms)
+		BeginReloadAssembly (152ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (2553ms)
-			LoadAssemblies (170ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1877ms)
+			LoadAssemblies (137ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (687ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (240ms)
-			SetupLoadedEditorAssemblies (1331ms)
+			SetupTypeCache (448ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (1129ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (231ms)
-				BeforeProcessingInitializeOnLoad (239ms)
-				ProcessInitializeOnLoadAttributes (734ms)
-				ProcessInitializeOnLoadMethodAttributes (100ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (173ms)
+				BeforeProcessingInitializeOnLoad (206ms)
+				ProcessInitializeOnLoadAttributes (650ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.37 ms, found 23 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.48 ms, found 24 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5728 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 107 unused Assets / (49.8 KB). Loaded Objects now: 6155.
-Memory consumption went from 201.4 MB to 201.4 MB.
-Total: 6.728400 ms (FindLiveObjects: 0.662800 ms CreateObjectMapping: 0.619100 ms MarkObjects: 5.279300 ms  DeleteObjects: 0.165300 ms)
+Unloading 6606 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 134 unused Assets / (1.6 MB). Loaded Objects now: 7028.
+Memory consumption went from 243.8 MB to 242.2 MB.
+Total: 7.746800 ms (FindLiveObjects: 0.873500 ms CreateObjectMapping: 0.867800 ms MarkObjects: 5.445000 ms  DeleteObjects: 0.559000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,244 +167,367 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 74978.226724 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoTargetPositioning/Prefabs/EyeTrackingDemoSliderHorizontal.prefab
-  artifactKey: Guid(71b8b2acb3a8f344abf91c2b102b0d74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoTargetPositioning/Prefabs/EyeTrackingDemoSliderHorizontal.prefab using Guid(71b8b2acb3a8f344abf91c2b102b0d74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0c2db703903861a2f8620abbbe4d5786') in 0.291285 seconds 
+Received Prepare
+Refreshing native plugins compatible for Editor in 20.31 ms, found 24 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 114 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (1.6 MB). Loaded Objects now: 7028.
+Memory consumption went from 104.6 MB to 103.0 MB.
+Total: 6.840200 ms (FindLiveObjects: 0.792700 ms CreateObjectMapping: 0.742500 ms MarkObjects: 4.830500 ms  DeleteObjects: 0.473400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoTargetSelections/Scripts/TargetGroupIterator.cs
-  artifactKey: Guid(36b713bbc7d01dd42a2bdd3e201d15cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoTargetSelections/Scripts/TargetGroupIterator.cs using Guid(36b713bbc7d01dd42a2bdd3e201d15cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'aa4104c305d65bf9d73b937531deffa0') in 0.013863 seconds 
+Received Prepare
+Refreshing native plugins compatible for Editor in 25.52 ms, found 24 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 114 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (1.6 MB). Loaded Objects now: 7028.
+Memory consumption went from 104.6 MB to 103.0 MB.
+Total: 7.862300 ms (FindLiveObjects: 0.725000 ms CreateObjectMapping: 0.799700 ms MarkObjects: 5.852700 ms  DeleteObjects: 0.483700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Audio/sound_Confirmation.wav
-  artifactKey: Guid(9c496bada7bf21e4eb17d275b19f4b25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Audio/sound_Confirmation.wav using Guid(9c496bada7bf21e4eb17d275b19f4b25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7877fb7c9b5bb0004c07ccfe3b39d68c') in 0.091165 seconds 
+Received Prepare
+Refreshing native plugins compatible for Editor in 20.76 ms, found 24 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 114 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (1.6 MB). Loaded Objects now: 7028.
+Memory consumption went from 104.6 MB to 103.0 MB.
+Total: 6.665800 ms (FindLiveObjects: 0.739900 ms CreateObjectMapping: 0.701000 ms MarkObjects: 4.721200 ms  DeleteObjects: 0.502800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Prefabs/EyeTrackingDemos ManagerComponents.prefab
-  artifactKey: Guid(fda837e43ea42874b8a9941a5968b1d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Prefabs/EyeTrackingDemos ManagerComponents.prefab using Guid(fda837e43ea42874b8a9941a5968b1d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4270b4bfc0f9dbfa144b2e872a018bf6') in 0.430041 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012072 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Pacific\MRTKTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\Pacific\MRTKTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.25 ms, found 24 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.966 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1967ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1618ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (521ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (772ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (537ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 11.31 ms, found 24 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6493 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (1.6 MB). Loaded Objects now: 7032.
+Memory consumption went from 233.3 MB to 231.8 MB.
+Total: 6.117700 ms (FindLiveObjects: 0.698900 ms CreateObjectMapping: 1.040400 ms MarkObjects: 3.884500 ms  DeleteObjects: 0.492900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Prefabs/EyeTrackingDemos Notification.prefab
-  artifactKey: Guid(b81ff345fab8e1e449e4b387889fc53c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Prefabs/EyeTrackingDemos Notification.prefab using Guid(b81ff345fab8e1e449e4b387889fc53c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7619ec427e103a9f12c8b7649010573f') in 0.036955 seconds 
+Received Prepare
+Refreshing native plugins compatible for Editor in 28.27 ms, found 24 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 114 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (1.6 MB). Loaded Objects now: 7032.
+Memory consumption went from 105.5 MB to 103.9 MB.
+Total: 6.526900 ms (FindLiveObjects: 0.677300 ms CreateObjectMapping: 0.593200 ms MarkObjects: 4.545100 ms  DeleteObjects: 0.709900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Scripts/AudioFeedbackPlayer.cs
-  artifactKey: Guid(23aed474c92a05e46b66dd76f0bd6270) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Scripts/AudioFeedbackPlayer.cs using Guid(23aed474c92a05e46b66dd76f0bd6270) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '94ccb1757b44266888e9a55904cf9d76') in 0.012241 seconds 
+Received Prepare
+Refreshing native plugins compatible for Editor in 23.28 ms, found 24 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 114 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (1.6 MB). Loaded Objects now: 7032.
+Memory consumption went from 104.9 MB to 103.3 MB.
+Total: 6.641300 ms (FindLiveObjects: 0.674000 ms CreateObjectMapping: 0.540300 ms MarkObjects: 4.897500 ms  DeleteObjects: 0.527700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Audio/sound_Success.wav
-  artifactKey: Guid(570d5c84cf163914c8afdf35290ea64e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Audio/sound_Success.wav using Guid(570d5c84cf163914c8afdf35290ea64e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4ec79b45c6b262ba0e5a30cea268d2fd') in 0.111433 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010817 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Pacific\MRTKTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\Pacific\MRTKTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.63 ms, found 24 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.765 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1766ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1398ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (431ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (679ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (467ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.24 ms, found 24 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6493 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (1.6 MB). Loaded Objects now: 7036.
+Memory consumption went from 233.4 MB to 231.8 MB.
+Total: 5.577500 ms (FindLiveObjects: 0.692600 ms CreateObjectMapping: 0.605200 ms MarkObjects: 3.770200 ms  DeleteObjects: 0.508100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Scripts/Utils/KeepThisAlive.cs
-  artifactKey: Guid(774d9dc9940177b4babc0d527f12da90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Scripts/Utils/KeepThisAlive.cs using Guid(774d9dc9940177b4babc0d527f12da90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'bc1768b05132491da4151c584654f434') in 0.010911 seconds 
+Received Prepare
+Refreshing native plugins compatible for Editor in 29.28 ms, found 24 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 114 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (1.6 MB). Loaded Objects now: 7036.
+Memory consumption went from 105.5 MB to 103.9 MB.
+Total: 8.746700 ms (FindLiveObjects: 0.882300 ms CreateObjectMapping: 0.787500 ms MarkObjects: 6.436300 ms  DeleteObjects: 0.639500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Audio/sound_HandTrackingLost.wav
-  artifactKey: Guid(8f7f0c05bba74364797a5379fff83f38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Audio/sound_HandTrackingLost.wav using Guid(8f7f0c05bba74364797a5379fff83f38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '59d00a4214bc3de0c497851c4b3094a3') in 0.109227 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010291 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Pacific\MRTKTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\Pacific\MRTKTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.28 ms, found 24 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.715 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1716ms)
+		BeginReloadAssembly (200ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1403ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (428ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (696ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (480ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 17.09 ms, found 24 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6493 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (1.6 MB). Loaded Objects now: 7040.
+Memory consumption went from 233.4 MB to 231.8 MB.
+Total: 6.551400 ms (FindLiveObjects: 0.750800 ms CreateObjectMapping: 0.756900 ms MarkObjects: 4.275800 ms  DeleteObjects: 0.766700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Textures/tex_circle_plain.psd
-  artifactKey: Guid(1745b43e19a8d7541a42fc1eec63a4d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Textures/tex_circle_plain.psd using Guid(1745b43e19a8d7541a42fc1eec63a4d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f8bdda31ae81da73e6ba8bb0ca1b37ba') in 0.067131 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010763 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Pacific\MRTKTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\Pacific\MRTKTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.53 ms, found 24 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.716 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1717ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1406ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (407ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (702ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (486ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 17.10 ms, found 24 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6493 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (1.6 MB). Loaded Objects now: 7044.
+Memory consumption went from 233.4 MB to 231.8 MB.
+Total: 7.755400 ms (FindLiveObjects: 0.897000 ms CreateObjectMapping: 1.281800 ms MarkObjects: 5.044000 ms  DeleteObjects: 0.531100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - Input/Scenes/InputData/InputDataExampleGizmo.cs
-  artifactKey: Guid(3d49ddace2b7b3c4bb9e4ddb39ab6914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - Input/Scenes/InputData/InputDataExampleGizmo.cs using Guid(3d49ddace2b7b3c4bb9e4ddb39ab6914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '45d6753ad23223a8a749a1df8f01352a') in 0.009631 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - Input/Scenes/InputData/InputRaysFloor_Highlighted.mat
-  artifactKey: Guid(3f37b7f7a8cd11249a3e29496b30b2c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - Input/Scenes/InputData/InputRaysFloor_Highlighted.mat using Guid(3f37b7f7a8cd11249a3e29496b30b2c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5acbcbdcb0ea4a2a106b8cb027f6988c') in 0.051820 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoTargetSelections/Prefabs/TargetType (3).prefab
-  artifactKey: Guid(8dc211d179882b34996e9bd071b3b61c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoTargetSelections/Prefabs/TargetType (3).prefab using Guid(8dc211d179882b34996e9bd071b3b61c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6aa44651a49fce2cc2e8b227d699156d') in 0.055412 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoVisualizer/Materials/mat_hololens2_04.mat
-  artifactKey: Guid(8c576a1bea3eb0f47ba6f48bae247ffe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoVisualizer/Materials/mat_hololens2_04.mat using Guid(8c576a1bea3eb0f47ba6f48bae247ffe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e3a1804f07577313e38ea8d9a73a23d3') in 0.114679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoVisualizer/Prefabs/RecordButton.prefab
-  artifactKey: Guid(231a4253eb1a74d4e87393459447cc95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoVisualizer/Prefabs/RecordButton.prefab using Guid(231a4253eb1a74d4e87393459447cc95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '411dacf859261cbd7566adc6ea78ab48') in 0.087991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoTargetSelections/Scripts/TargetGroupCreatorRadial.cs
-  artifactKey: Guid(9e05e4e2276e7164eb468cd1391873bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoTargetSelections/Scripts/TargetGroupCreatorRadial.cs using Guid(9e05e4e2276e7164eb468cd1391873bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5fa8b4d98b968412145ed279d08c735c') in 0.006569 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Scripts/TargetBehaviors/FaceUser.cs
-  artifactKey: Guid(ee03dd1e7aa3e184d8938246d30727a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Scripts/TargetBehaviors/FaceUser.cs using Guid(ee03dd1e7aa3e184d8938246d30727a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'abd4fc696bf5f43690a0dcb5f15c1720') in 0.006910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Prefabs/MixedRealityBasicSceneSetup.prefab
-  artifactKey: Guid(d9db4fe4b37b2024ea85c888f8d74e12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Prefabs/MixedRealityBasicSceneSetup.prefab using Guid(d9db4fe4b37b2024ea85c888f8d74e12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '71879eb8322962c5a8a25045974eb099') in 0.025552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoVisualizer/Textures/tex_picture2.jpg
-  artifactKey: Guid(d06776b6c3e4d6e4bb275a957cd7ce9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoVisualizer/Textures/tex_picture2.jpg using Guid(d06776b6c3e4d6e4bb275a957cd7ce9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7d3645f40d1cb4b5e0df456ff9bbd635') in 0.044683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Scripts/TargetBehaviors/LoadAdditiveScene.cs
-  artifactKey: Guid(84fe9b2a06f2be0419698407ab15c2f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Scripts/TargetBehaviors/LoadAdditiveScene.cs using Guid(84fe9b2a06f2be0419698407ab15c2f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd9946efca4e2d7bc524867afc4d32430') in 0.017081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoTargetPositioning/Prefabs/EyeTrackingDemoSliderVertical.prefab
-  artifactKey: Guid(1a4bbe24b109c6e4aa21a517ad27ba95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoTargetPositioning/Prefabs/EyeTrackingDemoSliderVertical.prefab using Guid(1a4bbe24b109c6e4aa21a517ad27ba95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3465bd0fb925b72c67a93e8705d219f7') in 0.036512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Scripts/TargetBehaviors/OnLookAtRotateByEyeGaze.cs
-  artifactKey: Guid(e7c91864c2557ea448c8447c948dc1af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Scripts/TargetBehaviors/OnLookAtRotateByEyeGaze.cs using Guid(e7c91864c2557ea448c8447c948dc1af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4309635626f6b8e7a495cd75a3910d57') in 0.011461 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Audio/sound_Fail.wav
-  artifactKey: Guid(2826b03ccaa826a42af0e68bfd49d948) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Audio/sound_Fail.wav using Guid(2826b03ccaa826a42af0e68bfd49d948) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c4507f715cfbd639ae8ed2d53205a25d') in 0.061344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoVisualizer/Materials/mat_emptyHeatmapMaterial.mat
-  artifactKey: Guid(77001dbfe12ff9d49842cc39a1203f8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoVisualizer/Materials/mat_emptyHeatmapMaterial.mat using Guid(77001dbfe12ff9d49842cc39a1203f8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '89c8a58afc71c73be123045efc0b7fa4') in 0.034722 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoVisualizer/Materials/mat_SlateFrame.mat
-  artifactKey: Guid(a1e5ee4073921ea46bf905f161b85cb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoVisualizer/Materials/mat_SlateFrame.mat using Guid(a1e5ee4073921ea46bf905f161b85cb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cc46c527d9ae766ff2ccf3b10147c4a3') in 0.025978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoTargetSelections/Materials/mat_Bucky 1.mat
-  artifactKey: Guid(c3c6e3b6f44a0654f97ad31c55a1bea7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoTargetSelections/Materials/mat_Bucky 1.mat using Guid(c3c6e3b6f44a0654f97ad31c55a1bea7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '22077ba8655e23483c0caf96e173ba2c') in 0.027397 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - UX/BoundsControl/Scenes/BoundsControlConfigs/CoffeeCupTranslateHandlesConfiguration.asset
-  artifactKey: Guid(fe5a4765d0bf1eb4080d8383440eb2fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - UX/BoundsControl/Scenes/BoundsControlConfigs/CoffeeCupTranslateHandlesConfiguration.asset using Guid(fe5a4765d0bf1eb4080d8383440eb2fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '96c80a7a33a431413b05c06513b16355') in 0.047114 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoTargetSelections/Scripts/RotateWithConstSpeedDir.cs
-  artifactKey: Guid(094a6cb9d3eee294f8fb34131017de33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoTargetSelections/Scripts/RotateWithConstSpeedDir.cs using Guid(094a6cb9d3eee294f8fb34131017de33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ad72064c8f3c559e307d137a566d22a2') in 0.012903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - Input/Scenes/Dictation/DictationExample.unity
-  artifactKey: Guid(8761e3a97a3e8614e8be2cf7a8ce7ffd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - Input/Scenes/Dictation/DictationExample.unity using Guid(8761e3a97a3e8614e8be2cf7a8ce7ffd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '53a14a4e0ae8553bef5d6ebd66347679') in 0.010715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoTargetSelections/Materials/mat_Icosa.mat
-  artifactKey: Guid(59c116cb7d669b7489d194995fc673b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoTargetSelections/Materials/mat_Icosa.mat using Guid(59c116cb7d669b7489d194995fc673b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '96041064a423df3e09bdc01e27caf732') in 0.029715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Profiles/EyeTrackingDemoPointerProfile.asset
-  artifactKey: Guid(fa348bf44b661704fb20e5d975528e84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Profiles/EyeTrackingDemoPointerProfile.asset using Guid(fa348bf44b661704fb20e5d975528e84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0ad9edc36efa0d9321224055df9fefe0') in 0.032891 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - Input/Scenes/InputData/HeadGizmo.prefab
-  artifactKey: Guid(b6db7367f2b63e44888c4c6faecdb483) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - Input/Scenes/InputData/HeadGizmo.prefab using Guid(b6db7367f2b63e44888c4c6faecdb483) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e1e92f156bde00480aceacdf69b8e66f') in 0.021033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoVisualizer/Scripts/BasicInputLogger.cs
-  artifactKey: Guid(c2c370efbbf0a8f4e97f0fc33d49d41e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/DemoVisualizer/Scripts/BasicInputLogger.cs using Guid(c2c370efbbf0a8f4e97f0fc33d49d41e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '081ce89bc7f528d934233bb7699664f6') in 0.009160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Materials/mat_dwellfeedback_main.mat
-  artifactKey: Guid(70d25c24ecbc5214fa1b650a45678208) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/MRTK+/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - EyeTracking/General/Materials/mat_dwellfeedback_main.mat using Guid(70d25c24ecbc5214fa1b650a45678208) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'bd55fd12294df9f0c79950cf4062a6e4') in 0.025170 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Refreshing native plugins compatible for Editor in 23.73 ms, found 24 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 114 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (1.6 MB). Loaded Objects now: 7044.
+Memory consumption went from 105.6 MB to 104.0 MB.
+Total: 6.663100 ms (FindLiveObjects: 0.817400 ms CreateObjectMapping: 0.733000 ms MarkObjects: 4.539300 ms  DeleteObjects: 0.572100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
