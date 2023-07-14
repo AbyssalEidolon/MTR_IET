@@ -158,6 +158,9 @@
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\OnLoadStartScene.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\HandInteractionTouchRotate.cs" />
      <Compile Include="Assets\Scripts\TestScripts\TestFollow.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\CTest.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\CTestSubset.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\CTestEditor.cs" />
      <None Include="Assets\Unity\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\MRTK+\MRTK\Shaders\Text3DShader.shader" />
      <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

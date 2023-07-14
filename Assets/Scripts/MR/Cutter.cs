@@ -20,7 +20,7 @@ public class Cutter : ToolBase
         base.Duplicate(eventData);
         LineManipulator.i.BakeCollider();
         foreach(BoxCollider collider in SceneController.i.DisabledOnToolPickup){
-            collider.enabled = false;
+            if(!SceneController.i.ToolBarsLocked)collider.enabled = false;
         };
 
     }
@@ -29,7 +29,7 @@ public class Cutter : ToolBase
         base.Delete(eventData);
         LineManipulator.i.DestroyCollider();
         foreach(BoxCollider collider in SceneController.i.DisabledOnToolPickup){
-            collider.enabled = true;
+            if(!SceneController.i.ToolBarsLocked)collider.enabled = true;
         };
     }
     void OnCollisionEnter(Collision other)

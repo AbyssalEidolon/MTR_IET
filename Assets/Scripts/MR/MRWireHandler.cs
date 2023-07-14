@@ -20,23 +20,23 @@ public class MRWireHandler : MonoBehaviour
     GameObject Wheel = null;
     void Start(){
         Wheel = GameObject.Find("Wheel");
-
+        StartCoroutine(UpdateIndicators());
     }
     public void UpdateSliderValue(){
         SliderValue = Slider.SliderValue;
-        new Thread(new ThreadStart(UpdateIndicators));
+        Indicator.SetActive(SliderValue >= IndicatorProc);
     }
     public void EnableCutters(HandTrackingInputEventData eventData){
         CurrentHand = (int)eventData.Handedness;
     }
-    void UpdateIndicators(){
+    IEnumerator UpdateIndicators(){
         while(true){
-        float Change = Slider.SliderValue - SliderValue;
-        float Angle = Change / Mathf.PI * 360;
-        Wheel.transform.Rotate(new(0, 0, Angle));
-        Indicator.SetActive(SliderValue >= IndicatorProc);
-        LengthInd.text = WireLengthCM.ToString("F2") + " cm";
-        Thread.Sleep(1000);
+            print("Gay");
+            float Change = Slider.SliderValue - SliderValue;
+            float Angle = Change / Mathf.PI * 360;
+            Wheel.transform.Rotate(new(0, 0, Angle));
+            LengthInd.text = WireLengthCM.ToString("F2") + " cm";
+            yield return new WaitForSeconds(0.05f);
         }
     }   
 }

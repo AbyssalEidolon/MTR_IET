@@ -11,6 +11,7 @@ public class SceneController : MonoBehaviour{
     public BoxCollider[] DisabledOnToolPickup;
     public LineManipulator lineManipulator = null;
     public TextMeshProUGUI TestText = null;
+    public bool ToolBarsLocked = false;
     void Awake(){
         i = this;
     }
