@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -419,7 +419,6 @@ GameObject:
   m_Component:
   - component: {fileID: 61925505}
   - component: {fileID: 61925507}
-  - component: {fileID: 61925506}
   m_Layer: 0
   m_Name: Slider
   m_TagString: Untagged
@@ -450,18 +449,6 @@ RectTransform:
   m_AnchoredPosition: {x: 100, y: 0}
   m_SizeDelta: {x: 220, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &61925506
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61925504}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0670db757234e4c459623a202837f534, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &61925507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -513,7 +500,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 61925506}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LinePulley, Assembly-CSharp
         m_MethodName: UpdateLine
         m_Mode: 1
@@ -5085,6 +5072,9 @@ MonoBehaviour:
   SkinMargins: 0
   SkinIndPrefab: {fileID: 0}
   DisableOldLine: 0
+  JointPositive: {fileID: 0}
+  JointNegative: {fileID: 0}
+  CutBound: 0
 --- !u!82 &929392895
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6191,7 +6181,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1221563096}
   - component: {fileID: 1221563098}
-  - component: {fileID: 1221563097}
   m_Layer: 0
   m_Name: Slider
   m_TagString: Untagged
@@ -6222,18 +6211,6 @@ RectTransform:
   m_AnchoredPosition: {x: 100, y: 0}
   m_SizeDelta: {x: 220, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1221563097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1221563095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0670db757234e4c459623a202837f534, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1221563098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6285,7 +6262,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1221563097}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LinePulley, Assembly-CSharp
         m_MethodName: UpdateLine
         m_Mode: 1
@@ -6495,7 +6472,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251417659}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e474bda9d0d3244cb4d7e7a62651373, type: 3}
   m_Name: 
@@ -6907,6 +6884,9 @@ MonoBehaviour:
   SkinMargins: 0
   SkinIndPrefab: {fileID: 0}
   DisableOldLine: 0
+  JointPositive: {fileID: 0}
+  JointNegative: {fileID: 0}
+  CutBound: 0
 --- !u!82 &1343289331
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7973,6 +7953,7 @@ GameObject:
   - component: {fileID: 1578985751}
   - component: {fileID: 1578985750}
   - component: {fileID: 1578985749}
+  - component: {fileID: 1578985754}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -8105,6 +8086,24 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1578985754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578985747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Device: 0
+  m_PoseSource: 2
+  m_PoseProviderComponent: {fileID: 0}
+  m_TrackingType: 0
+  m_UpdateType: 0
+  m_UseRelativeTransform: 0
 --- !u!1 &1593287134
 GameObject:
   m_ObjectHideFlags: 0
@@ -9438,7 +9437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83d9acc7968244a8886f3af591305bcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeProfile: {fileID: 11400000, guid: 533fdc6ec52e81b439ecc2dcc57440fa, type: 2}
+  activeProfile: {fileID: 11400000, guid: 7e7c962b9eb9dfa44993d5b2f2576752, type: 2}
 --- !u!4 &1959103746
 Transform:
   m_ObjectHideFlags: 0
@@ -10084,7 +10083,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9122924823162949380}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11110,7 +11109,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43ed2047eeac4e54386d3eeb3f7cba2d, type: 2}
+  - {fileID: 2100000, guid: ea53c48c7a25914488df4b60a7a4b2a8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11274,7 +11273,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3722790645515953398}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11431,6 +11430,9 @@ MonoBehaviour:
   SkinMargins: 0
   SkinIndPrefab: {fileID: 0}
   DisableOldLine: 1
+  JointPositive: {fileID: 0}
+  JointNegative: {fileID: 0}
+  CutBound: 0
 --- !u!82 &6732574233238160534
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11611,7 +11613,7 @@ MonoBehaviour:
   useForcesForNearManipulation: 0
   oneHandRotationModeNear: 1
   oneHandRotationModeFar: 1
-  releaseBehavior: 3
+  releaseBehavior: 0
   transformSmoothingLogicType:
     reference: Microsoft.MixedReality.Toolkit.Utilities.DefaultTransformSmoothingLogic,
       Microsoft.MixedReality.Toolkit.SDK

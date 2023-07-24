@@ -14,7 +14,10 @@ public class Cutter : ToolBase
     GameObject oldLineObject => LineManipulator.i.Line.gameObject;
     LineRenderer oldLine => oldLineObject.GetComponent<LineRenderer>();
     public bool DisableOldLine = false;
-    
+    public GameObject JointPositive = null;
+    public GameObject JointNegative = null;
+    float JointDistance => JointPositive.transform.rotation.z - JointNegative.transform.rotation.z;
+    public float CutBound;
     public override void Duplicate(ManipulationEventData eventData)
     {
         base.Duplicate(eventData);
@@ -32,6 +35,11 @@ public class Cutter : ToolBase
             if(!SceneController.i.ToolBarsLocked)collider.enabled = true;
         };
     }
+    // void FixedUpdate(){
+    //     if(JointDistance < CutBound){
+            
+    //     }
+    // }
     void OnCollisionEnter(Collision other)
     {
         // print(other.gameObject.name);

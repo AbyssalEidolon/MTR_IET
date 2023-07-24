@@ -5,7 +5,6 @@ using UnityEngine.InputSystem;
 
 public class TestFollow : MonoBehaviour
 {
-    
    private void FixedUpdate() {
     Vector2 MouseMacro = Mouse.current.position.ReadValue();
     Vector3 RayResult = Camera.main.ScreenToWorldPoint(new(MouseMacro.x, MouseMacro.y, 10));
