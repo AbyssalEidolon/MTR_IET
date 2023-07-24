@@ -1,2 +1,5 @@
 /Library
 /TempBuild
+*.csproj
+*.meta
+/Logs

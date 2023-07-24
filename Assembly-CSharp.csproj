@@ -65,6 +65,7 @@
      <Compile Include="Assets\Scripts\NonVR\CableMove.cs" />
      <Compile Include="Assets\MRTK\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ProgressIndicator\Scripts\ProgressIndicatorDemo.cs" />
      <Compile Include="Assets\Scripts\FaceCamera.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\SpawnCube.cs" />
      <Compile Include="Assets\MRTK\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\Dwell\ToggleDwellSample.cs" />
      <Compile Include="Assets\Scripts\MR\MRWireHandler.cs" />
      <Compile Include="Assets\Scripts\TestScripts\CTestSubset.cs" />
@@ -74,10 +75,15 @@
      <Compile Include="Assets\Scripts\NonVR\CutToggle.cs" />
      <Compile Include="Assets\MRTK\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\Dwell\ListItemDwell.cs" />
      <None Include="Assets\Unity\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\MRTK\Shaders\Text3DShader.shader" />
      <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\MRTK\Shaders\InstancedColored.shader" />
+     <None Include="Assets\MRTK\Shaders\MixedRealityTextMeshProSprite.shader" />
      <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\MRTK\Shaders\ChannelPacker.shader" />
      <None Include="Assets\Unity\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\MRTK\Shaders\InvisibleShader.shader" />
      <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Stencils\Object.shader" />
      <None Include="Assets\MRTK\MRTK\MixedRealityTextMeshProSprite.shader" />
@@ -96,7 +102,10 @@
      <None Include="Assets\MRTK\MRTK\Text3DShader.shader" />
      <None Include="Assets\Unity\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\MRTK\MRTK\MixedRealityShaderUtils.cginc" />
+     <None Include="Assets\MRTK\Shaders\MixedRealityStandard.shader" />
      <None Include="Assets\MRTK\MRTK\ChannelPacker.shader" />
+     <None Include="Assets\MRTK\Shaders\MixedRealityTextMeshPro.shader" />
+     <None Include="Assets\MRTK\Shaders\MRTK_Wireframe.shader" />
      <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\MRTK\MRTK\InvisibleShader.shader" />
      <None Include="Assets\MRTK\MRTK\MixedRealityStandard.shader" />
@@ -104,8 +113,10 @@
      <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\Unity\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\MRTK\Shaders\DepthBufferPostProcess.shader" />
      <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\MRTK\Shaders\MixedRealityShaderUtils.cginc" />
      <None Include="Assets\MRTK\MixedRealityToolkit.Generated\link.xml" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

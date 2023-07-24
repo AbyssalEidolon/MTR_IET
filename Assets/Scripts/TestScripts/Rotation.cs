@@ -7,11 +7,11 @@ public class Rotation : MonoBehaviour{
         print(Quaternion.Angle(JointPositive.transform.rotation, JointNegative.transform.rotation));
     }
     void Start(){
-        Vector3 Scale = transform.localScale;
-        Joint[] joints = GetComponentsInChildren<Joint>();
-        foreach(Joint joint in joints){
-            joint.anchor = Vector3.Scale(joint.anchor, Scale);
-            joint.connectedAnchor = Vector3.Scale(joint.connectedAnchor, Scale);
-        }
+        // Vector3 Scale = transform.localScale;
+        // Joint[] joints = GetComponentsInChildren<Joint>();
+        // foreach(Joint joint in joints){
+        //     joint.anchor = Vector3.Scale(joint.anchor, Scale);
+        //     joint.connectedAnchor = Vector3.Scale(joint.connectedAnchor, Scale);
+        // }
     }
 }
