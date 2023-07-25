@@ -51,6 +51,8 @@ public class Cutter : ToolBase
             newLine.useWorldSpace = false;
             DupeLineInfo(SceneController.Clamp(other.GetContact(0).point, oldLine.GetPosition(1), oldLine.GetPosition(0)));
             oldLine.gameObject.SetActive(!DisableOldLine);
+            newLine.gameObject.AddComponent<LineManipulator>();
+            LineManipulator.i.Line = newLine;
             // print("AAAAAAAAAAAAA");
             gameObject.GetComponent<AudioSource>().Play();
             Delete(new ManipulationEventData());
