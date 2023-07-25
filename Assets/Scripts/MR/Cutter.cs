@@ -22,7 +22,6 @@ public class Cutter : ToolBase
         foreach(BoxCollider collider in SceneController.i.DisabledOnToolPickup){
             if(!SceneController.i.ToolBarsLocked)collider.enabled = false;
         };
-
     }
     public override void Delete(ManipulationEventData eventData)
     {
