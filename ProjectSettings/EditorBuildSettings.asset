@@ -15,11 +15,11 @@ EditorBuildSettings:
     path: Assets/Unity/Scenes/Wire.unity
     guid: 01cbe63350015fd4d87a0b89b743772d
   - enabled: 0
-    path: Assets/Unity/Scenes/Cutter.unity
-    guid: 32c27ff81f18ee34abe7aeb2978c1e35
-  - enabled: 1
     path: Assets/Unity/Scenes/Tryge.unity
     guid: 5c0e3293f5062db43b782e35713252f4
+  - enabled: 1
+    path: Assets/Unity/ExtScenes/Cutter.unity
+    guid: b1f5c7a5e8eae80409b7d241b418a639
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: fef2fd590fff5b944b3a56f96528cbe8, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0549fc322e721584089a01dbda33cb75, type: 2}

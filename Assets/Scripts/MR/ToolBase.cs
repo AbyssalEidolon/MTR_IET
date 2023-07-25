@@ -16,7 +16,7 @@ public class ToolBase : MonoBehaviour{
         if(SceneController.i.TestText) SceneController.i.TestText.text = SceneController.i.TestText.text.Replace("Waiting...","Picked Up");
         name = "New";
         Dave = Instantiate(gameObject, Parent);
-        Dave.GetComponent<MeshRenderer>().enabled = false;
+        // Dave.GetComponent<MeshRenderer>().enabled = false;
         Dave.name = "Root";
         Destroy(Dave.GetComponent<Rigidbody>());
         Dave.GetComponent<BoxCollider>().enabled = false;
@@ -28,6 +28,6 @@ public class ToolBase : MonoBehaviour{
         rb.useGravity = false;
         rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
         Dave.GetComponent<BoxCollider>().enabled = true;
-        Dave.GetComponent<MeshRenderer>().enabled = true;
+        // Dave.GetComponent<MeshRenderer>().enabled = true;
     }
 }
