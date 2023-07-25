@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{b53b0fc1-389d-3a73-8e68-c383e1c757ca}</ProjectGuid>
+    <ProjectGuid>{133e1be8-38cc-2f89-6ef7-f691a920a18f}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors</AssemblyName>
@@ -298,37 +298,37 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.27f1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-        <HintPath>E:\Pacific\MRTKTest\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+        <HintPath>E:\Pacific\GithubShenanigans\Hololens\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>E:\Pacific\MRTKTest\Library\PackageCache\com.unity.testtools.codecoverage@1.2.3\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+        <HintPath>E:\Pacific\GithubShenanigans\Hololens\Library\PackageCache\com.unity.testtools.codecoverage@1.2.3\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>E:\Pacific\MRTKTest\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+        <HintPath>E:\Pacific\GithubShenanigans\Hololens\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>E:\Pacific\MRTKTest\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+        <HintPath>E:\Pacific\GithubShenanigans\Hololens\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
-        <HintPath>E:\Pacific\MRTKTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+        <HintPath>E:\Pacific\GithubShenanigans\Hololens\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>E:\Pacific\MRTKTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>E:\Pacific\GithubShenanigans\Hololens\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-        <HintPath>E:\Pacific\MRTKTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+        <HintPath>E:\Pacific\GithubShenanigans\Hololens\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>E:\Pacific\MRTKTest\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+        <HintPath>E:\Pacific\GithubShenanigans\Hololens\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
-        <HintPath>E:\Pacific\MRTKTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+        <HintPath>E:\Pacific\GithubShenanigans\Hololens\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-        <HintPath>E:\Pacific\MRTKTest\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+        <HintPath>E:\Pacific\GithubShenanigans\Hololens\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>E:\Pacific\MRTKTest\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+        <HintPath>E:\Pacific\GithubShenanigans\Hololens\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -706,24 +706,24 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities">
-        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll</HintPath>
+        <HintPath>E:\Pacific\GithubShenanigans\Hololens\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>E:\Pacific\GithubShenanigans\Hololens\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>E:\Pacific\GithubShenanigans\Hololens\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+        <HintPath>E:\Pacific\GithubShenanigans\Hololens\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-        <HintPath>E:\Pacific\MRTKTest\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+        <HintPath>E:\Pacific\GithubShenanigans\Hololens\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj">
-      <Project>{db5d9fa6-8336-679a-d7d7-48b0e3027efc}</Project>
+      <Project>{2c512774-64c4-618a-f749-4e3a25b1b102}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.Gltf</Name>
     </ProjectReference>
   </ItemGroup>

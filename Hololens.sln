@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{9e94c454-6673-d0c9-e79b-f63cf224c2d3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Demos.Audio", "Microsoft.MixedReality.Toolkit.Demos.Audio.csproj", "{bbae1496-cfc8-f22b-b08b-335ad86853de}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Demos.UX.Interactables", "Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj", "{8718c8f6-2316-384d-63bb-67785dd8701a}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Demos.InspectorFields", "Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj", "{8dc8fcfe-29c0-4166-9e1e-ebca21eee161}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Demos.Gltf", "Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj", "{2c512774-64c4-618a-f749-4e3a25b1b102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors", "Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj", "{b53f7f41-aeee-88d1-8fe5-925cbed4da94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors", "Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj", "{133e1be8-38cc-2f89-6ef7-f691a920a18f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors", "Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj", "{cf19c745-1de1-eccb-841f-92347d2493ee}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{f1bcb632-f473-0ab0-a7fe-1d587531728d}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9e94c454-6673-d0c9-e79b-f63cf224c2d3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9e94c454-6673-d0c9-e79b-f63cf224c2d3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{bbae1496-cfc8-f22b-b08b-335ad86853de}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{bbae1496-cfc8-f22b-b08b-335ad86853de}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8718c8f6-2316-384d-63bb-67785dd8701a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8718c8f6-2316-384d-63bb-67785dd8701a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8dc8fcfe-29c0-4166-9e1e-ebca21eee161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8dc8fcfe-29c0-4166-9e1e-ebca21eee161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2c512774-64c4-618a-f749-4e3a25b1b102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2c512774-64c4-618a-f749-4e3a25b1b102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b53f7f41-aeee-88d1-8fe5-925cbed4da94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b53f7f41-aeee-88d1-8fe5-925cbed4da94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{133e1be8-38cc-2f89-6ef7-f691a920a18f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{133e1be8-38cc-2f89-6ef7-f691a920a18f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{cf19c745-1de1-eccb-841f-92347d2493ee}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{cf19c745-1de1-eccb-841f-92347d2493ee}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f1bcb632-f473-0ab0-a7fe-1d587531728d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f1bcb632-f473-0ab0-a7fe-1d587531728d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
