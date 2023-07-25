@@ -3,3 +3,5 @@
 *.csproj
 *.meta
 /Logs
+/Assets/Samples
+/Builds
