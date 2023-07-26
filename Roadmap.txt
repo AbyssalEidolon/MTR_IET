@@ -1,4 +1,5 @@
-Cutter Physics (Mimic) - Currently Ongoing, Planned To Finish In A Week; [25/7/23]
+Cutter Physics (Mimic Analog) - Currently Ongoing, Planned To Finish In A Week; [25/7/23 - Pre Aug]
+Make Wires Able To Be Picked Up; Add Trash Area For Wire Removal
 Skinning Wire - Past Concept Phase But On Hold; (Semi-Started)
 Bending /Moulding Wire - Concept Phase Done But On Hold;
 

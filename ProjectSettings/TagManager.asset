@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CablePulled
   - PulleyCanvas
+  - UI
   layers:
   - Default
   - TransparentFX
@@ -13,8 +14,8 @@ TagManager:
   - 
   - Water
   - UI
-  - MaskLayer
-  - Masked
+  - Hands
+  - Tools
   - 
   - 
   - 
