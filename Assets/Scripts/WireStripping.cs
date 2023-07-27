@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class WireStripping : ToolBase
 {
+    public override string ToolType => "stripper";
+
     // Start is called before the first frame update
     public override void Duplicate(ManipulationEventData eventData)
     {

@@ -13,6 +13,7 @@ public class Cutter : ToolBase
     LineRenderer newLine = null;
     GameObject oldLineObject => LineManipulator.i.Line.gameObject;
     LineRenderer oldLine => oldLineObject.GetComponent<LineRenderer>();
+    public override string ToolType => "cutter";
     public bool DisableOldLine = false;
     
     public override void Duplicate(ManipulationEventData eventData)

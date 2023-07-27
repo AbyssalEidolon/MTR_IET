@@ -78,6 +78,7 @@
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Solvers\Scripts\HideTapToPlaceLabel.cs" />
      <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\BoundsControl\Scripts\BoundsControlRuntimeExample.cs" />
      <Compile Include="Assets\Scripts\NonVR\CutIndicator.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\CutterTest.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetSelections\Scripts\TargetGroupIterator.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\GrabTouchExample.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\SolverTrackedTargetType.cs" />
@@ -164,7 +165,10 @@
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\OnLoadStartScene.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\HandInteractionTouchRotate.cs" />
      <Compile Include="Assets\Scripts\TestScripts\TestFollow.cs" />
-     <Compile Include="Assets\Scripts\TestScripts\CutterTest.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\CustomGrip\PalmTest.cs" />
+     <Compile Include="Assets\Scripts\MR\EmiyaHasStrongArms\PalmHandler.cs" />
+     <Compile Include="Assets\Scripts\MR\EmiyaHasStrongArms\ToolsList.cs" />
+     <Compile Include="Assets\Scripts\MR\EmiyaHasStrongArms\toolBase.cs" />
      <None Include="Assets\MRTK+\MRTK\Shaders\InstancedColored.shader" />
      <None Include="Assets\Unity\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\MRTK+\MRTK\Shaders\MixedRealityStandard.shader" />
