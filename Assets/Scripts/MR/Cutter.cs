@@ -10,11 +10,17 @@ public class Cutter : ToolBase
 {
     public float SkinMargins = 0;
     public GameObject SkinIndPrefab = null;
-    LineRenderer newLine = null;
+    public LineRenderer newLine = null;
     GameObject oldLineObject => LineManipulator.i.Line.gameObject;
     LineRenderer oldLine => oldLineObject.GetComponent<LineRenderer>();
     public bool DisableOldLine = false;
-    
+    public static Cutter i = null;
+
+    private void Awake()
+    {
+        i = this;
+    }
+
     public override void Duplicate(ManipulationEventData eventData)
     {
         base.Duplicate(eventData);
