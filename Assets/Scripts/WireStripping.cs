@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class WireStripping : ToolBase
 {
-    public Material mat = new Material(Shader.Find("Standard"));
+    public GameObject stripper;
+    public GameObject wire;
 
     public override void Duplicate(ManipulationEventData eventData)
     {
@@ -20,18 +21,30 @@ public class WireStripping : ToolBase
 
     void OnCollisionEnter(Collision other)
     {
-        if(other.gameObject.name == "Wire")
+        print(other.gameObject.name);
+        if (other.gameObject.name == "Wire")
         {
-            mat.color = Color.white;
-            Renderer ren = other.gameObject.GetComponent<Renderer>();
-            Material originalMat = ren.sharedMaterial;
+            GameObject wire = other.gameObject;
 
-            Material[] materials = new Material[2];
+            Material mat = wire.GetComponent<MeshRenderer>().material;
+            Vector3 pos = stripper.transform.position;
+            Vector3 wirescale = wire.transform.localScale;
+            Vector3 leftPoint = wire.transform.position - Vector3.right * wirescale.x / 2;
+            Vector3 rightPoint = wire.transform.position + Vector3.right * wirescale.x / 2;
 
-            materials[0] = originalMat;
-            materials[1] = mat;
+            GameObject leftwire = Instantiate(other.gameObject);
+            leftwire.transform.position = (leftPoint + pos) / 2;
+            float leftWidth = Vector3.Distance(pos, leftPoint);
+            leftwire.transform.localScale = new Vector3(leftWidth, wirescale.y, wirescale.z);
+            leftwire.GetComponent<MeshRenderer>().material = mat;
+            leftwire.GetComponent<MeshRenderer>().material.color = Color.red;
 
-            ren.sharedMaterials = materials;
+            GameObject rightwire = Instantiate(other.gameObject);
+            rightwire.transform.position = (rightPoint + pos) / 2;
+            float rightWidth = Vector3.Distance(pos, rightPoint);
+            rightwire.transform.localScale = new Vector3(rightWidth, wirescale.y, wirescale.z);
+            rightwire.GetComponent<MeshRenderer>().material = mat;
+            rightwire.GetComponent<MeshRenderer>().material.color = Color.blue;
         }
     }
 }
