@@ -7,7 +7,7 @@ public class SkinIndicator : MonoBehaviour
     public GameObject IndicatorPrefab = null;
     [Range(0.8f,1)]
     public float SkinLength = 0.8f;
-    float Scale => MRWireHandler.Scale;
+    float Scale = 0.033f;
     GameObject[] Indicators = new GameObject[2];
     LineRenderer Line;
     WireConstraints wireConstraints;

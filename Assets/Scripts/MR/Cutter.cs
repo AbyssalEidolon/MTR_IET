@@ -35,21 +35,26 @@ public class Cutter : ToolBase
     }
     protected override void OnCollisionEnter(Collision other)
     {
-        // print(other.gameObject.name);
+        print(other.gameObject.name);
         if (other.gameObject.name == "PinchSlider")
         {
             if(SceneController.i.TestText) SceneController.i.TestText.text += "<br>" + other.gameObject.name;
-            LineRenderer newLine = Instantiate(new GameObject(), oldLineObject.transform.position, oldLine.transform.rotation, oldLine.transform.parent).AddComponent<LineRenderer>(); 
-            newLine.name = "Wire";
-            newLine.useWorldSpace = false;
-            newLine.tag = "FreeWire";
-            DupeLineInfo(newLine, SceneController.Clamp(other.GetContact(0).point, oldLine.GetPosition(1), oldLine.GetPosition(0)));
-            addObjectManip(newLine.gameObject);
-            newLine.transform.Translate(0, 0, -0.1f);
-            newLine.gameObject.AddComponent<BoxCollider>().size = new();
-            oldLine.gameObject.SetActive(!DisableOldLine);
-            // print("AAAAAAAAAAAAA");
-            gameObject.GetComponent<AudioSource>().Play();
+            // LineRenderer newLine = Instantiate(new GameObject(), oldLineObject.transform.position, oldLine.transform.rotation, oldLine.transform.parent).AddComponent<LineRenderer>(); 
+            // newLine.name = "Wire";
+            // newLine.useWorldSpace = false;
+            // newLine.tag = "FreeWire";
+            // DupeLineInfo(newLine, Utils.Clamp(other.GetContact(0).point, oldLine.GetPosition(1), oldLine.GetPosition(0)));
+            // addObjectManip(newLine.gameObject);
+            // newLine.transform.Translate(0, 0, -0.1f);
+            // newLine.gameObject.AddComponent<BoxCollider>().size = new(0.5f, 0.1f, 0.1f);
+            // newLine.gameObject.layer = 3;
+            // WireController.i.ValidateWire(newLine);
+            // oldLine.gameObject.SetActive(!DisableOldLine);
+            // // print("AAAAAAAAAAAAA");
+            // gameObject.GetComponent<AudioSource>().Play();
+            LineRenderer newLine = new();
+            DupeLineInfo(newLine, Utils.Clamp(other.GetContact(0).point, oldLine.GetPosition(1), oldLine.GetPosition(0)));
+            WireController.i.ValidateWire(newLine);
             Delete(new ManipulationEventData());
         }
     }
@@ -76,6 +81,6 @@ public class Cutter : ToolBase
     void addObjectManip(GameObject target){
         ObjectManipulator objManip = target.AddComponent<ObjectManipulator>();
         objManip.ManipulationType = ManipulationHandFlags.OneHanded;
-        objManip.AllowFarManipulation = false;
+        // objManip.AllowFarManipulation = false;
     }
 }
