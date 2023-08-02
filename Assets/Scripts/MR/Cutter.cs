@@ -4,15 +4,17 @@ using System.Collections.Generic;
 using Microsoft.MixedReality.Toolkit.UI;
 using TMPro;
 using UnityEngine;
+using Microsoft.MixedReality.Toolkit.Utilities;
 
 [RequireComponent(typeof(AudioSource))]
 public class Cutter : ToolBase
 {
     public float SkinMargins = 0;
     public GameObject SkinIndPrefab = null;
-    LineRenderer newLine = null;
+    List<LineRenderer> FreeWires = new();
     GameObject oldLineObject => LineManipulator.i.Line.gameObject;
     LineRenderer oldLine => oldLineObject.GetComponent<LineRenderer>();
+    public override string ToolType() => "cutter";
     public bool DisableOldLine = false;
     
     public override void Duplicate(ManipulationEventData eventData)
@@ -31,30 +33,49 @@ public class Cutter : ToolBase
             if(!SceneController.i.ToolBarsLocked)collider.enabled = true;
         };
     }
-    void OnCollisionEnter(Collision other)
+    protected override void OnCollisionEnter(Collision other)
     {
         // print(other.gameObject.name);
-        if (other.gameObject.name == "PinchSlider" && !newLine)
+        if (other.gameObject.name == "PinchSlider")
         {
             if(SceneController.i.TestText) SceneController.i.TestText.text += "<br>" + other.gameObject.name;
-            newLine = Instantiate(new GameObject(), oldLineObject.transform.position, oldLine.transform.rotation, oldLine.transform.parent).AddComponent<LineRenderer>(); 
+            LineRenderer newLine = Instantiate(new GameObject(), oldLineObject.transform.position, oldLine.transform.rotation, oldLine.transform.parent).AddComponent<LineRenderer>(); 
             newLine.name = "Wire";
             newLine.useWorldSpace = false;
-            DupeLineInfo(SceneController.Clamp(other.GetContact(0).point, oldLine.GetPosition(1), oldLine.GetPosition(0)));
+            newLine.tag = "FreeWire";
+            DupeLineInfo(newLine, SceneController.Clamp(other.GetContact(0).point, oldLine.GetPosition(1), oldLine.GetPosition(0)));
+            addObjectManip(newLine.gameObject);
+            newLine.transform.Translate(0, 0, -0.1f);
+            newLine.gameObject.AddComponent<BoxCollider>().size = new();
             oldLine.gameObject.SetActive(!DisableOldLine);
             // print("AAAAAAAAAAAAA");
             gameObject.GetComponent<AudioSource>().Play();
             Delete(new ManipulationEventData());
         }
     }
-    void DupeLineInfo(Vector3 PosOnLine){
-        newLine.SetPosition(0, PosOnLine);
-        newLine.SetPosition(1, SceneController.i.SliderThumb.transform.localPosition);
-        newLine.startWidth = oldLine.startWidth;
-        newLine.endWidth = oldLine.endWidth;
-        newLine.material = oldLine.material;
+    void DupeLineInfo(LineRenderer line, Vector3 PosOnLine){
+        line.SetPosition(0, PosOnLine);
+        line.SetPosition(1, SceneController.i.SliderThumb.transform.localPosition);
+        line.startWidth = oldLine.startWidth;
+        line.endWidth = oldLine.endWidth;
+        line.material = oldLine.material;
+        FreeWires.Add(line);
     }
-    void ShowSkinHints(){
-        // Instantiate(SkinIndPrefab,)
+    MeshCollider BakeCollider(LineRenderer line){
+        MeshCollider collider = null;
+        if (!line.GetComponent<MeshCollider>())
+        {
+            collider = line.gameObject.AddComponent<MeshCollider>();
+        }
+        else { collider = line.GetComponent<MeshCollider>(); }
+        Mesh mesh = new();
+        line.GetComponent<LineRenderer>().BakeMesh(mesh, true);
+        collider.sharedMesh = mesh;
+        return collider;
+    }
+    void addObjectManip(GameObject target){
+        ObjectManipulator objManip = target.AddComponent<ObjectManipulator>();
+        objManip.ManipulationType = ManipulationHandFlags.OneHanded;
+        objManip.AllowFarManipulation = false;
     }
 }
