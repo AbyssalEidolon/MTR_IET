@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{74d0b223-d4c7-4ed7-aec7-58fad4924b27}</ProjectGuid>
+    <ProjectGuid>{BE0FEA14-D547-AAFA-3291-62A23FE6FABF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -21,8 +21,17 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2021_3_27;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;USE_INPUT_SYSTEM_POSE_CONTROL;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1</DefineConstants>
+    <OutputPath>Temp\Bin\Debug\</OutputPath>
+    <DefineConstants>UNITY_2021_3_27;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;USE_INPUT_SYSTEM_POSE_CONTROL;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -35,1091 +44,1239 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.18</UnityProjectGeneratorVersion>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2021.3.27f1</UnityVersion>
+  </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Editor\CTestEditor.cs" />
+    <Analyzer Include="D:\Visual Studio\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Editor\CTestEditor.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ARModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AccessibilityModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AndroidJNIModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClusterInputModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClusterRendererModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CrashReportingModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.DSPGraphModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.DirectorModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GIModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GameCenterModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GridModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.HotReloadModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ImageConversionModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.JSONSerializeModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.LocalizationModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.NVIDIAModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.NVIDIAModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.NVIDIAModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PerformanceReportingModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Physics2DModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ProfilerModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ScreenCaptureModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SharedInternalsModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpriteMaskModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpriteShapeModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StreamingModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SubstanceModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SubsystemsModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TLSModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TerrainModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TerrainPhysicsModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextCoreFontEngineModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextCoreTextEngineModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TilemapModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsNativeModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UNETModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UmbraModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityConnectModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityCurlModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityTestProtocolModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VFXModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VRModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VehiclesModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VideoModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VirtualTexturingModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.WindModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XRModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.CoreModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.DeviceSimulatorModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.DiagnosticsModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.GraphViewModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.PackageManagerUIModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.QuickSearchModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SceneTemplateModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TextCoreFontEngineModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TextCoreTextEngineModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UIBuilderModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UIElementsModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UIElementsSamplesModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UIServiceModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Graphs">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UWP.Extensions">
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\PackageCache\com.unity.testtools.codecoverage@1.2.3\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.3\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="System">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.dll</HintPath>
     </Reference>
     <Reference Include="System.Core">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Core.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Core.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Runtime.Serialization.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Runtime.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.Linq.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.Linq.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics.Vectors">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.Vectors.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.Vectors.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Net.Http.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Net.Http.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Microsoft.CSharp.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Microsoft.CSharp.dll</HintPath>
     </Reference>
     <Reference Include="System.Data">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.DataSetExtensions.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.DataSetExtensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Drawing">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Drawing.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Drawing.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.FileSystem.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.Composition">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll</HintPath>
     </Reference>
     <Reference Include="System.Transactions">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Transactions.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Transactions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Win32.Primitives">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\netstandard.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\netstandard.dll</HintPath>
     </Reference>
     <Reference Include="System.AppContext">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.AppContext.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.AppContext.dll</HintPath>
     </Reference>
     <Reference Include="System.Buffers">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Buffers.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="System.Collections.Concurrent">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Concurrent.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Concurrent.dll</HintPath>
     </Reference>
     <Reference Include="System.Collections">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.dll</HintPath>
     </Reference>
     <Reference Include="System.Collections.NonGeneric">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.NonGeneric.dll</HintPath>
     </Reference>
     <Reference Include="System.Collections.Specialized">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Specialized.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Specialized.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.Annotations">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.EventBasedAsync">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.Primitives">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.TypeConverter">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
     </Reference>
     <Reference Include="System.Console">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Console.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Console.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.Common">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Data.Common.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Data.Common.dll</HintPath>
     </Reference>
     <Reference Include="System.Diagnostics.Contracts">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
     </Reference>
     <Reference Include="System.Diagnostics.Debug">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Debug.dll</HintPath>
     </Reference>
     <Reference Include="System.Diagnostics.FileVersionInfo">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
     </Reference>
     <Reference Include="System.Diagnostics.Process">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Process.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Process.dll</HintPath>
     </Reference>
     <Reference Include="System.Diagnostics.StackTrace">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
     </Reference>
     <Reference Include="System.Diagnostics.TextWriterTraceListener">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
     </Reference>
     <Reference Include="System.Diagnostics.Tools">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Tools.dll</HintPath>
     </Reference>
     <Reference Include="System.Diagnostics.TraceSource">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
     </Reference>
     <Reference Include="System.Drawing.Primitives">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Drawing.Primitives.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Drawing.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="System.Dynamic.Runtime">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Dynamic.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="System.Globalization.Calendars">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Calendars.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Calendars.dll</HintPath>
     </Reference>
     <Reference Include="System.Globalization">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.dll</HintPath>
     </Reference>
     <Reference Include="System.Globalization.Extensions">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Extensions.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression.ZipFile">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
     </Reference>
     <Reference Include="System.IO">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.FileSystem">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.FileSystem.DriveInfo">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.FileSystem.Primitives">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.FileSystem.Watcher">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.IsolatedStorage">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.MemoryMappedFiles">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Pipes">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Pipes.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Pipes.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.UnmanagedMemoryStream">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
     </Reference>
     <Reference Include="System.Linq">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.dll</HintPath>
     </Reference>
     <Reference Include="System.Linq.Expressions">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Expressions.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Expressions.dll</HintPath>
     </Reference>
     <Reference Include="System.Linq.Parallel">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Parallel.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Parallel.dll</HintPath>
     </Reference>
     <Reference Include="System.Linq.Queryable">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Queryable.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Queryable.dll</HintPath>
     </Reference>
     <Reference Include="System.Memory">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Memory.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Memory.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http.Rtc">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Http.Rtc.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.NameResolution">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NameResolution.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NameResolution.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.NetworkInformation">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NetworkInformation.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Ping">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Ping.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Ping.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Primitives">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Primitives.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Requests">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Requests.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Requests.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Security">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Security.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Security.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Sockets">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Sockets.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Sockets.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.WebHeaderCollection">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.WebSockets.Client">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.WebSockets">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.dll</HintPath>
     </Reference>
     <Reference Include="System.ObjectModel">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ObjectModel.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ObjectModel.dll</HintPath>
     </Reference>
     <Reference Include="System.Reflection.DispatchProxy">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.DispatchProxy.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.DispatchProxy.dll</HintPath>
     </Reference>
     <Reference Include="System.Reflection">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="System.Reflection.Emit">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.dll</HintPath>
     </Reference>
     <Reference Include="System.Reflection.Emit.ILGeneration">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
     </Reference>
     <Reference Include="System.Reflection.Emit.Lightweight">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
     </Reference>
     <Reference Include="System.Reflection.Extensions">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Extensions.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Reflection.Primitives">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Primitives.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="System.Resources.Reader">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Reader.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Reader.dll</HintPath>
     </Reference>
     <Reference Include="System.Resources.ResourceManager">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.ResourceManager.dll</HintPath>
     </Reference>
     <Reference Include="System.Resources.Writer">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Writer.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Writer.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.VisualC">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Extensions">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Extensions.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Handles">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Handles.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Handles.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.InteropServices">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Numerics">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Numerics.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Numerics.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization.Formatters">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization.Json">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization.Primitives">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization.Xml">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Claims">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Claims.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Claims.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Algorithms">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Csp">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Encoding">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.Primitives">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Cryptography.X509Certificates">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Principal">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Principal.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Principal.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.SecureString">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.SecureString.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.SecureString.dll</HintPath>
     </Reference>
     <Reference Include="System.ServiceModel.Duplex">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
     </Reference>
     <Reference Include="System.ServiceModel.Http">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Http.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Http.dll</HintPath>
     </Reference>
     <Reference Include="System.ServiceModel.NetTcp">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
     </Reference>
     <Reference Include="System.ServiceModel.Primitives">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="System.ServiceModel.Security">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Security.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Security.dll</HintPath>
     </Reference>
     <Reference Include="System.Text.Encoding">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.dll</HintPath>
     </Reference>
     <Reference Include="System.Text.Encoding.Extensions">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Text.RegularExpressions">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.RegularExpressions.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.Overlapped">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Overlapped.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Overlapped.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.Tasks">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.Tasks.Extensions">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Extensions.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.Tasks.Parallel">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.Thread">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Thread.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Thread.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.ThreadPool">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.ThreadPool.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.Timer">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Timer.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Timer.dll</HintPath>
     </Reference>
     <Reference Include="System.ValueTuple">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ValueTuple.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ValueTuple.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.ReaderWriter">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.XDocument">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XDocument.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.XmlDocument">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlDocument.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.XmlSerializer">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.XPath">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.XPath.XDocument">
-        <HintPath>C:\Program Files\Unity\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.TestRunner">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TestRunner">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.WorldLocking.ASA">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.WorldLocking.ASA.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.Tracking.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Gltf">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputAnimation">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.TeleportSystem">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.WorldLocking.Tools">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.WorldLocking.Tools.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.PlaneFinding">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.PlaneFinding.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.WorldLocking.Core.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.WorldLocking.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.SceneSystem">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Autodesk.Fbx">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Autodesk.Fbx.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Unity.FrozenWorld.Engine">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Unity.FrozenWorld.Engine.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.MicStream">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.MicStream.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Tests.Utilities">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Tests.Utilities.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.ObjectAnchors.Runtime.Core">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.ObjectAnchors.Runtime.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARSubsystems.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARSubsystems">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARFoundation.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Autodesk.Fbx.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.OpenXR">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Tools.Runtime">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Tools.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Subsystem.Registration">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.OpenXR">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TerrainTools">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.TerrainTools.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll</HintPath>
-    </Reference>
-    <Reference Include="AzureSpatialAnchors.SDK.Windows.Runtime">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\AzureSpatialAnchors.SDK.Windows.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TerrainTools.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.ClassExtensions">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.CoreUtils">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.WorldLocking.Engine">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.WorldLocking.Engine.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Gltf.Importers">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Tools">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Tools.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Formats.Fbx.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.OpenXR.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.HandPhysics">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.dll</HintPath>
-    </Reference>
-    <Reference Include="AzureSpatialAnchors.SDK.Core.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\AzureSpatialAnchors.SDK.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InputSystem">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.CoreUtils.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.GpuStats">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.GpuStats.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Formats.Fbx.Runtime">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.Tracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
-    </Reference>
-    <Reference Include="FigmaToolkit">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\FigmaToolkit.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.Inspectors">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll</HintPath>
-    </Reference>
-    <Reference Include="AzureSpatialAnchors.SDK.Core.Runtime">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\AzureSpatialAnchors.SDK.Core.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.SDK">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Examples">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Examples.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.CameraSystem">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Polybrush.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Polybrush">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.Polybrush.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InputSystem.ForUI">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.OpenXR.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="WorldLocking.Tools.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\WorldLocking.Tools.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Async">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.ObjectAnchors.Initializer.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.ObjectAnchors.Initializer.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.WorldLocking.Core">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.WorldLocking.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.ObjectAnchors.Runtime.Api">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.ObjectAnchors.Runtime.Api.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARFoundation">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.StandardAssets.Editor">
-        <HintPath>D:\Storage\IVE\MTR-IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll</HintPath>
+      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{a0bb4a64-574e-1fe9-2741-85b2022b9cad}</Project>
+      <Project>{09859FA7-3AF1-8EEC-68AB-CFD3222F4EC1}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEditor.TestRunner.csproj">
+      <Project>{530B5CF5-3504-7F89-23D1-5FBE85627507}</Project>
+      <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{E312CAB9-B60F-971E-28E5-D976AC8C4133}</Project>
+      <Name>UnityEngine.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.csproj">
+      <Project>{E026D731-9E88-619B-F7E6-4942C969CA92}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.WorldLocking.ASA.csproj">
+      <Project>{A245ADCD-3F3E-1E49-627A-FF11E3BBD31E}</Project>
+      <Name>Microsoft.MixedReality.WorldLocking.ASA</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{3C315D34-5AB5-1E15-ED26-190DC3C39A14}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking.Editor.csproj">
+      <Project>{7B8DDE95-2B6D-2B01-53BF-AF84B4F37EC1}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Extensions.Tracking.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.csproj">
+      <Project>{B069F9F3-3905-C259-C10A-9069DBA1BAAC}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Gltf.csproj">
+      <Project>{C48CEB3B-C234-572D-B2E5-D4F6F5D8C8F2}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Gltf</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
+      <Project>{47310B63-DD4F-9547-2330-6774D4E1A816}</Project>
+      <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
+      <Project>{E761BFF2-C457-26C6-641B-6B7BA108B915}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputAnimation.csproj">
+      <Project>{B199CFC6-7271-4B21-8051-9296CDF4F07B}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.InputAnimation</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.TeleportSystem.csproj">
+      <Project>{489582BA-7F89-3D6D-A3C3-9B903EFFD201}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.TeleportSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.WorldLocking.Tools.csproj">
+      <Project>{43FA680C-E7CF-0DAB-ACF1-CBB382952781}</Project>
+      <Name>Microsoft.MixedReality.WorldLocking.Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.PlaneFinding.csproj">
+      <Project>{C1CF7908-F8F9-B5D4-B4A7-65C825258A62}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.PlaneFinding</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.WorldLocking.Core.Editor.csproj">
+      <Project>{E8D891B8-C8AC-3F6A-25D8-4168C558CA56}</Project>
+      <Name>Microsoft.MixedReality.WorldLocking.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
+      <Project>{857FEE6C-660B-5559-1FB4-1C233B0C3402}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.SceneSystem.csproj">
+      <Project>{BE601C99-D22D-D9B9-2D96-5385409BB39F}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.SceneSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{670AC6BF-B353-3C11-D43E-3FCC5167CEC5}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Autodesk.Fbx.csproj">
+      <Project>{6BDB0A16-C332-8833-2037-1C5016ECF9D1}</Project>
+      <Name>Autodesk.Fbx</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
+      <Project>{B518FCC3-C225-9390-7E8B-571137B19921}</Project>
+      <Name>UnityEngine.SpatialTracking</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Unity.FrozenWorld.Engine.csproj">
+      <Project>{72ED2B3B-2185-67B9-39B6-2F4AF25022FD}</Project>
+      <Name>Microsoft.MixedReality.Unity.FrozenWorld.Engine</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.csproj">
+      <Project>{BE2533A9-F36B-8929-2657-A34E98542EEA}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
+      <Project>{78DE0076-664A-6F21-4F67-C5EFEE6D7F7F}</Project>
+      <Name>Unity.EditorCoroutines.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.csproj">
+      <Project>{78B7A9DD-0E58-E3CF-7A4E-51A57B34810B}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.csproj">
+      <Project>{440E8BB0-322B-F54C-3521-0495ECDEE439}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.MicStream.csproj">
+      <Project>{D8979891-1355-685B-09B1-ECC160D064B1}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.MicStream</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Tests.Utilities.csproj">
+      <Project>{0CD3F48F-4621-133A-ABB0-FB061165A627}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Tests.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.ObjectAnchors.Runtime.Core.csproj">
+      <Project>{D0ED9806-C9E8-A733-63D3-277C2F299805}</Project>
+      <Name>Microsoft.ObjectAnchors.Runtime.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARSubsystems.Editor.csproj">
+      <Project>{A03EA050-ECBA-B732-1ECA-3C2A6FA5F307}</Project>
+      <Name>Unity.XR.ARSubsystems.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.csproj">
+      <Project>{6ECB0C80-2E10-AAB4-4084-ABE04F765CC3}</Project>
+      <Name>Unity.XR.OpenXR.Features.MetaQuestSupport.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
+      <Project>{3684EF3E-4292-389F-4799-09395AAF59D1}</Project>
+      <Name>Unity.XR.ARSubsystems</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.csproj">
+      <Project>{9A461973-CC54-7F45-8372-CF8F3864F693}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion.csproj">
+      <Project>{8AB9C3A3-CFC7-7A87-32B1-715D50C6FD44}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.LeapMotion</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARFoundation.Editor.csproj">
+      <Project>{67D751B8-AD40-B47A-9CF1-57F06BD37195}</Project>
+      <Name>Unity.XR.ARFoundation.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.csproj">
+      <Project>{046BBF87-2B3B-5387-A999-C23CE6624F4A}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared</Name>
+    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj">
-      <Project>{916bf67d-92e1-66f5-1ed7-367237a4ca88}</Project>
+      <Project>{0E57C253-25E9-7ABF-EBA8-45814D38784B}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.AddOns.Editor.csproj">
+      <Project>{083E4F36-C9D3-0C0E-83B5-BF9BB0079F16}</Project>
+      <Name>Unity.ProBuilder.AddOns.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Autodesk.Fbx.Editor.csproj">
+      <Project>{9B9FCC2B-2048-CF65-6024-45B3DAC6D62F}</Project>
+      <Name>Autodesk.Fbx.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.Editor.csproj">
+      <Project>{39C4323C-22BA-2393-5C73-A051D6D6DBCA}</Project>
+      <Name>Unity.XR.Management.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
+      <Project>{D0021971-1D10-528D-3DB4-57AECA33A5D0}</Project>
+      <Name>Unity.VisualScripting.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{CE5473B7-3D2E-B895-164B-D725F9CE9FAF}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.OpenXR.csproj">
+      <Project>{926EA8CE-CC45-1128-BCAF-243E7650369F}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.OpenXR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Tools.Runtime.csproj">
+      <Project>{C7303F3E-8949-C658-EC1B-B16F697FAA2B}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Tools.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Subsystem.Registration.csproj">
+      <Project>{DB076A8E-7F69-7316-73B6-8658E064321C}</Project>
+      <Name>Unity.Subsystem.Registration</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.Editor.csproj">
+      <Project>{DCB68F81-A932-487D-99B1-74C3D04D7608}</Project>
+      <Name>Unity.ProBuilder.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{E9473D75-88C7-9AD0-D1D1-06506CFCDC9E}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.csproj">
+      <Project>{DCA79334-AB64-2551-8E04-61DDCF1963E4}</Project>
+      <Name>Unity.XR.OpenXR.Features.OculusQuestSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.OpenXR.csproj">
+      <Project>{C940DAA1-FC94-61FB-D0C4-CFFCCB5733D2}</Project>
+      <Name>Microsoft.MixedReality.OpenXR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TerrainTools.csproj">
+      <Project>{FC178392-BE7F-0401-127F-DCE4D8A0E2ED}</Project>
+      <Name>Unity.TerrainTools</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.csproj">
+      <Project>{A5CDC873-9DDE-33D7-A5D7-37089F1D3DB7}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK</Name>
+    </ProjectReference>
+    <ProjectReference Include="AzureSpatialAnchors.SDK.Windows.Runtime.csproj">
+      <Project>{CFEC956E-7518-2EC1-9F92-8842D61B7568}</Project>
+      <Name>AzureSpatialAnchors.SDK.Windows.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.AssetIdRemapUtility.csproj">
+      <Project>{5E7C06FF-C6C8-FD21-AAA4-C77919684843}</Project>
+      <Name>Unity.ProBuilder.AssetIdRemapUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TerrainTools.Editor.csproj">
+      <Project>{1E395C88-849B-2DE2-871D-62C82E955E89}</Project>
+      <Name>Unity.TerrainTools.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
+      <Project>{82CB4892-7238-3F0B-B2D1-88B2A1226C5C}</Project>
+      <Name>Unity.VisualScripting.Shared.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Editor.csproj">
+      <Project>{2A04E422-9CB2-B251-75DB-8C859F927F7C}</Project>
+      <Name>Unity.XR.OpenXR.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.csproj">
+      <Project>{2EE465F4-63EF-11E2-6F06-DA85A764D711}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Editor.ClassExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR.csproj">
+      <Project>{700464C6-ED10-1F0F-9842-44F03D38141D}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.UnityAR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.CoreUtils.csproj">
+      <Project>{440B5E14-0894-BA33-7D03-5FE9F028A0ED}</Project>
+      <Name>Unity.XR.CoreUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
+      <Project>{9F3DC0D5-9FC3-F7EE-A6F1-6888B6653BB5}</Project>
+      <Name>UnityEditor.XR.LegacyInputHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.csproj">
+      <Project>{D072FDEE-DC7C-8760-B737-46DDD1C34909}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.csproj">
+      <Project>{65EC5D47-F4AB-8F94-659A-1FBF8B46D2DF}</Project>
+      <Name>Unity.XR.OpenXR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.WorldLocking.Engine.csproj">
+      <Project>{BA9B6EE5-5A7C-88FF-8FA3-49BB2344DE55}</Project>
+      <Name>Microsoft.MixedReality.WorldLocking.Engine</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
+      <Project>{A89CE6DD-DF1C-9822-D7E7-97B033EA88B5}</Project>
+      <Name>UnityEditor.SpatialTracking</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Gltf.Importers.csproj">
+      <Project>{D2B8B743-6EFA-757A-AC85-B66E34715260}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Gltf.Importers</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.csproj">
+      <Project>{F94A944A-9578-7FEA-DCEC-6EB0CC1AD0C6}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Tools.csproj">
+      <Project>{B28CE261-A213-F919-408A-3C473712DA3C}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.csproj">
+      <Project>{29B38FDA-FE75-909E-522F-6CFF2C6BEF83}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus</Name>
+    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.Audio.csproj">
-      <Project>{0c02a8a9-0d56-fb8a-6e73-fb20964caa39}</Project>
+      <Project>{5C096F3E-1113-23DE-B555-C2E02753DBF2}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.Audio</Name>
     </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Editor.csproj">
+      <Project>{5A121BEA-8FC4-8358-FFBA-61EEFECC2C7D}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.SDK.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{FDEB006F-FD0F-80F3-B8AF-94C6291A4AA5}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Formats.Fbx.Editor.csproj">
+      <Project>{AE586A38-53BA-78D6-19D6-C7A6CFEAD54B}</Project>
+      <Name>Unity.Formats.Fbx.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.OpenXR.Editor.csproj">
+      <Project>{06CFCC7B-BC10-8865-35B0-5C3B1EC69393}</Project>
+      <Name>Microsoft.MixedReality.OpenXR.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
+      <Project>{BF795BEA-BC5F-5ECE-758B-8AE041870164}</Project>
+      <Name>Unity.VisualScripting.State.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.csproj">
+      <Project>{2B50FE6D-3ACC-1C82-CE7B-642B3DC7437E}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Extensions.HandPhysics</Name>
+    </ProjectReference>
+    <ProjectReference Include="AzureSpatialAnchors.SDK.Core.Editor.csproj">
+      <Project>{C7A96D73-77FE-ADE5-F4F6-66D5706F4B07}</Project>
+      <Name>AzureSpatialAnchors.SDK.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
+      <Project>{88EDF186-946F-28B2-356C-497A82E0D5A4}</Project>
+      <Name>Microsoft.MixedReality.Toolkit</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
+      <Project>{D125D8CF-DD81-61F5-4ED4-70846EDB05CB}</Project>
+      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.csproj">
+      <Project>{909AB2B6-C7F2-2A2D-9797-321383306E41}</Project>
+      <Name>Unity.ProBuilder</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{91BB236F-F12D-5F0D-A970-3246B1D117E5}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.csproj">
+      <Project>{275AEAF8-6F1F-476B-8B0D-33B8E324B80E}</Project>
+      <Name>Unity.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.csproj">
+      <Project>{FC357EC0-298D-DEAF-438B-23595B4466E5}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{98891247-A731-02DA-ADDA-B1E18AADBFE6}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.csproj">
+      <Project>{EE5A8A79-3DC5-C175-B2F6-133A5BD48976}</Project>
+      <Name>Unity.XR.OpenXR.Features.MetaQuestSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService.csproj">
+      <Project>{6452B13A-BA70-D17F-12A7-0F3F5B9D4B33}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj">
+      <Project>{DF871EFD-FF5A-712D-718D-283829565DF3}</Project>
+      <Name>Unity.XR.CoreUtils.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.csproj">
+      <Project>{51B18B49-A024-FCA9-A50E-AD4FA2F7ED0E}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.csproj">
+      <Project>{CAE1B45F-4163-944A-D1B0-06774321561C}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.GpuStats.csproj">
+      <Project>{508C1E3D-84B9-65B6-8CA0-591BE580C70B}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.GpuStats</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj">
+      <Project>{F937D354-7429-980C-99EE-C209CA1110D9}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Editor.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.csproj">
+      <Project>{364577E7-03B5-909E-7521-FDB8FC79A034}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.InputSimulation</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Formats.Fbx.Runtime.csproj">
+      <Project>{D486017C-8A15-FDAE-7BE3-71E1EBB9CD2B}</Project>
+      <Name>Unity.Formats.Fbx.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking.csproj">
+      <Project>{8741C1BF-60AE-1E4E-450C-068B56B990B7}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Extensions.Tracking</Name>
+    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj">
-      <Project>{266ec168-f74a-2a82-63df-35f939eab1ce}</Project>
+      <Project>{8B53D86B-78CF-A192-87F3-C0D7EA8BFA09}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.InspectorFields</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.csproj">
+      <Project>{D92E9A48-C709-D908-AFF4-BF287A3EC37F}</Project>
+      <Name>Unity.XR.Management</Name>
+    </ProjectReference>
+    <ProjectReference Include="FigmaToolkit.csproj">
+      <Project>{DF39C4D9-8E4D-F155-1CE7-28BD07721265}</Project>
+      <Name>FigmaToolkit</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Inspectors.csproj">
+      <Project>{04BCEE1C-782A-0EFB-727C-206A681C7403}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Editor.Inspectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="AzureSpatialAnchors.SDK.Core.Runtime.csproj">
+      <Project>{31B98F09-C54C-689F-8750-02212B7A8553}</Project>
+      <Name>AzureSpatialAnchors.SDK.Core.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.csproj">
+      <Project>{60C8F370-94C3-55C7-B5BF-73132C4CF129}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.SDK</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Examples.csproj">
+      <Project>{AC39BB55-60AC-594A-F41F-D7FBF8F6EE1E}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
+      <Project>{EEBB2ABA-48C9-949B-6F78-47FB417640E8}</Project>
+      <Name>Unity.VisualScripting.Flow.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.csproj">
+      <Project>{C90726B9-B46B-B446-4C7A-AC4B69DB8BDC}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.csproj">
+      <Project>{115429DD-0BD7-DED8-C7E0-108F285B3639}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.CameraSystem.csproj">
+      <Project>{3AFA2506-6E30-7A77-4647-0B5BF0773067}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.CameraSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.csproj">
+      <Project>{8D052031-6F65-CC58-0C6C-B489D5ED992F}</Project>
+      <Name>Unity.XR.OpenXR.Features.OculusQuestSupport.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{1A300F8D-1189-BD47-96A3-EC8F4427963E}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{8F12AC08-2A2E-601A-0444-2AD5F8E4018E}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.csproj">
+      <Project>{C98E7976-48D4-FCC9-8BFA-CD927646AFE3}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj">
-      <Project>{9d1eb7fb-1245-e34c-1223-fd8fe3512d74}</Project>
+      <Project>{33AC8FC0-50CC-6C7A-FB39-9BCD0BE7055D}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors</Name>
     </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.csproj">
+      <Project>{81406913-298A-3830-2C16-17130778D149}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
+      <Project>{59C3E99F-6169-F0C5-3182-251E64F74E7E}</Project>
+      <Name>Unity.VisualScripting.Flow</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Polybrush.Editor.csproj">
+      <Project>{38F68802-5E90-6650-7093-5A31036A4745}</Project>
+      <Name>Unity.Polybrush.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Polybrush.csproj">
+      <Project>{0A0F5318-C793-94D4-007A-690C9003FDF8}</Project>
+      <Name>Unity.Polybrush</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
+      <Project>{6F2A5531-06D5-9EB5-8250-D46AE514E6F0}</Project>
+      <Name>Unity.VisualScripting.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
+      <Project>{F0B2EEA3-2258-BC27-E5AA-C954D8421C67}</Project>
+      <Name>UnityEngine.XR.LegacyInputHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.csproj">
+      <Project>{E4EDED21-9D3C-A697-9184-DAD5286D112D}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.ForUI.csproj">
+      <Project>{6975E011-CD80-3E54-72A4-460528869679}</Project>
+      <Name>Unity.InputSystem.ForUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.csproj">
+      <Project>{5A4B1896-FEA7-CE20-B34C-2F8774BE2A5E}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj">
-      <Project>{f7e8f5c1-19ec-05d8-1974-7093f0b584de}</Project>
+      <Project>{33CA0C91-A589-6E33-EB93-FC04B27278FF}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.UX.Interactables</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{D19A169C-365A-FEBD-BEAA-8DFCE39A42BF}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj">
-      <Project>{3ff56619-4fe1-c446-f1e3-024897440917}</Project>
+      <Project>{9D1FEDEF-5CA5-03FC-FEDA-765DC538E5F6}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.Gltf</Name>
     </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.OpenXR.Editor.csproj">
+      <Project>{72692475-DF97-7D8C-0995-76F17EDFC191}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.OpenXR.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.csproj">
+      <Project>{9574B0B2-7EE9-4C6D-7A6A-EB79395C4CDC}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="WorldLocking.Tools.Editor.csproj">
+      <Project>{7C18A8E0-2FD6-1821-E06C-BCF6A314A3EA}</Project>
+      <Name>WorldLocking.Tools.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.csproj">
+      <Project>{359F7876-ABC4-C820-3FD6-8B7E4CBDAF5F}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Async</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.ObjectAnchors.Initializer.Editor.csproj">
+      <Project>{235843BD-3BB4-B6F3-02CE-B50820EE17B0}</Project>
+      <Name>Microsoft.ObjectAnchors.Initializer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
+      <Project>{3C0BFBA9-71D9-A10C-6409-93FF76146117}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Features.ConformanceAutomation.csproj">
+      <Project>{D06886F0-AC0D-D537-595D-289F004AC4D3}</Project>
+      <Name>Unity.XR.OpenXR.Features.ConformanceAutomation</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.WorldLocking.Core.csproj">
+      <Project>{B2D26B73-3585-971B-4CAF-A629841A93A6}</Project>
+      <Name>Microsoft.MixedReality.WorldLocking.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj">
-      <Project>{7818a94e-e14d-9e7b-eea7-129377c3e7b3}</Project>
+      <Project>{2B9CB700-CCC2-4361-A607-C9A413C030DA}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.csproj">
+      <Project>{25261E0C-E125-4ABF-620B-C7C0527CF1E6}</Project>
+      <Name>Unity.XR.OpenXR.Features.RuntimeDebugger.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.ObjectAnchors.Runtime.Api.csproj">
+      <Project>{8AAC44CF-A4CB-EC92-5E5E-CF9C64C4DD7E}</Project>
+      <Name>Microsoft.ObjectAnchors.Runtime.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.csproj">
+      <Project>{ABF9B346-0D3F-1011-2AF9-2834BABDBC73}</Project>
+      <Name>Unity.VisualScripting.State</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARFoundation.csproj">
+      <Project>{55C044BC-D9B7-514A-D504-448C43FA60EF}</Project>
+      <Name>Unity.XR.ARFoundation</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.csproj">
+      <Project>{7F34CE6D-FF72-2FD2-9E03-EC3CD6C0B2E1}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.StandardAssets.Editor.csproj">
+      <Project>{3180C0BC-9A7E-B055-7341-5D7D87B2656F}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.StandardAssets.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
