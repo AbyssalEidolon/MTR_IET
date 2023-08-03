@@ -63,4 +63,18 @@ public class Cutter : ToolBase
     void ShowSkinHints(){
         // Instantiate(SkinIndPrefab,)
     }
+
+    MeshCollider BakeCollider(LineRenderer line)
+    {
+        MeshCollider collider = null;
+        if (!line.GetComponent<MeshCollider>())
+        {
+            collider = line.gameObject.AddComponent<MeshCollider>();
+        }
+        else { collider = line.GetComponent<MeshCollider>(); }
+        Mesh mesh = new();
+        line.GetComponent<LineRenderer>().BakeMesh(mesh, true);
+        collider.sharedMesh = mesh;
+        return collider;
+    }
 }

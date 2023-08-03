@@ -31,7 +31,7 @@ public class MRWireHandler : MonoBehaviour
     }
     IEnumerator UpdateIndicators(){
         while(true){
-            print("Gay");
+            //print("Gay");
             float Change = Slider.SliderValue - SliderValue;
             float Angle = Change / Mathf.PI * 360;
             Wheel.transform.Rotate(new(0, 0, Angle));
