@@ -166,6 +166,8 @@
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\OnLoadStartScene.cs" />
      <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\HandInteractionTouchRotate.cs" />
      <Compile Include="Assets\Scripts\TestScripts\TestFollow.cs" />
+     <Compile Include="Assets\Scripts\MR\WireRework\ToggleCollider.cs" />
+     <Compile Include="Assets\Scripts\MR\WireRework\SpawnWire.cs" />
      <None Include="Assets\MRTK+\MRTK\Shaders\InstancedColored.shader" />
      <None Include="Assets\Unity\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\MRTK+\MRTK\Shaders\MixedRealityStandard.shader" />

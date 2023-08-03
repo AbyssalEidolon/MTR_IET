@@ -13,6 +13,7 @@ public class WireController : MonoBehaviour
     public static event Utils.SingleEvent WireValid;
     public static event Utils.ArrayEvent WireUISync;
     float WireLength(LineRenderer wire) => Vector3.Distance(wire.GetPosition(0), wire.GetPosition(wire.positionCount - 1));
+    public List<LineRenderer> FreeWires = new();
     void Awake(){
         i = this;
         if(Margin >= 1){

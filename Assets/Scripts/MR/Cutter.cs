@@ -11,7 +11,7 @@ public class Cutter : ToolBase
 {
     public float SkinMargins = 0;
     public GameObject SkinIndPrefab = null;
-    List<LineRenderer> FreeWires = new();
+    // List<LineRenderer> FreeWires = new();
     GameObject oldLineObject => LineManipulator.i.Line.gameObject;
     LineRenderer oldLine => oldLineObject.GetComponent<LineRenderer>();
     public override string ToolType() => "cutter";
@@ -64,7 +64,7 @@ public class Cutter : ToolBase
         line.startWidth = oldLine.startWidth;
         line.endWidth = oldLine.endWidth;
         line.material = oldLine.material;
-        FreeWires.Add(line);
+        // FreeWires.Add(line);
     }
     MeshCollider BakeCollider(LineRenderer line){
         MeshCollider collider = null;
