@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Unity/Scenes/Tryge.unity
     guid: 5c0e3293f5062db43b782e35713252f4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Unity/ExtScenes/Cutter.unity
     guid: b1f5c7a5e8eae80409b7d241b418a639
   - enabled: 1
