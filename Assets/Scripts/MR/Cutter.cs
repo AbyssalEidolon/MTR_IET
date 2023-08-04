@@ -52,7 +52,8 @@ public class Cutter : ToolBase
             // oldLine.gameObject.SetActive(!DisableOldLine);
             // // print("AAAAAAAAAAAAA");
             // gameObject.GetComponent<AudioSource>().Play();
-            LineRenderer newLine = new();
+            LineRenderer newLine = new GameObject().AddComponent<LineRenderer>();
+            newLine.gameObject.SetActive(false);
             DupeLineInfo(newLine, Utils.Clamp(other.GetContact(0).point, oldLine.GetPosition(1), oldLine.GetPosition(0)));
             WireController.i.ValidateWire(newLine);
             Delete(new ManipulationEventData());

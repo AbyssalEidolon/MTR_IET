@@ -9,10 +9,14 @@ public class SpawnWire : MonoBehaviour{
     public Transform parent = null;
     List<LineRenderer> FreeWires => WireController.i.FreeWires;
     public static event LineEvent NewLine;
+    Material defaultMat;
     void Awake(){
         NewLine += Example;
     }
-    
+    void Start()
+    {
+        defaultMat = LineManipulator.i.Line.material;
+    }
     public void SWire(int LengthCM){
         GameObject Hell = new();
         Hell.transform.parent = parent;
@@ -24,11 +28,8 @@ public class SpawnWire : MonoBehaviour{
         line.name = $"Wire {FreeWires.Count}";
         line.useWorldSpace = false;
         line.tag = "FreeWire";
-        line.widthMultiplier = MRWireHandler.Scale;
-        AnimationCurve curve = new AnimationCurve();
-        curve.AddKey(0, MRWireHandler.Scale);
-        curve.AddKey(1, MRWireHandler.Scale);
-        line.widthCurve = curve;
+        line.material = defaultMat;
+        line.widthMultiplier = MRWireHandler.Scale / 10;
         line.SetPositions(new Vector3[]{new Vector3(-LengthCM/2*MRWireHandler.Scale, 0, 0), new(LengthCM/2*MRWireHandler.Scale, 0, 0)});
         line.transform.Translate(new(0, FreeWires.Count * 0.1f, 0));
         addObjectManip(line.gameObject);
