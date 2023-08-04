@@ -40,8 +40,8 @@ public class WireController : MonoBehaviour
         print(b);
     }
     void Example(bool[] b){
-        string newString = "";
-        foreach(bool fuck in b) newString += fuck.ToString() + " ";
-        print(newString);
+        // string newString = "";
+        // foreach(bool fuck in b) newString += fuck.ToString() + " ";
+        // print(newString);
     }
 }
