@@ -15,11 +15,4 @@ public class SceneController : MonoBehaviour{
     void Awake(){
         i = this;
     }
-    public static Vector3 Clamp(Vector3 original, Vector3 Max, Vector3 Min){
-        Vector3 Target = new();
-        for(int i = 0; i < 3; i++){
-            Target[i] = Mathf.Clamp(original[i], Min[i], Max[i]);
-        }
-        return Target;
-    }
 }

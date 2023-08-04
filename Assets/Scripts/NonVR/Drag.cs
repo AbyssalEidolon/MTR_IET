@@ -45,11 +45,11 @@ public class Drag : MonoBehaviour{
     private void FixedUpdate() {
         if(!Enabled) return;
         Vector3 placeholder = new();
-        foreach(GameObject Cable in CableController.i.FreeLines){
-            if(MouseToWorld(out placeholder, Cable.GetComponent<MeshCollider>())){
-                Target = Cable;
-            }
-        }
+        // foreach(GameObject Cable in CableController.i.FreeLines){
+        //     if(MouseToWorld(out placeholder, Cable.GetComponent<MeshCollider>())){
+        //         Target = Cable;
+        //     }
+        // }
         if(PickedUp){
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(mouse.position.ReadValue());

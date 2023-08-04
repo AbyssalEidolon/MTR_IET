@@ -3,9 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using Microsoft.MixedReality.Toolkit.UI;
 using UnityEngine;
-public class ToolBase : MonoBehaviour{
+public abstract class ToolBase : MonoBehaviour{
     public Transform Parent = null;
     public GameObject Dave = null;
+    public abstract string ToolType();
     void Awake(){
         Parent = transform.parent;
         if(!gameObject.GetComponent<Rigidbody>())
@@ -28,4 +29,5 @@ public class ToolBase : MonoBehaviour{
         rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
         Dave.GetComponent<BoxCollider>().enabled = true;
     }
+    protected abstract void OnCollisionEnter(Collision collision);
 }
