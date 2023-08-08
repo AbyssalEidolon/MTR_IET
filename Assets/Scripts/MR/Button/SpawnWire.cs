@@ -7,7 +7,7 @@ using static Utils;
 
 public class SpawnWire : MonoBehaviour{
     public Transform parent = null;
-    List<LineRenderer> FreeWires => WireController.i.FreeWires;
+    List<LineRenderer> FreeWires => WireValidation.i.FreeWires;
     public static event LineEvent NewLine;
     Material defaultMat;
     void Awake(){
@@ -15,7 +15,7 @@ public class SpawnWire : MonoBehaviour{
     }
     void Start()
     {
-        defaultMat = LineManipulator.i.Line.material;
+        defaultMat = Pulley.i.Line.material;
     }
     public void SWire(int LengthCM){
         GameObject Hell = new();

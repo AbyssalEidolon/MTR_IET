@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 [RequireComponent(typeof(LineRenderer))]
-public class LineManipulator : MonoBehaviour
+public class Pulley : MonoBehaviour
 {
-    public static LineManipulator i = null;
+    public static Pulley i = null;
     MeshCollider Collider;
     public Transform Start = null;
     public Transform End = null;

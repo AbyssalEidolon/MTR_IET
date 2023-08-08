@@ -12,7 +12,7 @@ public class Cutter : ToolBase
     public float SkinMargins = 0;
     public GameObject SkinIndPrefab = null;
     // List<LineRenderer> FreeWires = new();
-    GameObject oldLineObject => LineManipulator.i.Line.gameObject;
+    GameObject oldLineObject => Pulley.i.Line.gameObject;
     LineRenderer oldLine => oldLineObject.GetComponent<LineRenderer>();
     public override string ToolType() => "cutter";
     public bool DisableOldLine = false;
@@ -20,7 +20,7 @@ public class Cutter : ToolBase
     public override void Duplicate(ManipulationEventData eventData)
     {
         base.Duplicate(eventData);
-        LineManipulator.i.BakeCollider();
+        Pulley.i.BakeCollider();
         foreach(BoxCollider collider in SceneController.i.DisabledOnToolPickup){
             if(!SceneController.i.ToolBarsLocked)collider.enabled = false;
         };
@@ -28,7 +28,7 @@ public class Cutter : ToolBase
     public override void Delete(ManipulationEventData eventData)
     {
         base.Delete(eventData);
-        LineManipulator.i.DestroyCollider();
+        Pulley.i.DestroyCollider();
         foreach(BoxCollider collider in SceneController.i.DisabledOnToolPickup){
             if(!SceneController.i.ToolBarsLocked)collider.enabled = true;
         };
@@ -48,14 +48,14 @@ public class Cutter : ToolBase
             // newLine.transform.Translate(0, 0, -0.1f);
             // newLine.gameObject.AddComponent<BoxCollider>().size = new(0.5f, 0.1f, 0.1f);
             // newLine.gameObject.layer = 3;
-            // WireController.i.ValidateWire(newLine);
+            // WireValidation.i.ValidateWire(newLine);
             // oldLine.gameObject.SetActive(!DisableOldLine);
             // // print("AAAAAAAAAAAAA");
             // gameObject.GetComponent<AudioSource>().Play();
             LineRenderer newLine = new GameObject().AddComponent<LineRenderer>();
             newLine.gameObject.SetActive(false);
             DupeLineInfo(newLine, Utils.Clamp(other.GetContact(0).point, oldLine.GetPosition(1), oldLine.GetPosition(0)));
-            WireController.i.ValidateWire(newLine);
+            WireValidation.i.ValidateWire(newLine);
             Delete(new ManipulationEventData());
         }
     }

@@ -17,7 +17,7 @@ public class ButtonController : MonoBehaviour{
         foreach(Interactable button in interactables){
             button.IsEnabled = false;
         }
-        WireController.WireUISync += UpdateButtons;
+        WireValidation.WireUISync += UpdateButtons;
     }
     void UpdateButtons(bool[] buttonStates){
         for(int i = 0; i < buttonStates.Length; i++){
