@@ -5,6 +5,46 @@ using UnityEngine;
 public class boomtest : MonoBehaviour
 {
     public GameObject stripper;
+    public float mid;
+    public bool left;
+
+    public void strip(GameObject stripper, GameObject wire, Color left, Color right, bool stripped)
+    {
+        Vector3 pos = wire.transform.position;
+        GameObject lwire = Instantiate(wire);
+        lwire.name = "leftwire";
+        lwire.transform.position = pos;
+        float stripperValueX = stripper.transform.position.x - pos.x;
+        LineRenderer wireLine = wire.GetComponent<LineRenderer>();
+        LineRenderer lwireline = lwire.GetComponent<LineRenderer>();
+        lwireline.SetPosition(1, new Vector3(wireLine.GetPosition(1).x, wireLine.GetPosition(1).y, stripperValueX));
+        BoxCollider lwirebox = lwire.GetComponent<BoxCollider>();
+        lwirebox.size = new Vector3(lwirebox.size.x, lwirebox.size.y, stripperValueX);
+        lwirebox.center = new Vector3(0, 0, lwirebox.size.z / 2);
+        lwire.GetComponent<LineRenderer>().material.color = left;
+
+        GameObject rwire = Instantiate(wire);
+        rwire.name = "rightwire";
+        rwire.transform.position = new Vector3(stripperValueX, pos.y, pos.z);
+        LineRenderer rwireline = rwire.GetComponent<LineRenderer>();
+        rwireline.SetPosition(1, new Vector3(wireLine.GetPosition(1).x, wireLine.GetPosition(1).y, wireLine.GetPosition(1).z - stripperValueX));
+        BoxCollider rwirebox = rwire.GetComponent<BoxCollider>();
+        rwirebox.size = new Vector3(rwirebox.size.x, rwirebox.size.y, rwirebox.size.z - stripperValueX) ;
+        rwirebox.center = new Vector3(0, 0, rwirebox.size.z / 2);
+        rwire.GetComponent<LineRenderer>().material.color = right;
+
+        GameObject empty = new GameObject();
+        empty.transform.position = pos;
+        empty.name = "dump";
+        Destroy(wire);
+        lwire.transform.SetParent(empty.transform);
+        rwire.transform.SetParent(empty.transform);
+        if (stripped)
+        {
+            lwire.name = "leftwired";
+            rwire.name = "rightwired";
+        }
+    }
 
     void OnCollisionEnter(Collision other)
     {
@@ -13,13 +53,24 @@ public class boomtest : MonoBehaviour
         {
             GameObject wire = other.gameObject;
             LineRenderer wireLine = wire.GetComponent<LineRenderer>();
-            Material mat = wire.GetComponent<LineRenderer>().material;
-
-            GameObject lwire = Instantiate(wire);
-            LineRenderer lwireline = lwire.GetComponent<LineRenderer>();
-            lwireline.SetPosition(1, new Vector3(wireLine.GetPosition(1).x, wireLine.GetPosition(1).y, stripper.transform.position.x));
-            BoxCollider lwirebox = lwire.GetComponent<BoxCollider>();
-            lwirebox.size = new Vector3(lwirebox.size.x, lwirebox.size.y, lwirebox.size.z - stripper.transform.position.x);
+            float mid = (wireLine.GetPosition(1).z - wireLine.GetPosition(0).z) / 2;
+            if (stripper.transform.position.x < mid)
+            {
+                Debug.Log("left");
+                strip(stripper, wire, Color.white, Color.red, false);
+            }
+            else
+            {
+                Debug.Log("right");
+                strip(stripper, wire, Color.red, Color.white, false);
+            }
+        }else if (other.gameObject.name == "leftwire" && other.gameObject.GetComponent<LineRenderer>().material.color == Color.red)
+        {
+            strip(stripper, other.gameObject, Color.white, Color.red,true);
+        }
+        else if (other.gameObject.name == "rightwire" && other.gameObject.GetComponent<LineRenderer>().material.color == Color.red)
+        {
+            strip(stripper, other.gameObject, Color.red, Color.white, true);
         }
     }
 }
