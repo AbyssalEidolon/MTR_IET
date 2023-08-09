@@ -15,13 +15,16 @@ EditorBuildSettings:
     path: Assets/Unity/ExtScenes/Cutter.unity
     guid: b1f5c7a5e8eae80409b7d241b418a639
   - enabled: 1
-    path: Assets/UI/scence/Start_page.unity
+    path: Assets/UI/scene/Start_page.unity
     guid: fdadda47b2c49554aa2a08434aece9d7
   - enabled: 1
-    path: Assets/UI/scence/Step1.unity
+    path: Assets/UI/scene/Step1.unity
     guid: f9d6fa4e596b60445ad99623d05bd28b
   - enabled: 1
-    path: Assets/UI/scence/Credit.unity
+    path: Assets/UI/scene/Step2.unity
+    guid: e870114e59bfccb4a9170919bc92aa73
+  - enabled: 1
+    path: Assets/UI/scene/Credit.unity
     guid: 83d31dad20dd0b741b644045f63d5ddc
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: df7fa154f601e9448ac35c1e4448b673, type: 2}

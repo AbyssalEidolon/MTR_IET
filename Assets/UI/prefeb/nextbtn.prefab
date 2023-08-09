@@ -130,7 +130,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3059660520577573955}
         m_TargetAssemblyTypeName: buttononclick, Assembly-CSharp
-        m_MethodName: step2
+        m_MethodName: CurrentScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -152,6 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b4780612fd70ff42a13d3b67db73196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  btn: {fileID: 3962175787020823621}
 --- !u!114 &6217392051824556452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,7 +184,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3059660520577573955}
         m_TargetAssemblyTypeName: buttononclick, Assembly-CSharp
-        m_MethodName: step1
+        m_MethodName: CurrentScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -273,7 +274,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3059660520577573955}
         m_TargetAssemblyTypeName: buttononclick, Assembly-CSharp
-        m_MethodName: step1
+        m_MethodName: CurrentScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -288,7 +289,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3059660520577573955}
         m_TargetAssemblyTypeName: buttononclick, Assembly-CSharp
-        m_MethodName: step1
+        m_MethodName: CurrentScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -303,7 +304,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3059660520577573955}
         m_TargetAssemblyTypeName: buttononclick, Assembly-CSharp
-        m_MethodName: step1
+        m_MethodName: CurrentScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -318,7 +319,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3059660520577573955}
         m_TargetAssemblyTypeName: buttononclick, Assembly-CSharp
-        m_MethodName: step1
+        m_MethodName: CurrentScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

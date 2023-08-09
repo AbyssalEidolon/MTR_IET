@@ -1,24 +1,33 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class buttononclick : MonoBehaviour
 {
-    public void ReturnPage()
+    public Button btn;
+    int btnstatement = 0;
+
+    public void CurrentScene()
     {
-        SceneManager.LoadScene("Start_page",LoadSceneMode.Single);
-    }
-    public void step1()
-    {
-        SceneManager.LoadScene("Step1", LoadSceneMode.Single);
-    }
-    public void step2()
-    {
-        SceneManager.LoadScene("Step2", LoadSceneMode.Single);
-    }
-    public void Credit()
-    {
-        SceneManager.LoadScene("Credit", LoadSceneMode.Single);
+        switch (btn.name)
+        {
+            case "nextbtn":
+                btnstatement++;
+                SceneManager.LoadScene(btnstatement);
+                break;
+            case "Returnbtn":
+                btnstatement--;
+                SceneManager.LoadScene(btnstatement);
+                break;
+            case "Homebtn":
+                SceneManager.LoadScene(0);
+                break;
+            case "creditbtn":
+                SceneManager.LoadScene("Credit", LoadSceneMode.Single);
+                break;
+        }
     }
 }
