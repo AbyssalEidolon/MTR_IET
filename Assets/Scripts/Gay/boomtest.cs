@@ -8,7 +8,7 @@ public class boomtest : MonoBehaviour
     public float mid;
     public bool left;
 
-    public void strip(GameObject stripper, GameObject wire, Color left, Color right, bool stripped)
+    public void strip(GameObject stripper, GameObject wire, Color left, Color right)
     {
         Vector3 pos = wire.transform.position;
         GameObject lwire = Instantiate(wire);
@@ -39,11 +39,6 @@ public class boomtest : MonoBehaviour
         Destroy(wire);
         lwire.transform.SetParent(empty.transform);
         rwire.transform.SetParent(empty.transform);
-        if (stripped)
-        {
-            lwire.name = "leftwired";
-            rwire.name = "rightwired";
-        }
     }
 
     void OnCollisionEnter(Collision other)
@@ -57,20 +52,13 @@ public class boomtest : MonoBehaviour
             if (stripper.transform.position.x < mid)
             {
                 Debug.Log("left");
-                strip(stripper, wire, Color.white, Color.red, false);
+                strip(stripper, wire, Color.white, Color.red);
             }
             else
             {
                 Debug.Log("right");
-                strip(stripper, wire, Color.red, Color.white, false);
+                strip(stripper, wire, Color.red, Color.white);
             }
-        }else if (other.gameObject.name == "leftwire" && other.gameObject.GetComponent<LineRenderer>().material.color == Color.red)
-        {
-            strip(stripper, other.gameObject, Color.white, Color.red,true);
-        }
-        else if (other.gameObject.name == "rightwire" && other.gameObject.GetComponent<LineRenderer>().material.color == Color.red)
-        {
-            strip(stripper, other.gameObject, Color.red, Color.white, true);
         }
     }
 }

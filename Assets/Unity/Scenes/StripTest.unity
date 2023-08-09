@@ -304,12 +304,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 309572123}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6df3bfe6097b0e146b2099fd24beeeee, type: 3}
+  m_Script: {fileID: 11500000, guid: efa9a1ada938f524fbe5fac76e362b23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   stripper: {fileID: 309572123}
-  mid: 0
-  left: 0
 --- !u!1 &541846536
 GameObject:
   m_ObjectHideFlags: 0
