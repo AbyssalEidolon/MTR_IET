@@ -492,6 +492,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2832835097687122917, guid: c0695d5c9db4d9748b66be635a59da96, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -43
+      objectReference: {fileID: 0}
     - target: {fileID: 7553446456204175879, guid: c0695d5c9db4d9748b66be635a59da96, type: 3}
       propertyPath: m_Name
       value: Step2UI
@@ -579,6 +583,18 @@ PrefabInstance:
     - target: {fileID: 7553446456204175885, guid: c0695d5c9db4d9748b66be635a59da96, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8003256738505223617, guid: c0695d5c9db4d9748b66be635a59da96, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -18
+      objectReference: {fileID: 0}
+    - target: {fileID: 9039071535866528427, guid: c0695d5c9db4d9748b66be635a59da96, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 9039071535866528427, guid: c0695d5c9db4d9748b66be635a59da96, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0695d5c9db4d9748b66be635a59da96, type: 3}

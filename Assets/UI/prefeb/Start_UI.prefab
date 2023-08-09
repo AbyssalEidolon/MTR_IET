@@ -601,10 +601,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: nextbtn
       objectReference: {fileID: 0}
-    - target: {fileID: 3962175787020823621, guid: 6a3386b968e200c4986ca96f04bdf2d7, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: step1
-      objectReference: {fileID: 0}
     - target: {fileID: 6217392051824556453, guid: 6a3386b968e200c4986ca96f04bdf2d7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

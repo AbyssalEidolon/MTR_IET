@@ -177,7 +177,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -37.4, y: -22.1}
+  m_AnchoredPosition: {x: -37, y: -22}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &53201876245253281
@@ -366,8 +366,8 @@ MonoBehaviour:
   debounceThreshold: 0.01
   localForward: {x: -0, y: -0, z: -1}
   localUp: {x: 0, y: 1, z: 0}
-  localCenter: {x: -0.45658812, y: -2.3461215, z: -29.954226}
-  bounds: {x: 158.37862, y: 27.624865}
+  localCenter: {x: 0, y: 0, z: -20}
+  bounds: {x: 160, y: 30}
   touchableCollider: {fileID: 5737247224298280868}
 --- !u!65 &5737247224298280868
 BoxCollider:
@@ -380,8 +380,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 158.37862, y: 27.624865, z: 33.28626}
-  m_Center: {x: -0.45658812, y: -2.3461215, z: -13.311096}
+  m_Size: {x: 160, y: 30, z: 20}
+  m_Center: {x: 0, y: 0, z: -10}
 --- !u!114 &5737247224298280871
 MonoBehaviour:
   m_ObjectHideFlags: 0
