@@ -5,6 +5,7 @@ using Microsoft.MixedReality.Toolkit.UI;
 using TMPro;
 using UnityEngine;
 using Microsoft.MixedReality.Toolkit.Utilities;
+using static Utils;
 
 [RequireComponent(typeof(AudioSource))]
 public class Cutter : ToolBase
@@ -54,7 +55,7 @@ public class Cutter : ToolBase
             // gameObject.GetComponent<AudioSource>().Play();
             LineRenderer newLine = new GameObject().AddComponent<LineRenderer>();
             newLine.gameObject.SetActive(false);
-            DupeLineInfo(newLine, Utils.Clamp(other.GetContact(0).point, oldLine.GetPosition(1), oldLine.GetPosition(0)));
+            DupeLineInfo(newLine, Clamp(other.GetContact(0).point, oldLine.GetPosition(1), oldLine.GetPosition(0)));
             WireValidation.i.ValidateWire(newLine);
             Delete(new ManipulationEventData());
         }
