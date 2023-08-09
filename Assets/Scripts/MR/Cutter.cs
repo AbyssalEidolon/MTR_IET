@@ -11,12 +11,18 @@ public class Cutter : ToolBase
 {
     public float SkinMargins = 0;
     public GameObject SkinIndPrefab = null;
-    // List<LineRenderer> FreeWires = new();
+    public LineRenderer newLine = null;
     GameObject oldLineObject => LineManipulator.i.Line.gameObject;
     LineRenderer oldLine => oldLineObject.GetComponent<LineRenderer>();
     public override string ToolType() => "cutter";
     public bool DisableOldLine = false;
-    
+    public static Cutter i = null;
+
+    private void Awake()
+    {
+        i = this;
+    }
+
     public override void Duplicate(ManipulationEventData eventData)
     {
         base.Duplicate(eventData);
@@ -83,5 +89,19 @@ public class Cutter : ToolBase
         ObjectManipulator objManip = target.AddComponent<ObjectManipulator>();
         objManip.ManipulationType = ManipulationHandFlags.OneHanded;
         // objManip.AllowFarManipulation = false;
+    }
+
+    MeshCollider BakeCollider(LineRenderer line)
+    {
+        MeshCollider collider = null;
+        if (!line.GetComponent<MeshCollider>())
+        {
+            collider = line.gameObject.AddComponent<MeshCollider>();
+        }
+        else { collider = line.GetComponent<MeshCollider>(); }
+        Mesh mesh = new();
+        line.GetComponent<LineRenderer>().BakeMesh(mesh, true);
+        collider.sharedMesh = mesh;
+        return collider;
     }
 }
