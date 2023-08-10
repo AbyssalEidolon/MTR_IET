@@ -52,5 +52,5 @@
         "temp/":true,
         "Temp/":true
     },
-    "dotnet.defaultSolution": "MTR-IET.sln"
+    "dotnet.defaultSolution": "MTR_IET.sln"
 }
