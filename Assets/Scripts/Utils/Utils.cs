@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Utils{
@@ -13,5 +14,17 @@ public class Utils{
             Target[i] = Mathf.Clamp(original[i], Min[i], Max[i]);
         }
         return Target;
+    }
+    Vector3 GetNearest(Vector3[] vectors, Vector3 Target, out int index){
+        float curDist = 100;
+        index = 0;
+        for(int i = 0; i < vectors.Length; i++){
+            float cur = Vector3.Distance(Target, vectors[i]);
+            if(curDist > cur){
+                curDist = cur;
+                index = i;
+            }
+        }
+        return vectors[index];
     }
 }
