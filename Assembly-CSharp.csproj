@@ -108,7 +108,6 @@
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\LoadAdditiveScene.cs" />
     <Compile Include="Assets\Scripts\TestScripts\WireUpdateTest.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetSelections\Scripts\TargetGroupCreatorRadial.cs" />
-    <Compile Include="Assets\Scripts\Utils\Utils.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\LogStructure.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\CustomInputLogger.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoScrollPanZoom\Scripts\ScrollTexture.cs" />
@@ -153,6 +152,7 @@
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\Dwell\InstantDwellSample.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Experimental - SceneUnderstanding\Scripts\DemoSceneUnderstandingController.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\OnSelectVisualizerInputController.cs" />
+    <Compile Include="Assets\Scripts\Gay\boomtest2.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\FaceUser.cs" />
     <Compile Include="Assets\Scripts\NonVR\CableMove.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Input\Scenes\InputData\InputDataExampleGizmo.cs" />
@@ -180,12 +180,15 @@
     <Compile Include="Assets\Scripts\TestScripts\CTest.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetSelections\Scripts\HitBehaviorDestroyOnSelect.cs" />
     <Compile Include="Assets\Scripts\NonVR\CutToggle.cs" />
+    <Compile Include="Assets\Scripts\Gay\boomtest.cs" />
+    <Compile Include="Assets\Scripts\Gay\WireStripping.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\OnLookAtRotateByEyeGaze.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\DemoTouchButton.cs" />
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\Dwell\ListItemDwell.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\OnLoadStartScene.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\HandInteractionTouchRotate.cs" />
     <Compile Include="Assets\Scripts\TestScripts\TestFollow.cs" />
+    <Compile Include="Assets\Scripts\Gay\wirecontrol.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MRTK+\MRTK\Shaders\InstancedColored.shader" />
