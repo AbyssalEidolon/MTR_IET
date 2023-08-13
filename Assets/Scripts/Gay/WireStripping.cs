@@ -11,15 +11,15 @@ public class WireStripping : ToolBase
     public override void Duplicate(ManipulationEventData eventData)
     {
         base.Duplicate(eventData);
-        LineManipulator.i.BakeCollider();
+        Pulley.i.BakeCollider();
     }
     public override void Delete(ManipulationEventData eventData)
     {
         base.Delete(eventData);
-        LineManipulator.i.DestroyCollider();
+        Pulley.i.DestroyCollider();
     }
 
-    void OnCollisionEnter(Collision other)
+    protected override void OnCollisionEnter(Collision other)
     {
         print(other.gameObject.name);
         if (other.gameObject.name == "Wire")
@@ -47,4 +47,6 @@ public class WireStripping : ToolBase
             rightwire.GetComponent<MeshRenderer>().material.color = Color.blue;
         }
     }
+
+    public override string ToolType() => "STRIPPER";
 }
