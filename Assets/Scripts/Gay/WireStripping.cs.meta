@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/MR/WireStrip.cs.meta
+guid: 88591bb77b678c241bd2815302bcb9cd
+========
+guid: 1daaf012f8e14c044b55ef7246d121b7
+>>>>>>>> refs/remotes/origin/Wire:Assets/Scripts/Gay/WireStripping.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

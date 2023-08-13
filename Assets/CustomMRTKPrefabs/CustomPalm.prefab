@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2243365551929065800}
   - component: {fileID: 3772789015417365136}
   - component: {fileID: 7967104691868737989}
-  - component: {fileID: 6229213388239825426}
   m_Layer: 8
   m_Name: CustomPalm
   m_TagString: Untagged
@@ -76,16 +75,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 2, z: 1}
   m_Center: {x: 0, y: -0.5, z: -0.08}
---- !u!114 &6229213388239825426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7890367414255737973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aca65019c7699f1468bd89cf2ada597f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Distance: 0
