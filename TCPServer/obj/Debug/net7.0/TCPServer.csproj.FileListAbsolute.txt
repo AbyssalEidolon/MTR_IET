@@ -1,0 +1,15 @@
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\obj\Debug\net7.0\TCPServer.csproj.AssemblyReference.cache
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\obj\Debug\net7.0\TCPServer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\obj\Debug\net7.0\TCPServer.AssemblyInfoInputs.cache
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\obj\Debug\net7.0\TCPServer.AssemblyInfo.cs
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\obj\Debug\net7.0\TCPServer.csproj.CoreCompileInputs.cache
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\bin\Debug\net7.0\TCPServer.exe
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\bin\Debug\net7.0\TCPServer.deps.json
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\bin\Debug\net7.0\TCPServer.runtimeconfig.json
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\bin\Debug\net7.0\TCPServer.dll
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\bin\Debug\net7.0\TCPServer.pdb
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\obj\Debug\net7.0\TCPServer.dll
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\obj\Debug\net7.0\refint\TCPServer.dll
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\obj\Debug\net7.0\TCPServer.pdb
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\obj\Debug\net7.0\TCPServer.genruntimeconfig.cache
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\obj\Debug\net7.0\ref\TCPServer.dll

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "TCPServer": {
+      "commandName": "Project"
+    },
+    "Client": {
+      "commandName": "Project",
+      "commandLineArgs": "--client\r\n",
+      "workingDirectory": "C:\\Users\\User\\Desktop"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\obj\Debug\net6.0\TCPServer.csproj.AssemblyReference.cache
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\obj\Debug\net6.0\TCPServer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\obj\Debug\net6.0\TCPServer.AssemblyInfoInputs.cache
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\obj\Debug\net6.0\TCPServer.AssemblyInfo.cs
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\obj\Debug\net6.0\TCPServer.csproj.CoreCompileInputs.cache
