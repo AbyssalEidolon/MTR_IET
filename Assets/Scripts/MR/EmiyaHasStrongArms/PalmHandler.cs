@@ -10,10 +10,10 @@ public class PalmHandler : MonoBehaviour
     public void OnTriggerEnter(Collider other){
         ToolBase toolBase = other.GetComponent<ToolBase>();
         if(toolBase){
-            if(toolBase.ToolType == "cutter"){
-                target = other.gameObject;
-                if(TestBlock) TestBlock.UpdateToolText("cutter");
-            }
+            //if(toolBase.ToolType == "cutter"){
+            //    target = other.gameObject;
+            //    if(TestBlock) TestBlock.UpdateToolText("cutter");
+            //}
         }
     }
     public void OnTriggerExit(Collider other){
