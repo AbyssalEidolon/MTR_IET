@@ -18,6 +18,8 @@ public class WireController : MonoBehaviour
     };
     public LineRenderer Self;
     public Material marginMat = null;
+    public List<GameObject> cubes = new List<GameObject>();
+
     void Awake()
     {
         print("WHAT");
@@ -35,6 +37,10 @@ public class WireController : MonoBehaviour
         for (int i = 0; i < StrippedSegs.Length; i++)
         {
             Vertices.Add(StrippedSegs[i].GetPosition(0));
+        }
+        foreach(Vector3 i in Vertices)
+        {
+            createcube(i);
         }
     }
     void FixedUpdate(){
@@ -87,5 +93,26 @@ public class WireController : MonoBehaviour
         Mesh mesh = new();
         Self.BakeMesh(mesh, true);
         collider.sharedMesh = mesh;
+    }
+
+    public void createcube(Vector3 Vertices)
+    {
+        GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        cube.transform.localScale = new Vector3(0.033f, 0.033f, 0.033f);
+        updateCubeVector(cube, Vertices);
+        cubes.Add(cube);
+    }
+
+    public void updateCubeVector(GameObject cube, Vector3 Vertices)
+    {
+        cube.transform.position = Vertices;
+    }
+
+    public void Update()
+    {
+        foreach(GameObject i in cubes)
+        {
+            updateCubeVector(i, Vertices[cubes.IndexOf(i)]);
+        }
     }
 }
