@@ -176,6 +176,7 @@
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\OnLookAtShowHoverFeedback.cs" />
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ProgressIndicator\Scripts\ProgressIndicatorDemoSceneLoad.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetPositioning\Scripts\MoveObjByEyeGaze.cs" />
+    <Compile Include="Assets\UI\Script\canvas.cs" />
     <Compile Include="Assets\Scripts\TestScripts\CTest.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetSelections\Scripts\HitBehaviorDestroyOnSelect.cs" />
     <Compile Include="Assets\Scripts\NonVR\CutToggle.cs" />
@@ -187,7 +188,6 @@
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\OnLoadStartScene.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\HandInteractionTouchRotate.cs" />
     <Compile Include="Assets\Scripts\TestScripts\TestFollow.cs" />
-    <Compile Include="Assets\UI\Script\canvas.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MRTK+\MRTK\Shaders\InstancedColored.shader" />

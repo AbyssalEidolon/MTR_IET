@@ -31,6 +31,7 @@ public class canvas : MonoBehaviour
         foreach (Canvas CanVas in CanVas)
         {
             CanVas.gameObject.SetActive(false);
+            index=12;
         }
         CanVas[12].gameObject.SetActive(true);
     }
@@ -40,8 +41,13 @@ public class canvas : MonoBehaviour
         foreach (Canvas CanVas in CanVas)
         {
             CanVas.gameObject.SetActive(false);
+            index = 0;
         }
         CanVas[0].gameObject.SetActive(true);
+    }
+    private void Update()
+    {
+        Debug.Log(index);
     }
 }
 
