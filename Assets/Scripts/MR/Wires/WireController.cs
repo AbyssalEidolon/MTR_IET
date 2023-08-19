@@ -18,7 +18,11 @@ public class WireController : MonoBehaviour
     };
     public LineRenderer Self;
     public Material marginMat = null;
-    public List<GameObject> cubes = new List<GameObject>();
+    public List<GameObject> spheres = new List<GameObject>();
+    public GameObject Gsphere;
+    public GameObject projectSphere;
+    public GameObject cursor;
+    public GameObject cube;
 
     void Awake()
     {
@@ -38,10 +42,13 @@ public class WireController : MonoBehaviour
         {
             Vertices.Add(StrippedSegs[i].GetPosition(0));
         }
-        foreach(Vector3 i in Vertices)
+        Vector3 midpoint = (Vertices[0] + Vertices[^1]) / 2f;
+        Vertices.Insert(1, midpoint);
+        foreach (Vector3 i in Vertices)
         {
-            createcube(i);
+            createsphere(i);
         }
+        cursor = GameObject.Find("DefaultGazeCursor(Clone)");
     }
     void FixedUpdate(){
         if (VertBasedUpdate) UpdateLine();
@@ -95,24 +102,31 @@ public class WireController : MonoBehaviour
         collider.sharedMesh = mesh;
     }
 
-    public void createcube(Vector3 Vertices)
+    public void createsphere(Vector3 Vertices)
     {
-        GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-        cube.transform.localScale = new Vector3(0.033f, 0.033f, 0.033f);
-        updateCubeVector(cube, Vertices);
-        cubes.Add(cube);
+        GameObject sphere = Instantiate(Gsphere);
+        sphere.transform.localScale = new Vector3(0.033f, 0.033f, 0.033f);
+        sphere.AddComponent<BoxCollider>();
+        updateCubeVector(sphere, Vertices);
+        spheres.Add(sphere);
     }
 
-    public void updateCubeVector(GameObject cube, Vector3 Vertices)
+    public void updateCubeVector(GameObject sphere, Vector3 Vertices)
     {
-        cube.transform.position = Vertices;
+        sphere.transform.position = Vertices;
     }
 
     public void Update()
     {
-        foreach(GameObject i in cubes)
+        for (int i = 0; i < Vertices.Count; i++)
         {
-            updateCubeVector(i, Vertices[cubes.IndexOf(i)]);
+            Vertices[i] = spheres[i].transform.position;
         }
+        Vector3 dir = cursor.transform.position - spheres[1].transform.position;
+        projectSphere.transform.position = dir - Vector3.Project(dir, Vector3.forward);
+        Vector3 projectdir = dir - Vector3.Project(dir, Vector3.forward);
+        projectdir = projectdir.normalized * 0.2475f;
+        cube.transform.position = projectdir;
+        //Debug.Log(Vector3.Project(Vector3.up, cursor.transform.position - spheres[1].transform.position));
     }
 }
