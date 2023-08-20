@@ -107,11 +107,11 @@ public class WireController : MonoBehaviour
         GameObject sphere = Instantiate(Gsphere);
         sphere.transform.localScale = new Vector3(0.033f, 0.033f, 0.033f);
         sphere.AddComponent<BoxCollider>();
-        updateCubeVector(sphere, Vertices);
+        updatesphereVector(sphere, Vertices);
         spheres.Add(sphere);
     }
 
-    public void updateCubeVector(GameObject sphere, Vector3 Vertices)
+    public void updatesphereVector(GameObject sphere, Vector3 Vertices)
     {
         sphere.transform.position = Vertices;
     }
@@ -122,11 +122,10 @@ public class WireController : MonoBehaviour
         {
             Vertices[i] = spheres[i].transform.position;
         }
-        Vector3 dir = cursor.transform.position - spheres[1].transform.position;
-        projectSphere.transform.position = dir - Vector3.Project(dir, Vector3.forward);
-        Vector3 projectdir = dir - Vector3.Project(dir, Vector3.forward);
-        projectdir = projectdir.normalized * 0.2475f;
-        cube.transform.position = projectdir;
-        //Debug.Log(Vector3.Project(Vector3.up, cursor.transform.position - spheres[1].transform.position));
+        //Vector3 dir = cursor.transform.position - spheres[1].transform.position;
+        //projectSphere.transform.position = dir - Vector3.Project(dir, Vector3.forward);
+        //Vector3 projectdir = dir - Vector3.Project(dir, Vector3.forward);
+        //projectdir = projectdir.normalized * 0.2475f;
+        //cube.transform.position = projectdir;
     }
 }

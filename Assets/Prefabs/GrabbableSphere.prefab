@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5645411561190648552}
   - component: {fileID: 5645411561190648553}
   - component: {fileID: 5645411561190648554}
+  - component: {fileID: 5182887598530666509}
   m_Layer: 0
   m_Name: GrabbableSphere
   m_TagString: Untagged
@@ -161,13 +162,52 @@ MonoBehaviour:
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5182887598530666509}
+        m_TargetAssemblyTypeName: spherecontrol, Assembly-CSharp
+        m_MethodName: grab
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onManipulationEnded:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5182887598530666509}
+        m_TargetAssemblyTypeName: spherecontrol, Assembly-CSharp
+        m_MethodName: grabend
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHoverEntered:
     m_PersistentCalls:
       m_Calls: []
   onHoverExited:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5182887598530666509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5645411561190648555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a633a1e0d4caf140a579f6d56a44dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursor: {fileID: 0}
+  wireController: {fileID: 0}
+  wiresphere: {fileID: 0}

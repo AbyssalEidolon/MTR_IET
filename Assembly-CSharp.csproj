@@ -186,6 +186,7 @@
     <Compile Include="Assets\Scripts\MR\Wires\WireBender.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\LaunchUri.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\OnLookAtShowHoverFeedback.cs" />
+    <Compile Include="Assets\Scripts\Gay\spherecontrol.cs" />
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ProgressIndicator\Scripts\ProgressIndicatorDemoSceneLoad.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetPositioning\Scripts\MoveObjByEyeGaze.cs" />
     <Compile Include="Assets\Scripts\TestScripts\CTest.cs" />

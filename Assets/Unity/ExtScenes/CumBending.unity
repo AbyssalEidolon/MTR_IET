@@ -136,12 +136,12 @@ GameObject:
   - component: {fileID: 38561552}
   - component: {fileID: 38561551}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: ProjectSphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &38561550
 Transform:
   m_ObjectHideFlags: 0
@@ -232,7 +232,7 @@ GameObject:
   - component: {fileID: 173819708}
   - component: {fileID: 173819710}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Wire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -430,7 +430,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1384222395
 BoxCollider:
   m_ObjectHideFlags: 0
