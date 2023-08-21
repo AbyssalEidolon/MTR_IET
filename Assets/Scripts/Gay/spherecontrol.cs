@@ -4,22 +4,32 @@ using UnityEngine;
 
 public class spherecontrol : MonoBehaviour
 {
-    public GameObject cursor;
     public WireController wireController;
     public GameObject wiresphere;
 
     private void Start()
     {
-        cursor = GameObject.Find("DefaultGazeCursor(Clone)");
         wireController = GameObject.Find("Wire").GetComponent<WireController>();
     }
 
     public void grab()
     {
         wiresphere = Instantiate(this.gameObject);
-        Vector3 dir = cursor.transform.position - wireController.spheres[1].transform.position;
-        Vector3 projectdir = dir - Vector3.Project(dir, Vector3.forward);
-        projectdir = projectdir.normalized * 0.2475f;
-        wiresphere.transform.position = projectdir;
+        replace(this.gameObject, wiresphere, wireController.spheres);
+        wireController.gay.Add(this.gameObject);
+        wireController.gay.Add(wiresphere);
+    }
+    public void grabend()
+    {
+        wireController.gay.Remove(this.gameObject);
+        wireController.gay.Remove(wiresphere);
+        Destroy(this.gameObject);
+    }
+
+    void replace(GameObject gameobject, GameObject newgameobject, List<GameObject> list)
+    {
+        int listindex = list.IndexOf(gameobject);
+        list.Remove(gameobject);
+        list.Insert(listindex, newgameobject);
     }
 }

@@ -20,9 +20,7 @@ public class WireController : MonoBehaviour
     public Material marginMat = null;
     public List<GameObject> spheres = new List<GameObject>();
     public GameObject Gsphere;
-    public GameObject projectSphere;
-    public GameObject cursor;
-    public GameObject cube;
+    public List<GameObject> gay = new List<GameObject>();
 
     void Awake()
     {
@@ -48,7 +46,6 @@ public class WireController : MonoBehaviour
         {
             createsphere(i);
         }
-        cursor = GameObject.Find("DefaultGazeCursor(Clone)");
     }
     void FixedUpdate(){
         if (VertBasedUpdate) UpdateLine();
@@ -122,10 +119,9 @@ public class WireController : MonoBehaviour
         {
             Vertices[i] = spheres[i].transform.position;
         }
-        //Vector3 dir = cursor.transform.position - spheres[1].transform.position;
-        //projectSphere.transform.position = dir - Vector3.Project(dir, Vector3.forward);
-        //Vector3 projectdir = dir - Vector3.Project(dir, Vector3.forward);
-        //projectdir = projectdir.normalized * 0.2475f;
-        //cube.transform.position = projectdir;
+        Vector3 dir = gay[0].transform.position - spheres[1].transform.position;
+        Vector3 projectdir = dir - Vector3.Project(dir, Vector3.forward);
+        projectdir = projectdir.normalized * 0.2475f;
+        gay[1].transform.position = projectdir;
     }
 }
