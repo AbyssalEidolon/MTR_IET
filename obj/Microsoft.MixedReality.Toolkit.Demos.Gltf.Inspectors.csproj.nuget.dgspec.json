@@ -4,14 +4,14 @@
     "d:\\Storage\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj": {}
   },
   "projects": {
-    "d:\\Storage\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
+    "D:\\Storage\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Storage\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj",
+        "projectUniqueName": "D:\\Storage\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj",
         "projectName": "Microsoft.MixedReality.Toolkit.Demos.Gltf",
-        "projectPath": "d:\\Storage\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj",
+        "projectPath": "D:\\Storage\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "d:\\Storage\\IVE\\MTR-IET\\obj\\",
+        "outputPath": "D:\\Storage\\IVE\\MTR-IET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -86,8 +86,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "d:\\Storage\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
-                "projectPath": "d:\\Storage\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
+              "D:\\Storage\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
+                "projectPath": "D:\\Storage\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
               }
             }
           }

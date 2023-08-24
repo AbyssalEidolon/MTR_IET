@@ -7,6 +7,7 @@ using System.Net.Sockets;
 using System.Numerics;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Text.Json;
 using System.Text.Unicode;
 using System.Threading.Tasks;
 
@@ -15,6 +16,7 @@ namespace TCPServer
     public delegate void OnCMDRx<T>(T cmd);
     internal class Server
     {
+        public static bool ConsoleFree = true;
         TcpListener server;
         public IPAddress serverIP = IPAddress.Any;
         public static Server? i;
@@ -68,7 +70,17 @@ namespace TCPServer
         }
         void Snapshot()
         {
-
+            ConsoleFree = false;
+            Console.WriteLine("Insert file name.");
+            string? FileName = Console.ReadLine();
+            if(FileName == null){
+                Console.WriteLine("Empty Filename. Returning.");
+            }else{
+            string jsonString = "";
+            foreach(Vector3 finger in data.Fingers) Console.WriteLine(finger.ToString("F4"));
+            File.WriteAllText($"saved\\{FileName}.json", jsonString);
+            ConsoleFree = true;
+            }
         }
     }
     internal class TcpConnectedClient
@@ -111,13 +123,11 @@ namespace TCPServer
                     Fingers[i][ii] = float.Parse(splitToken[ii]);
                 }
             }
+            if(Server.ConsoleFree){
             Console.Clear();
             Console.WriteLine(raw);
             Console.WriteLine("Enter exit to close application. /Snapshot to capture values.");
-            foreach (Vector3 vec in Fingers)
-            {
-                Console.WriteLine(vec.ToString("F4"));
-            }
-        }
+        }}
+        public JointData(){}
     }
 }

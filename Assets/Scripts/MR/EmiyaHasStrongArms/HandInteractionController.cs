@@ -1,5 +1,9 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
+using Unity.VisualScripting;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 
 public class HandInteractionController : MonoBehaviour
@@ -10,31 +14,38 @@ public class HandInteractionController : MonoBehaviour
     //This will abuse trigger and physics mechanics so shut the fuck up.
     //Palm will have its own layer, only detects if tool is in range + which type(OnTriggerEnter) [Palm/Tools]{layers}
     //Targeted joints will have their own layer, only checks if targets are met(OnTriggerEnter + Exit)[Joints/JointsTargets]{layers}
-    public static HashSet<string> ToolTypes = new();
+    public static HashSet<ToolBase> ToolTypes = new();
     public static HandInteractionController i;
     public GameObject JointTrackingPrefab = null;
-    JointController[] joints = new JointController[5];
-    bool[] jointChecks = new bool[5];
-
+    public GameObject TargetAreaPrefab = null;
+    Joint[] joints = new Joint[5];
+    string[] fingerNames = {"Thumb", "Pointer", "Middle", "Ring", "Pinky"};
+    public bool DeployBuild = true;
+    public bool PrintDebugMessages = true;
+    public JointCheckController jointCheckController = null;
     void Awake()
     {
+
+        if(!JointTrackingPrefab.GetComponent<Collider>())Debug.LogError("Joints Are Missing Colliders!");
+        Collider collider = TargetAreaPrefab.GetComponent<Collider>();
+        if(!collider)Debug.LogError("Target Areas Are Missing Colliders!");
+        if(!collider.isTrigger)Debug.LogError("Target Areas Have Not Been Set To Triggers!");
+
+        jointCheckController = gameObject.AddComponent<JointCheckController>();
         i = this;
         for (int i = 0; i < joints.Length; i ++)
         {
-            GameObject joint = Instantiate(JointTrackingPrefab, this.transform);
-            joints[i] = joint.AddComponent<JointController>();
+            GameObject joint = Instantiate(JointTrackingPrefab, transform);
+            joints[i] = joint.AddComponent<Joint>();
             joints[i].controller = this;
-            joint.SetActive(false);
-
+            joints[i].name = fingerNames[i];
+            if(DeployBuild)joint.SetActive(false);
         }
     }
-    void OnTriggerEnter(){
-
+    void OnTriggerEnter(Collider other){
+        ToolBase toolBase = other.GetComponent<ToolBase>();
+        if(toolBase == null || !ToolTypes.Contains(toolBase)) return;
+        print(toolBase.gameObject.name);
+        jointCheckController.LoadConfig(toolBase.config);
     }
-    //     void Start(){
-    //         foreach(string V in ToolTypes){
-    //             print(V);
-    //         }
-    //     }
-
 }

@@ -16,13 +16,12 @@ using UnityEngine.InputSystem.Interactions;
 public class HololensClient : MonoBehaviour
 {
     const string Host = "";
-    const short Port = 0;
+    const short Port = 12345;
     public static Client client;
     void Start(){
         client = new(Host, Port, updateThread);
     }
     public TextMeshProUGUI text = null;
-    public Vector3[] FingerPositions = new Vector3[5];
     TrackedHandJoint[] targetJoints = new TrackedHandJoint[5]{
         TrackedHandJoint.ThumbDistalJoint, TrackedHandJoint.IndexMiddleJoint, TrackedHandJoint.MiddleMiddleJoint, TrackedHandJoint.RingMiddleJoint, TrackedHandJoint.PinkyMiddleJoint
     };
@@ -48,6 +47,7 @@ public class HololensClient : MonoBehaviour
         if(message != null){
             client.WriteSocket(message);
         }
+        Thread.Sleep(1000);
     }
     Thread updateThread = new Thread(new ThreadStart(updatePositions));
 }
@@ -61,22 +61,6 @@ public class Client
     public string Host;
     private readonly int Port;
     Thread updateThread = null;
-    void ReadSocket_()
-    {
-        while (true)
-        {
-            if (!socketReady)
-            {
-                Debug.Log("Waiting...");
-            }
-            if (ns.DataAvailable)
-            {
-                ns.ReadTimeout = 10;
-                byte[] bytes = new byte[1024];
-                ns.Read(bytes, 0, 1024);
-            }
-        }
-    }
     void SetupSocket()
     {
         try
@@ -101,14 +85,9 @@ public class Client
         socket.Close();
         socketReady = false;
     }
-    public bool WriteSocket(byte[] bytes)
+    public void WriteSocket(byte[] bytes)
     {
-        if (socketReady)
-        {
-            ns.Write(bytes);
-            return true;
-        }
-        else return false;
+        if (socketReady) ns.Write(bytes);
     }
     public Client(string host = "127.0.0.1", int port = 12345, Thread thread = null)
     {
@@ -121,13 +100,12 @@ public class Client
 public class Encoder
 {
     public static byte[] JointPosBytes(Transform[] transforms){
-        List<byte> temp = new();
-        for(int i = 0; i < transforms.Length; i++){
-            if(transforms[i])
-            temp.AddRange(Encoding.UTF8.GetBytes(transforms[i].position.ToString("F4")));
-            else return null;
-        }
-        Debug.Log(temp.ToString());
-        return temp.ToArray();
+        if (transforms.Length != 5) return null;
+            List<byte> temp = new();
+            for (int i = 0; i < transforms.Length; i++)
+            {
+                temp.AddRange(Encoding.UTF8.GetBytes((transforms[i].position.ToString("F4") + ";").Replace("<", "").Replace(">", "")));
+            }
+            return temp.ToArray();
     }
 }

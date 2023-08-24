@@ -10,9 +10,20 @@ public class ToolGripConfigurator : ScriptableObject{
     public FingerConfig Ring = new();
     public FingerConfig Pinky = new();
     public float Scale = 1;
+    [LabelledArray(new string[]{
+        "Thumb", "Pointer", "Middle", "Ring", "Pinky"
+    })]
+    public FingerConfig[] FingerConfigs = {
+        new(), 
+        new(),
+        new(),
+        new(),
+        new(),
+        };
 }
 [Serializable]
 public struct FingerConfig{
     public bool Active;
-    public Vector3 targetPosition;
+    public Vector3 startPosition;
+    public Vector3 endPosition;
 }

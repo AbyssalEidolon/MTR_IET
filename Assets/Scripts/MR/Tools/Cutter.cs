@@ -15,9 +15,7 @@ public class Cutter : ToolBase
     // List<LineRenderer> FreeWires = new();
     GameObject oldLineObject => Pulley.i.Line.gameObject;
     LineRenderer oldLine => oldLineObject.GetComponent<LineRenderer>();
-    public override string ToolType() => "cutter";
     public bool DisableOldLine = false;
-    
     public override void Duplicate(ManipulationEventData eventData)
     {
         base.Duplicate(eventData);

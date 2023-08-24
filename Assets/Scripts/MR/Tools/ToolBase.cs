@@ -3,10 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using Microsoft.MixedReality.Toolkit.UI;
 using UnityEngine;
-public abstract class ToolBase : MonoBehaviour{
+public abstract partial class ToolBase : MonoBehaviour{
     public Transform Parent = null;
     public GameObject Dave = null;
-    public abstract string ToolType();
     void Awake(){
         Parent = transform.parent;
         if(!gameObject.GetComponent<Rigidbody>())

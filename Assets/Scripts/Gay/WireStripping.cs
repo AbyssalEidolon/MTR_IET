@@ -48,5 +48,4 @@ public class WireStripping : ToolBase
         }
     }
 
-    public override string ToolType() => "STRIPPER";
 }

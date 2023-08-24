@@ -1,176 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.0": {
-      "Assembly-CSharp/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Microsoft.MixedReality.Toolkit.Demos.Audio": "1.0.0",
-          "Microsoft.MixedReality.Toolkit.Demos.Gltf": "1.0.0",
-          "Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors": "1.0.0",
-          "Microsoft.MixedReality.Toolkit.Demos.InspectorFields": "1.0.0",
-          "Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors": "1.0.0",
-          "Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors": "1.0.0",
-          "Microsoft.MixedReality.Toolkit.Demos.UX.Interactables": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Assembly-CSharp.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Assembly-CSharp.dll": {}
-        }
-      },
-      "Microsoft.MixedReality.Toolkit.Demos.Audio/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Microsoft.MixedReality.Toolkit.Demos.Audio.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Microsoft.MixedReality.Toolkit.Demos.Audio.dll": {}
-        }
-      },
-      "Microsoft.MixedReality.Toolkit.Demos.Gltf/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Microsoft.MixedReality.Toolkit.Demos.Gltf.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Microsoft.MixedReality.Toolkit.Demos.Gltf.dll": {}
-        }
-      },
-      "Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Microsoft.MixedReality.Toolkit.Demos.Gltf": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.dll": {}
-        }
-      },
-      "Microsoft.MixedReality.Toolkit.Demos.InspectorFields/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Microsoft.MixedReality.Toolkit.Demos.InspectorFields.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Microsoft.MixedReality.Toolkit.Demos.InspectorFields.dll": {}
-        }
-      },
-      "Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Microsoft.MixedReality.Toolkit.Demos.InspectorFields": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.dll": {}
-        }
-      },
-      "Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.dll": {}
-        }
-      },
-      "Microsoft.MixedReality.Toolkit.Demos.UX.Interactables/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.dll": {}
-        }
-      }
-    }
+    ".NETStandard,Version=v2.0": {}
   },
-  "libraries": {
-    "Assembly-CSharp/1.0.0": {
-      "type": "project",
-      "path": "Assembly-CSharp.csproj",
-      "msbuildProject": "Assembly-CSharp.csproj"
-    },
-    "Microsoft.MixedReality.Toolkit.Demos.Audio/1.0.0": {
-      "type": "project",
-      "path": "Microsoft.MixedReality.Toolkit.Demos.Audio.csproj",
-      "msbuildProject": "Microsoft.MixedReality.Toolkit.Demos.Audio.csproj"
-    },
-    "Microsoft.MixedReality.Toolkit.Demos.Gltf/1.0.0": {
-      "type": "project",
-      "path": "Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj",
-      "msbuildProject": "Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
-    },
-    "Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors/1.0.0": {
-      "type": "project",
-      "path": "Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj",
-      "msbuildProject": "Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj"
-    },
-    "Microsoft.MixedReality.Toolkit.Demos.InspectorFields/1.0.0": {
-      "type": "project",
-      "path": "Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj",
-      "msbuildProject": "Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj"
-    },
-    "Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors/1.0.0": {
-      "type": "project",
-      "path": "Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj",
-      "msbuildProject": "Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj"
-    },
-    "Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors/1.0.0": {
-      "type": "project",
-      "path": "Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj",
-      "msbuildProject": "Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj"
-    },
-    "Microsoft.MixedReality.Toolkit.Demos.UX.Interactables/1.0.0": {
-      "type": "project",
-      "path": "Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj",
-      "msbuildProject": "Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.0": [
-      "Assembly-CSharp >= 1.0.0",
-      "Microsoft.MixedReality.Toolkit.Demos.Audio >= 1.0.0",
-      "Microsoft.MixedReality.Toolkit.Demos.Gltf >= 1.0.0",
-      "Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors >= 1.0.0",
-      "Microsoft.MixedReality.Toolkit.Demos.InspectorFields >= 1.0.0",
-      "Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors >= 1.0.0",
-      "Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors >= 1.0.0",
-      "Microsoft.MixedReality.Toolkit.Demos.UX.Interactables >= 1.0.0"
-    ]
+    ".NETStandard,Version=v2.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Assembly-CSharp-Editor.csproj",
-      "projectName": "Assembly-CSharp-Editor",
-      "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Assembly-CSharp-Editor.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
+      "projectUniqueName": "d:\\Storage\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj",
+      "projectName": "Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors",
+      "projectPath": "d:\\Storage\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "d:\\Storage\\IVE\\MTR-IET\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -184,32 +38,7 @@
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
-          "projectReferences": {
-            "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Assembly-CSharp.csproj": {
-              "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Assembly-CSharp.csproj"
-            },
-            "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj": {
-              "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj"
-            },
-            "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
-              "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
-            },
-            "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj": {
-              "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj"
-            },
-            "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj": {
-              "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj"
-            },
-            "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj": {
-              "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj"
-            },
-            "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj": {
-              "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj"
-            },
-            "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {
-              "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -232,7 +61,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
