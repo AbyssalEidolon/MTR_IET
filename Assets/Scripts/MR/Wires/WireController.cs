@@ -10,7 +10,7 @@ public class WireController : MonoBehaviour
     */
     float Scale => MRWireHandler.Scale;
     public bool Init = false;
-    public bool VertBasedUpdate = false;
+    public bool VertBasedUpdate = true;
     public LineRenderer[] StrippedSegs = new LineRenderer[2];
     public List<Vector3> Vertices = new() { };
     public float[] Margins = new float[2]{

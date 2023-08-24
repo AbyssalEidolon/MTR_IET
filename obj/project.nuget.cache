@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nvpaGGtlHhKxq2gwxfEnrNWSmoA/mzXlCxGmw0baCxSgmWTtarpvUXopc/Y4eEuojEyWiU+k6IVOBml8XN6pGQ==",
+  "dgSpecHash": "31o25XLqHEq1QekxCwM5ugnuBYOTyVv4MaIerT4+v0WNDpnXK96CfcEAktmsuksCSbCmTDTN/ktYDS3jwcvxDw==",
   "success": true,
-  "projectFilePath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Assembly-CSharp.csproj",
+  "projectFilePath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

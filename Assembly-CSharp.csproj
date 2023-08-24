@@ -78,6 +78,7 @@
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\ParticleHeatmapParticleData.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetPositioning\Scripts\GrabReleaseDetector.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\UserInputRecorder.cs" />
+    <Compile Include="Assets\Scripts\Utils\JSONLoader.cs" />
     <Compile Include="Assets\Scripts\MR\Button\SpawnWire.cs" />
     <Compile Include="Assets\Scripts\MR\Tools\ToolBase.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - SpatialAwareness\Scripts\ClearSpatialObservations.cs" />
@@ -121,6 +122,7 @@
     <Compile Include="Assets\Scripts\MR\SceneController.cs" />
     <Compile Include="Assets\Scripts\NonVR\ModeSwap.cs" />
     <Compile Include="Assets\Scripts\MR\Pulley\Pulley.cs" />
+    <Compile Include="Assets\Scripts\MR\EmiyaHasStrongArms\JointTriggerArea.cs" />
     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ProgressIndicator\Scripts\ProgressIndicatorDemoAsyncMethod.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Input\SpeechVisualFeedback.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\LeapCoreAssetsDetector.cs" />
@@ -197,8 +199,6 @@
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\OnLoadStartScene.cs" />
     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\HandInteractionTouchRotate.cs" />
     <Compile Include="Assets\Scripts\TestScripts\TestFollow.cs" />
-    <Compile Include="Assets\Scripts\MR\EmiyaHasStrongArms\JointTriggerArea.cs" />
-    <Compile Include="Assets\Scripts\Utils\JSONLoader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MRTK+\MRTK\Shaders\InstancedColored.shader" />
