@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
+using Microsoft.MixedReality.Toolkit.Utilities;
 using Unity.VisualScripting;
 using UnityEditor.SceneManagement;
 using UnityEngine;
@@ -22,7 +23,11 @@ public class HandInteractionController : MonoBehaviour
     string[] fingerNames = {"Thumb", "Pointer", "Middle", "Ring", "Pinky"};
     public bool DeployBuild = true;
     public bool PrintDebugMessages = true;
-    public JointCheckController jointCheckController = null;
+    JointCheckController jointCheckController = null;
+    public Color AreaColourActive = Color.white;
+    public readonly TrackedHandJoint[] targetJoints = {
+        TrackedHandJoint.ThumbDistalJoint, TrackedHandJoint.IndexMiddleJoint, TrackedHandJoint.MiddleMiddleJoint, TrackedHandJoint.RingMiddleJoint, TrackedHandJoint.PinkyMiddleJoint
+    };
     void Awake()
     {
 
@@ -32,11 +37,13 @@ public class HandInteractionController : MonoBehaviour
         if(!collider.isTrigger)Debug.LogError("Target Areas Have Not Been Set To Triggers!");
 
         jointCheckController = gameObject.AddComponent<JointCheckController>();
+        jointCheckController.targetAreaPrefab = TargetAreaPrefab;
         i = this;
         for (int i = 0; i < joints.Length; i ++)
         {
             GameObject joint = Instantiate(JointTrackingPrefab, transform);
             joints[i] = joint.AddComponent<Joint>();
+            joints[i].targetJoint = targetJoints[i];
             joints[i].controller = this;
             joints[i].name = fingerNames[i];
             if(DeployBuild)joint.SetActive(false);

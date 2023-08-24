@@ -1,16 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Net;
+﻿using System.Net;
 using System.Net.Sockets;
 using System.Numerics;
-using System.Runtime.CompilerServices;
 using System.Text;
-using System.Text.Json;
-using System.Text.Unicode;
-using System.Threading.Tasks;
-
+using Newtonsoft.Json;
 namespace TCPServer
 {
     public delegate void OnCMDRx<T>(T cmd);
@@ -22,7 +14,11 @@ namespace TCPServer
         public static Server? i;
         int port = 12345;
         TcpConnectedClient client;
-        JointData data;
+        public static JointData data;
+        string[] Figners =
+        {
+            "Thumb", "Pointer", "Mi9dddle", "Ring", "Pinky"
+        };
         public Server() {
             i = this;
             server = new(serverIP, port);
@@ -30,9 +26,8 @@ namespace TCPServer
             Console.WriteLine("Now accepting clients on " + serverIP.ToString() + ":" + port);
             server.BeginAcceptTcpClient(ConnectedClient, null);
             ReadInput();
-            TcpConnectedClient.OnUpdate += updateData;
         }
-        void updateData(JointData jointData) => data = jointData;
+        void updateData(JointData jointData) { data = jointData; }
         void ConnectedClient(IAsyncResult ar)
         {
             TcpClient tcpClient = server.EndAcceptTcpClient(ar);
@@ -76,8 +71,14 @@ namespace TCPServer
             if(FileName == null){
                 Console.WriteLine("Empty Filename. Returning.");
             }else{
-            string jsonString = "";
-            foreach(Vector3 finger in data.Fingers) Console.WriteLine(finger.ToString("F4"));
+                Dictionary<string, Vector3> FuckYou = new();
+                for (int i = 0; i < data.Fingers.Length; i++){
+                    Console.WriteLine(data.Fingers[i].ToString("F4"));
+                    FuckYou.Add(Figners[i], data.Fingers[i]);
+                };
+                string jsonString = JsonConvert.SerializeObject(FuckYou, Formatting.Indented);
+                
+            
             File.WriteAllText($"saved\\{FileName}.json", jsonString);
             ConsoleFree = true;
             }
@@ -123,6 +124,7 @@ namespace TCPServer
                     Fingers[i][ii] = float.Parse(splitToken[ii]);
                 }
             }
+            Server.data = this;
             if(Server.ConsoleFree){
             Console.Clear();
             Console.WriteLine(raw);

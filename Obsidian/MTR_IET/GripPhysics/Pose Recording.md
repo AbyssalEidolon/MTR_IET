@@ -1,0 +1,1 @@
+The HoloLens will utilise a TCP/IP server and client to record the specific locations of [targeted segments of certain fingers](..\..\MTR_IET\Assets\Scripts\Utils\Client.cs). 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GripPhysics/HandInteractionController.md",
+                "file": "GripPhysics/Pose Recording.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GripPhysics/HandInteractionController.md",
+                "file": "GripPhysics/Pose Recording.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GripPhysics/HandInteractionController.md",
+                "file": "GripPhysics/Pose Recording.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GripPhysics/HandInteractionController.md"
+                "file": "GripPhysics/Pose Recording.md"
               }
             }
           }
@@ -146,12 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "38651b747c14961f",
+  "active": "3343a0576dd36c60",
   "lastOpenFiles": [
-    "GripPhysics/JointTargetCheckers.md",
+    "GripPhysics/Pose Recording.md",
+    "().md",
+    "GripPhysics/Joint Checkers.md",
     "GripPhysics/HandInteractionController.md",
-    "Tools/Tool Grip Config.md",
     "GripPhysics/JointTargets.md",
+    "Tools/Tool Grip Config.md",
     "Tools",
     "Joint-Target-Checkers.md",
     "GripPhysics.meta",

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.MixedReality.Toolkit.Examples.Demos;
 using UnityEngine;
 
 public class Utils{
@@ -26,5 +27,12 @@ public class Utils{
             }
         }
         return vectors[index];
+    }
+    public static float NormalisedVectorCheck(Vector3 Start, Vector3 End, Vector3 Target){
+        Vector3 Dist = Target - Start;
+        Vector3 Start_End = End - Start;
+        float distSqr = Start_End.sqrMagnitude;
+        float d = Vector3.Dot(Dist, Start_End) / distSqr;
+        return d;
     }
 }

@@ -28,3 +28,5 @@ D:\Storage\IVE\MTR-IET\TCPServer\obj\Debug\net7.0\refint\TCPServer.dll
 D:\Storage\IVE\MTR-IET\TCPServer\obj\Debug\net7.0\TCPServer.pdb
 d:\Storage\IVE\MTR-IET\TCPServer\obj\Debug\net7.0\TCPServer.genruntimeconfig.cache
 d:\Storage\IVE\MTR-IET\TCPServer\obj\Debug\net7.0\ref\TCPServer.dll
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\bin\Debug\net7.0\Newtonsoft.Json.dll
+E:\Pacific\GithubShenanigans\MTR_IET\TCPServer\obj\Debug\net7.0\TCPServer.csproj.CopyComplete

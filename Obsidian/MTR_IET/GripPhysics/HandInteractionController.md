@@ -2,7 +2,7 @@ This should belong on a GameObject/Prefab along with the following:
 	Box Collider (Set to trigger)
 
 On start this script should:
-	Spawn all [[JointTargetCheckers]]
+	Spawn all [[Joint Checkers]]
 	::Spawn all [[JointTargets]]
 
 On anything entering it's trigger it should:

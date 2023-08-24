@@ -22,9 +22,7 @@ public class HololensClient : MonoBehaviour
         client = new(Host, Port, updateThread);
     }
     public TextMeshProUGUI text = null;
-    TrackedHandJoint[] targetJoints = new TrackedHandJoint[5]{
-        TrackedHandJoint.ThumbDistalJoint, TrackedHandJoint.IndexMiddleJoint, TrackedHandJoint.MiddleMiddleJoint, TrackedHandJoint.RingMiddleJoint, TrackedHandJoint.PinkyMiddleJoint
-    };
+    TrackedHandJoint[] targetJoints => HandInteractionController.i.targetJoints;
     Handedness curHand = Handedness.None;
     public static Transform[] targetJointTransforms = new Transform[5];
     IMixedRealityHandJointService jointService = CoreServices.GetInputSystemDataProvider<IMixedRealityHandJointService>();

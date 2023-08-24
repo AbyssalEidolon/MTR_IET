@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Storage\\IVE\\MTR-IET\\TCPServer\\TCPServer.csproj": {}
+    "E:\\Pacific\\GithubShenanigans\\MTR_IET\\TCPServer\\TCPServer.csproj": {}
   },
   "projects": {
-    "d:\\Storage\\IVE\\MTR-IET\\TCPServer\\TCPServer.csproj": {
+    "E:\\Pacific\\GithubShenanigans\\MTR_IET\\TCPServer\\TCPServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Storage\\IVE\\MTR-IET\\TCPServer\\TCPServer.csproj",
+        "projectUniqueName": "E:\\Pacific\\GithubShenanigans\\MTR_IET\\TCPServer\\TCPServer.csproj",
         "projectName": "TCPServer",
-        "projectPath": "d:\\Storage\\IVE\\MTR-IET\\TCPServer\\TCPServer.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "d:\\Storage\\IVE\\MTR-IET\\TCPServer\\obj\\",
+        "projectPath": "E:\\Pacific\\GithubShenanigans\\MTR_IET\\TCPServer\\TCPServer.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\Pacific\\GithubShenanigans\\MTR_IET\\TCPServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -43,6 +43,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -59,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 3de5ea01f29f01d48a09ac54afbc23c7, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -156,10 +156,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   JointTrackingPrefab: {fileID: 6008725616767527485, guid: d86e719bb3a85d140bb497119104bf45, type: 3}
-  TargetAreaPrefab: {fileID: 0}
+  TargetAreaPrefab: {fileID: 6008725616767527485, guid: f622e2d29316ebe45be65fb90c512d2c, type: 3}
   DeployBuild: 0
   PrintDebugMessages: 1
-  jointCheckController: {fileID: 0}
+  AreaColourActive: {r: 1, g: 1, b: 1, a: 1}
 --- !u!65 &1779916878
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -338,7 +338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca321981c4578f148b481d4c341fd02b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  config: {fileID: 0}
+  config: {fileID: 11400000, guid: a239b30bbd1686646aba9f5f0e1522ed, type: 2}
   Parent: {fileID: 0}
   Dave: {fileID: 0}
   SkinMargins: 0

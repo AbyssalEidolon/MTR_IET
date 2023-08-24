@@ -13,19 +13,20 @@ MonoBehaviour:
   m_Name: Cutter
   m_EditorClassIdentifier: 
   LeftHand: 0
-  Thumb:
-    Active: 0
-    targetPosition: {x: 0, y: 0, z: 0}
-  Pointer:
-    Active: 0
-    targetPosition: {x: 0, y: 0, z: 0}
-  Middle:
-    Active: 0
-    targetPosition: {x: 0, y: 0, z: 0}
-  Ring:
-    Active: 0
-    targetPosition: {x: 0, y: 0, z: 0}
-  Pinky:
-    Active: 0
-    targetPosition: {x: 0, y: 0, z: 0}
   Scale: 1
+  FingerConfigs:
+  - Active: 1
+    startPosition: {x: 0, y: 0, z: 0}
+    endPosition: {x: 0, y: 0, z: 0}
+  - Active: 1
+    startPosition: {x: 0, y: 0, z: 0}
+    endPosition: {x: 0, y: 0, z: 0}
+  - Active: 1
+    startPosition: {x: 0, y: 0, z: 0}
+    endPosition: {x: 0, y: 0, z: 0}
+  - Active: 1
+    startPosition: {x: 0, y: 0, z: 0}
+    endPosition: {x: 0, y: 0, z: 0}
+  - Active: 1
+    startPosition: {x: 0, y: 0, z: 0}
+    endPosition: {x: 0, y: 0, z: 0}

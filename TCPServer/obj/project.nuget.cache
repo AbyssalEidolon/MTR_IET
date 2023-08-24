@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wGWvGUgUMBhVUlrqXXvBK1y3i18QrQcL9PH+jKB79dig8FrHT4LOHtoGyZRu/PlVwdUANewql4q2bu3MTFJG6A==",
+  "dgSpecHash": "dsAMOyYBV9lL+IFkUqnPFeFKFvwUgXwlJX+1iakpq29zCX8j8PHR2pYCIJhy1AlELppNKYQ7XMnKFZi4EvbHhQ==",
   "success": true,
-  "projectFilePath": "d:\\Storage\\IVE\\MTR-IET\\TCPServer\\TCPServer.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\Pacific\\GithubShenanigans\\MTR_IET\\TCPServer\\TCPServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
