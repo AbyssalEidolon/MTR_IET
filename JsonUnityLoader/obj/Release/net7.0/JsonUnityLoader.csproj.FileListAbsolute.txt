@@ -1,0 +1,17 @@
+D:\Documents\IVE\MTR-IET\JsonUnityLoader\bin\Release\net7.0\JsonUnityLoader.exe
+D:\Documents\IVE\MTR-IET\JsonUnityLoader\bin\Release\net7.0\JsonUnityLoader.deps.json
+D:\Documents\IVE\MTR-IET\JsonUnityLoader\bin\Release\net7.0\JsonUnityLoader.runtimeconfig.json
+D:\Documents\IVE\MTR-IET\JsonUnityLoader\bin\Release\net7.0\JsonUnityLoader.dll
+D:\Documents\IVE\MTR-IET\JsonUnityLoader\bin\Release\net7.0\JsonUnityLoader.pdb
+D:\Documents\IVE\MTR-IET\JsonUnityLoader\bin\Release\net7.0\Newtonsoft.Json.dll
+D:\Documents\IVE\MTR-IET\JsonUnityLoader\obj\Release\net7.0\JsonUnityLoader.csproj.AssemblyReference.cache
+D:\Documents\IVE\MTR-IET\JsonUnityLoader\obj\Release\net7.0\JsonUnityLoader.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\IVE\MTR-IET\JsonUnityLoader\obj\Release\net7.0\JsonUnityLoader.AssemblyInfoInputs.cache
+D:\Documents\IVE\MTR-IET\JsonUnityLoader\obj\Release\net7.0\JsonUnityLoader.AssemblyInfo.cs
+D:\Documents\IVE\MTR-IET\JsonUnityLoader\obj\Release\net7.0\JsonUnityLoader.csproj.CoreCompileInputs.cache
+D:\Documents\IVE\MTR-IET\JsonUnityLoader\obj\Release\net7.0\JsonUnityLoader.csproj.CopyComplete
+D:\Documents\IVE\MTR-IET\JsonUnityLoader\obj\Release\net7.0\JsonUnityLoader.dll
+D:\Documents\IVE\MTR-IET\JsonUnityLoader\obj\Release\net7.0\refint\JsonUnityLoader.dll
+D:\Documents\IVE\MTR-IET\JsonUnityLoader\obj\Release\net7.0\JsonUnityLoader.pdb
+D:\Documents\IVE\MTR-IET\JsonUnityLoader\obj\Release\net7.0\JsonUnityLoader.genruntimeconfig.cache
+D:\Documents\IVE\MTR-IET\JsonUnityLoader\obj\Release\net7.0\ref\JsonUnityLoader.dll
