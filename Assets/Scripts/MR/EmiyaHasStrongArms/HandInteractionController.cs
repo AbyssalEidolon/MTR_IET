@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Threading;
 using Microsoft.MixedReality.Toolkit.Utilities;
 using Unity.VisualScripting;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 
 public class HandInteractionController : MonoBehaviour

@@ -8,7 +8,7 @@ public class LabelledArrayAttribute : PropertyAttribute
     public LabelledArrayAttribute(string[] names) { this.names = names; }
     public LabelledArrayAttribute(Type enumType) { names = Enum.GetNames(enumType); }
 }
-
+#if UNITY_EDITOR
 [CustomPropertyDrawer(typeof(LabelledArrayAttribute))]
 public class LabelledArrayDrawer : PropertyDrawer
 {
@@ -33,3 +33,4 @@ public class LabelledArrayDrawer : PropertyDrawer
         EditorGUI.EndProperty();
     }
 }
+#endif

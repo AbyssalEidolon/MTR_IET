@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/PCPG/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj": {}
+    "c:\\Users\\student\\Desktop\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj": {}
   },
   "projects": {
-    "/home/PCPG/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj": {
+    "c:\\Users\\student\\Desktop\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/PCPG/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj",
+        "projectUniqueName": "c:\\Users\\student\\Desktop\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj",
         "projectName": "Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors",
-        "projectPath": "/home/PCPG/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj",
-        "packagesPath": "/home/PCPG/.nuget/packages/",
-        "outputPath": "/home/PCPG/Documents/IVE/MTR-IET/obj/",
+        "projectPath": "c:\\Users\\student\\Desktop\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj",
+        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\student\\Desktop\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/PCPG/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,7 +54,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

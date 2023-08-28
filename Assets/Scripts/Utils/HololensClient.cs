@@ -14,14 +14,14 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem.Interactions;
 
-public class HololensClient : MonoBehaviour
+public class HololensClient : MonoBehaviour, IMixedRealitySourceStateHandler
 {
-    const string Host = "";
+    const string Host = "192.168.0.201";
     const short Port = 12345;
     static Client client;
-    bool Check = false;
     Transform[] defaults;
     void Start(){
+        CoreServices.InputSystem?.RegisterHandler<IMixedRealitySourceStateHandler>(this);
         defaults = new Transform[5]{ new GameObject().transform, new GameObject().transform, new GameObject().transform, new GameObject().transform, new GameObject().transform };
         targetJointTransforms = defaults;
         foreach(Transform transform in targetJointTransforms){
@@ -30,7 +30,9 @@ public class HololensClient : MonoBehaviour
         client = new(Host, Port, this);
         startCoroutine();
     }
-    public TextMeshProUGUI text = null;
+    public TextMeshProUGUI handPresent = null;
+    public TextMeshProUGUI[] figners = new TextMeshProUGUI[5];
+
     TrackedHandJoint[] targetJoints => HandInteractionController.i.targetJoints;
     Handedness curHand = Handedness.None;
     public static Transform[] targetJointTransforms;
@@ -39,8 +41,10 @@ public class HololensClient : MonoBehaviour
         IMixedRealityHand hand = eventData.Controller.Visualizer as IMixedRealityHand;
         if(hand != null){
             curHand = hand.ControllerHandedness;
+            handPresent.text = "True";
             updateTargetTransforms();
         }
+        handPresent.text = "False";
     }
     void updateTargetTransforms(){
         if(jointService != null){
@@ -49,6 +53,9 @@ public class HololensClient : MonoBehaviour
             }
         }
         else targetJointTransforms = defaults;
+        for(int i = 0; i < targetJointTransforms.Length; i++){
+            figners[i].text = targetJointTransforms[i].position.ToString("F4");
+        }
     }
     IEnumerator updatePositions(){
         byte[] message = Encoder.JointPosBytes(targetJointTransforms);
@@ -61,6 +68,7 @@ public class HololensClient : MonoBehaviour
     }
     public void startCoroutine() => StartCoroutine(updatePositions());
     public void stopCoroutine() => StopCoroutine(updatePositions());
+    public void OnSourceLost(SourceStateEventData eventData){}
 }
 public class Client
 {
