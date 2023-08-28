@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {}
+    "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {}
   },
   "projects": {
-    "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {
+    "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj",
+        "projectUniqueName": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj",
         "projectName": "Microsoft.MixedReality.Toolkit.Demos.UX.Interactables",
-        "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "d:\\Documents\\IVE\\MTR-IET\\obj\\",
+        "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -54,7 +54,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     }

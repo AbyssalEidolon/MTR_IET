@@ -1,0 +1,2 @@
+E:\Pacific\GithubShenanigans\MTR_IET\JsonUnityLoader\bin\Release\net7.0\publish\win-x86\JsonUnityLoader.pdb
+E:\Pacific\GithubShenanigans\MTR_IET\JsonUnityLoader\bin\Release\net7.0\publish\win-x86\JsonUnityLoader.exe

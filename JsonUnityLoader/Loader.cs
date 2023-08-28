@@ -42,7 +42,8 @@ public class Loader
 	
 	""";
     private const string Input = ".\\Input";
-	Vector3[] Start = new Vector3[5];
+    private const string Output = ".\\Output";
+    Vector3[] Start = new Vector3[5];
 	Vector3[] End = new Vector3[5];
 	string Name;
 	public Loader()
@@ -113,7 +114,7 @@ public class Loader
             }
         }
 		foreach(string token in tokens) Console.WriteLine(token);
-        StreamWriter file = File.CreateText(Path.Combine(Input, Name) + ".asset");
+        StreamWriter file = File.CreateText(Path.Combine(Output, Name) + ".asset");
         foreach (string token in tokens) file.WriteLine(token);
         file.Close();
 	}

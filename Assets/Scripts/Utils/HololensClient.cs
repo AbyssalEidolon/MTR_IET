@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Net.Sockets;
@@ -17,14 +18,22 @@ public class HololensClient : MonoBehaviour
 {
     const string Host = "";
     const short Port = 12345;
-    public static Client client;
+    static Client client;
+    bool Check = false;
+    Transform[] defaults;
     void Start(){
-        client = new(Host, Port, updateThread);
+        defaults = new Transform[5]{ new GameObject().transform, new GameObject().transform, new GameObject().transform, new GameObject().transform, new GameObject().transform };
+        targetJointTransforms = defaults;
+        foreach(Transform transform in targetJointTransforms){
+            transform.parent = this.transform;
+        }
+        client = new(Host, Port, this);
+        startCoroutine();
     }
     public TextMeshProUGUI text = null;
     TrackedHandJoint[] targetJoints => HandInteractionController.i.targetJoints;
     Handedness curHand = Handedness.None;
-    public static Transform[] targetJointTransforms = new Transform[5];
+    public static Transform[] targetJointTransforms;
     IMixedRealityHandJointService jointService = CoreServices.GetInputSystemDataProvider<IMixedRealityHandJointService>();
     public void OnSourceDetected(SourceStateEventData eventData){
         IMixedRealityHand hand = eventData.Controller.Visualizer as IMixedRealityHand;
@@ -39,18 +48,23 @@ public class HololensClient : MonoBehaviour
                 targetJointTransforms[i] = jointService.RequestJointTransform(targetJoints[i], curHand);
             }
         }
+        else targetJointTransforms = defaults;
     }
-    static void updatePositions(){
+    IEnumerator updatePositions(){
         byte[] message = Encoder.JointPosBytes(targetJointTransforms);
         if(message != null){
             client.WriteSocket(message);
+            Debug.Log("Update thread active.");
         }
-        Thread.Sleep(1000);
+        yield return new WaitForSeconds(1);
+        yield return updatePositions();
     }
-    Thread updateThread = new Thread(new ThreadStart(updatePositions));
+    public void startCoroutine() => StartCoroutine(updatePositions());
+    public void stopCoroutine() => StopCoroutine(updatePositions());
 }
 public class Client
 {
+    public HololensClient hololensClient;
     internal bool socketReady = false;
     TcpClient socket;
     NetworkStream ns;
@@ -58,7 +72,6 @@ public class Client
     StreamReader reader;
     public string Host;
     private readonly int Port;
-    Thread updateThread = null;
     void SetupSocket()
     {
         try
@@ -68,7 +81,7 @@ public class Client
             writer = new(ns);
             reader = new(ns);
             socketReady = true;
-            updateThread.Start();
+            // hololensClient.startCoroutine();
         }
         catch (Exception e)
         {
@@ -77,7 +90,7 @@ public class Client
     }
     void CloseSocket(){
         if(!socketReady) return;
-        updateThread.Abort();
+        hololensClient.stopCoroutine();
         writer.Close();
         reader.Close();
         socket.Close();
@@ -87,12 +100,12 @@ public class Client
     {
         if (socketReady) ns.Write(bytes);
     }
-    public Client(string host = "127.0.0.1", int port = 12345, Thread thread = null)
+    public Client(string host = "127.0.0.1", int port = 12345, HololensClient hololensClient = null)
     {
         this.Host = host;
         this.Port = port;
+        this.hololensClient = hololensClient;
         SetupSocket();
-        updateThread = thread;
     }
 }
 public class Encoder
@@ -102,7 +115,7 @@ public class Encoder
             List<byte> temp = new();
             for (int i = 0; i < transforms.Length; i++)
             {
-                temp.AddRange(Encoding.UTF8.GetBytes((transforms[i].position.ToString("F4") + ";").Replace("<", "").Replace(">", "")));
+                temp.AddRange(Encoding.UTF8.GetBytes((transforms[i].position.ToString("F4") + ";").Replace("(", "").Replace(")", "")));
             }
             return temp.ToArray();
     }
