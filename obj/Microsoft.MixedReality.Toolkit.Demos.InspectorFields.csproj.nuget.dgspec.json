@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Storage\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj": {}
+    "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj": {}
   },
   "projects": {
-    "d:\\Storage\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj": {
+    "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Storage\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj",
+        "projectUniqueName": "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj",
         "projectName": "Microsoft.MixedReality.Toolkit.Demos.InspectorFields",
-        "projectPath": "d:\\Storage\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj",
+        "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "d:\\Storage\\IVE\\MTR-IET\\obj\\",
+        "outputPath": "d:\\Documents\\IVE\\MTR-IET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,7 +54,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

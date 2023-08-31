@@ -61,6 +61,7 @@ namespace TCPServer
                         Snapshot();
                         continue;
                 }
+                else Thread.Sleep(1000);
             }
         }
         void Snapshot()

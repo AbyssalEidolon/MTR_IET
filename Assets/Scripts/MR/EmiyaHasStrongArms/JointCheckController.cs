@@ -17,11 +17,11 @@ public class JointCheckController : MonoBehaviour {
         for(int i = 0; i < CheckAreas.Length; i++){
             CheckAreas[i] = Instantiate(targetAreaPrefab, transform);
             JointTriggerArea TriggerArea = CheckAreas[i].AddComponent<JointTriggerArea>();
-            TriggerArea.targetJoint = HandInteractionController.i.targetJoints[i];
+            TriggerArea.targetJoint = HandInteractionController.targetJoints[i];
             TriggerArea.ActiveColour = HandInteractionController.i.AreaColourActive;
             TriggerArea.controller = this;
             TriggerArea.ID = i;
-            TriggerArea.name = HandInteractionController.i.targetJoints[i].ToString();
+            TriggerArea.name = HandInteractionController.targetJoints[i].ToString();
             triggerAreas[i] = TriggerArea;
             CheckAreas[i].SetActive(false);
             boxColliders[i] = CheckAreas[i].GetComponent<BoxCollider>();

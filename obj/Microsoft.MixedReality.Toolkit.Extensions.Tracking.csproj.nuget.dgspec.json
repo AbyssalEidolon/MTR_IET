@@ -1,0 +1,1036 @@
+{
+  "format": 1,
+  "restore": {
+    "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Extensions.Tracking.csproj": {}
+  },
+  "projects": {
+    "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Async.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Async.csproj",
+        "projectName": "Microsoft.MixedReality.Toolkit.Async",
+        "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Async.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "d:\\Documents\\IVE\\MTR-IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.csproj",
+        "projectName": "Microsoft.MixedReality.Toolkit",
+        "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "d:\\Documents\\IVE\\MTR-IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Async.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Async.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\Unity.XR.Management.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Unity.XR.Management.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.csproj",
+        "projectName": "Microsoft.MixedReality.Toolkit.Editor.ClassExtensions",
+        "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "d:\\Documents\\IVE\\MTR-IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.TestRunner.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.TestRunner.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj",
+        "projectName": "Microsoft.MixedReality.Toolkit.Editor.Utilities",
+        "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "d:\\Documents\\IVE\\MTR-IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\Unity.TextMeshPro.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Unity.TextMeshPro.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\Unity.TextMeshPro.Editor.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Unity.TextMeshPro.Editor.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\Unity.XR.Management.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Unity.XR.Management.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\Unity.XR.Management.Editor.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Unity.XR.Management.Editor.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.TestRunner.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.TestRunner.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Extensions.Tracking.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Extensions.Tracking.csproj",
+        "projectName": "Microsoft.MixedReality.Toolkit.Extensions.Tracking",
+        "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.Extensions.Tracking.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "d:\\Documents\\IVE\\MTR-IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Microsoft.MixedReality.Toolkit.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\Unity.XR.ARSubsystems.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Unity.XR.ARSubsystems.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Documents\\IVE\\MTR-IET\\Unity.InputSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Documents\\IVE\\MTR-IET\\Unity.InputSystem.csproj",
+        "projectName": "Unity.InputSystem",
+        "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Unity.InputSystem.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "d:\\Documents\\IVE\\MTR-IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Documents\\IVE\\MTR-IET\\Unity.Subsystem.Registration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Documents\\IVE\\MTR-IET\\Unity.Subsystem.Registration.csproj",
+        "projectName": "Unity.Subsystem.Registration",
+        "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Unity.Subsystem.Registration.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "d:\\Documents\\IVE\\MTR-IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Documents\\IVE\\MTR-IET\\Unity.TextMeshPro.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Documents\\IVE\\MTR-IET\\Unity.TextMeshPro.csproj",
+        "projectName": "Unity.TextMeshPro",
+        "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Unity.TextMeshPro.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "d:\\Documents\\IVE\\MTR-IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Documents\\IVE\\MTR-IET\\Unity.TextMeshPro.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Documents\\IVE\\MTR-IET\\Unity.TextMeshPro.Editor.csproj",
+        "projectName": "Unity.TextMeshPro.Editor",
+        "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Unity.TextMeshPro.Editor.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "d:\\Documents\\IVE\\MTR-IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "d:\\Documents\\IVE\\MTR-IET\\Unity.TextMeshPro.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Unity.TextMeshPro.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.TestRunner.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.TestRunner.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Documents\\IVE\\MTR-IET\\Unity.XR.ARSubsystems.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Documents\\IVE\\MTR-IET\\Unity.XR.ARSubsystems.csproj",
+        "projectName": "Unity.XR.ARSubsystems",
+        "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Unity.XR.ARSubsystems.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "d:\\Documents\\IVE\\MTR-IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "d:\\Documents\\IVE\\MTR-IET\\Unity.InputSystem.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Unity.InputSystem.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\Unity.Subsystem.Registration.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Unity.Subsystem.Registration.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Documents\\IVE\\MTR-IET\\Unity.XR.Management.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Documents\\IVE\\MTR-IET\\Unity.XR.Management.csproj",
+        "projectName": "Unity.XR.Management",
+        "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Unity.XR.Management.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "d:\\Documents\\IVE\\MTR-IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Documents\\IVE\\MTR-IET\\Unity.XR.Management.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Documents\\IVE\\MTR-IET\\Unity.XR.Management.Editor.csproj",
+        "projectName": "Unity.XR.Management.Editor",
+        "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Unity.XR.Management.Editor.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "d:\\Documents\\IVE\\MTR-IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "d:\\Documents\\IVE\\MTR-IET\\Unity.XR.Management.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\Unity.XR.Management.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.TestRunner.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.TestRunner.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.TestRunner.csproj",
+        "projectName": "UnityEditor.TestRunner",
+        "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.TestRunner.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "d:\\Documents\\IVE\\MTR-IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.TestRunner.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj",
+        "projectName": "UnityEditor.UI",
+        "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.UI.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "d:\\Documents\\IVE\\MTR-IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEditor.TestRunner.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.TestRunner.csproj"
+              },
+              "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj": {
+                "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.TestRunner.csproj",
+        "projectName": "UnityEngine.TestRunner",
+        "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.TestRunner.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "d:\\Documents\\IVE\\MTR-IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj",
+        "projectName": "UnityEngine.UI",
+        "projectPath": "d:\\Documents\\IVE\\MTR-IET\\UnityEngine.UI.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "d:\\Documents\\IVE\\MTR-IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

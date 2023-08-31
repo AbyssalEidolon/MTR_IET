@@ -1,0 +1,29 @@
+    // Transform[] defaults;
+// defaults = new Transform[5]{ new GameObject().transform, new GameObject().transform, new GameObject().transform, new GameObject().transform, new GameObject().transform };
+        // targetJointTransforms = defaults;
+        // foreach(Transform transform in targetJointTransforms){
+        //     transform.parent = this.transform;
+        // }
+        // startCoroutine();
+            // TrackedHandJoint[] targetJoints => HandInteractionController.i.targetJoints;
+            // IMixedRealityHandJointService jointService = CoreServices.GetInputSystemDataProvider<IMixedRealityHandJointService>();
+    // public void OnSourceDetected(SourceStateEventData eventData){
+    //     IMixedRealityHand hand = eventData.Controller.Visualizer as IMixedRealityHand;
+    //     if(hand != null){
+    //         curHand = hand.ControllerHandedness;
+    //         handPresent.text = "True";
+    //         updateTargetTransforms();
+    //     }
+    //     handPresent.text = "False";
+    // }
+    // void updateTargetTransforms(){
+    //     if(jointService != null){
+    //         for(int i = 0; i < targetJointTransforms.Length; i++){
+    //             targetJointTransforms[i] = jointService.RequestJointTransform(targetJoints[i], curHand);
+    //         }
+    //     }
+    //     else targetJointTransforms = defaults;
+    //     for(int i = 0; i < targetJointTransforms.Length; i++){
+    //         figners[i].text = targetJointTransforms[i].position.ToString("F4");
+    //     }
+    // }
