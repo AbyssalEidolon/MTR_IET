@@ -24,12 +24,14 @@ public class Poller : IMixedRealitySourceStateHandler
     {
         if (Hand != null)
         {
+            MixedRealityPose palm = new();
+            hand.TryGetJoint(TrackedHandJoint.Wrist, out palm);
             for (int i = 0; i < targetJoints.Length; i++)
             {
                 MixedRealityPose pose = new();
                 if (hand.TryGetJoint(targetJoints[i], out pose))
                 {
-                    Positions[i] = pose.Position;
+                    Positions[i] = pose.Position - palm.Position;
                 }
             }
 

@@ -1,51 +1,69 @@
 {
   "format": 1,
   "restore": {
-    "/d/Documents/IVE/MTR-IET/Assembly-CSharp.csproj": {}
+    "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Assembly-CSharp.csproj": {}
   },
   "projects": {
-    "/d/Documents/IVE/MTR-IET/Assembly-CSharp.csproj": {
+    "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Assembly-CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/d/Documents/IVE/MTR-IET/Assembly-CSharp.csproj",
+        "projectUniqueName": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Assembly-CSharp.csproj",
         "projectName": "Assembly-CSharp",
-        "projectPath": "/d/Documents/IVE/MTR-IET/Assembly-CSharp.csproj",
-        "packagesPath": "/home/PCPG/.nuget/packages/",
-        "outputPath": "/d/Documents/IVE/MTR-IET/obj/",
+        "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Assembly-CSharp.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/PCPG/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.Audio.csproj": {
-                "projectPath": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.Audio.csproj"
+              "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj": {
+                "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj"
               },
-              "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj": {
-                "projectPath": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj"
+              "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
+                "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
               },
-              "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
-                "projectPath": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
+              "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj": {
+                "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj"
               },
-              "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj": {
-                "projectPath": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj"
+              "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj": {
+                "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj"
               },
-              "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj": {
-                "projectPath": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj"
+              "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj": {
+                "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj"
               },
-              "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj": {
-                "projectPath": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj"
+              "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj": {
+                "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj"
               },
-              "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {
-                "projectPath": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj"
+              "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {
+                "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj"
+              },
+              "e:\\Pacific\\GithubShenanigans\\MTR_IET\\MRScripts.csproj": {
+                "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\MRScripts.csproj"
+              },
+              "e:\\Pacific\\GithubShenanigans\\MTR_IET\\NonVR.csproj": {
+                "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\NonVR.csproj"
+              },
+              "e:\\Pacific\\GithubShenanigans\\MTR_IET\\TestScripts.csproj": {
+                "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\TestScripts.csproj"
+              },
+              "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Utils.csproj": {
+                "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Utils.csproj"
               }
             }
           }
@@ -70,26 +88,32 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.Audio.csproj": {
+    "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.Audio.csproj",
+        "projectUniqueName": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj",
         "projectName": "Microsoft.MixedReality.Toolkit.Demos.Audio",
-        "projectPath": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.Audio.csproj",
-        "packagesPath": "/home/PCPG/.nuget/packages/",
-        "outputPath": "/d/Documents/IVE/MTR-IET/obj/",
+        "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/PCPG/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -118,78 +142,32 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj": {
+    "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj",
-        "projectName": "Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors",
-        "projectPath": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj",
-        "packagesPath": "/home/PCPG/.nuget/packages/",
-        "outputPath": "/d/Documents/IVE/MTR-IET/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/PCPG/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netstandard2.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
-            "projectReferences": {
-              "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
-                "projectPath": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj",
+        "projectUniqueName": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj",
         "projectName": "Microsoft.MixedReality.Toolkit.Demos.Gltf",
-        "projectPath": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj",
-        "packagesPath": "/home/PCPG/.nuget/packages/",
-        "outputPath": "/d/Documents/IVE/MTR-IET/obj/",
+        "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/PCPG/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -218,34 +196,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj": {
+    "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj",
-        "projectName": "Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors",
-        "projectPath": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj",
-        "packagesPath": "/home/PCPG/.nuget/packages/",
-        "outputPath": "/d/Documents/IVE/MTR-IET/obj/",
+        "projectUniqueName": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj",
+        "projectName": "Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors",
+        "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/PCPG/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj": {
-                "projectPath": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj"
+              "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
+                "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
               }
             }
           }
@@ -270,26 +254,32 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj": {
+    "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj",
+        "projectUniqueName": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj",
         "projectName": "Microsoft.MixedReality.Toolkit.Demos.InspectorFields",
-        "projectPath": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj",
-        "packagesPath": "/home/PCPG/.nuget/packages/",
-        "outputPath": "/d/Documents/IVE/MTR-IET/obj/",
+        "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/PCPG/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -318,26 +308,90 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj": {
+    "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj",
+        "projectUniqueName": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj",
+        "projectName": "Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors",
+        "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj": {
+                "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj",
         "projectName": "Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors",
-        "projectPath": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj",
-        "packagesPath": "/home/PCPG/.nuget/packages/",
-        "outputPath": "/d/Documents/IVE/MTR-IET/obj/",
+        "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/PCPG/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -366,26 +420,32 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {
+    "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj",
+        "projectUniqueName": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj",
         "projectName": "Microsoft.MixedReality.Toolkit.Demos.UX.Interactables",
-        "projectPath": "/d/Documents/IVE/MTR-IET/Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj",
-        "packagesPath": "/home/PCPG/.nuget/packages/",
-        "outputPath": "/d/Documents/IVE/MTR-IET/obj/",
+        "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/PCPG/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -414,7 +474,234 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "e:\\Pacific\\GithubShenanigans\\MTR_IET\\MRScripts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\MRScripts.csproj",
+        "projectName": "MRScripts",
+        "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\MRScripts.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {
+                "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj"
+              },
+              "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Utils.csproj": {
+                "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "e:\\Pacific\\GithubShenanigans\\MTR_IET\\NonVR.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\NonVR.csproj",
+        "projectName": "NonVR",
+        "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\NonVR.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "e:\\Pacific\\GithubShenanigans\\MTR_IET\\TestScripts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\TestScripts.csproj",
+        "projectName": "TestScripts",
+        "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\TestScripts.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Utils.csproj",
+        "projectName": "Utils",
+        "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Utils.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
+                "projectPath": "e:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     }

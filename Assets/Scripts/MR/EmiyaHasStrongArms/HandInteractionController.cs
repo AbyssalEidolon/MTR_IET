@@ -25,7 +25,7 @@ public class HandInteractionController : MonoBehaviour
     JointCheckController jointCheckController = null;
     public Color AreaColourActive = Color.white;
     public static readonly TrackedHandJoint[] targetJoints = {
-        TrackedHandJoint.ThumbDistalJoint, TrackedHandJoint.IndexMiddleJoint, TrackedHandJoint.MiddleMiddleJoint, TrackedHandJoint.RingMiddleJoint, TrackedHandJoint.PinkyMiddleJoint
+        TrackedHandJoint.ThumbProximalJoint, TrackedHandJoint.IndexDistalJoint, TrackedHandJoint.MiddleDistalJoint, TrackedHandJoint.RingDistalJoint, TrackedHandJoint.PinkyDistalJoint
     };
     void Awake()
     {
