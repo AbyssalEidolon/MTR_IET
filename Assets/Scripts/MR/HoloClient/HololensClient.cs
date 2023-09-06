@@ -41,6 +41,7 @@ public class HololensClient : MonoBehaviour
     void FixedUpdate()
     {
         poller.PollFingers();
+        print(poller.PalmRot.ToString("F4"));
         handPresent.text = poller.hand == null ? "Not Present" : poller.hand.ControllerHandedness == Handedness.Left ? "Left" : "Right";
         for (int i = 0; i < figners.Length; i++)
         {
@@ -50,7 +51,7 @@ public class HololensClient : MonoBehaviour
     IEnumerator updatePositions()
     {
         yield return new WaitForSeconds(0.1f);
-        byte[] message = Encoder.JointPosBytes(poller.FingerPos);
+        byte[] message = Encoder.JointPosBytes(poller.FingerPos, poller.PalmRot);
         if (message != null)
         {
             client.WriteSocket(message);

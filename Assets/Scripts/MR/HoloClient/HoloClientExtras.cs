@@ -13,7 +13,9 @@ public class Poller : IMixedRealitySourceStateHandler
 {
     TrackedHandJoint[] targetJoints => HandInteractionController.targetJoints;
     public Vector3[] FingerPos { get { return Positions; } }
+    public Quaternion PalmRot { get { return PalmRotation;}}
     Vector3[] Positions = Enumerable.Repeat(new Vector3(), 5).ToArray();
+    Quaternion PalmRotation = Quaternion.identity;
     public IMixedRealityHand hand { get { return Hand; } }
     IMixedRealityHand Hand = null;
     public void OnSourceDetected(SourceStateEventData eventData)
@@ -34,6 +36,9 @@ public class Poller : IMixedRealitySourceStateHandler
                     Positions[i] = pose.Position - palm.Position;
                 }
             }
+            if(hand.TryGetJoint(TrackedHandJoint.Palm, out palm)){
+                PalmRotation = palm.Rotation;
+            };
 
         }
     }
@@ -102,7 +107,7 @@ public class Encoder
         }
         return temp.ToArray();
     }
-    public static byte[] JointPosBytes(Vector3[] vectors)
+    public static List<byte> JointPosBytes(Vector3[] vectors)
     {
         if (vectors.Length != 5) return null;
         List<byte> temp = new();
@@ -110,6 +115,12 @@ public class Encoder
         {
             temp.AddRange(Encoding.UTF8.GetBytes((vectors[i].ToString("F4") + ";").Replace("(", "").Replace(")", "")));
         }
+        return temp;
+    }
+    public static byte[] JointPosBytes(Vector3[] vectors, Quaternion palmRotation)
+    {
+        List<byte> temp = JointPosBytes(vectors);
+        temp.AddRange(Encoding.UTF8.GetBytes((palmRotation.ToString("F4") + ";").Replace("(", "").Replace(")", "")));
         return temp.ToArray();
     }
 }

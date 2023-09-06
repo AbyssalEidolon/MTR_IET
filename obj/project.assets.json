@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj",
-      "projectName": "Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors",
-      "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj",
+      "projectUniqueName": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj",
+      "projectName": "Microsoft.MixedReality.Toolkit.Demos.Audio",
+      "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj",
       "packagesPath": "C:\\Users\\PCPG\\.nuget\\packages\\",
       "outputPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
       "projectStyle": "PackageReference",
