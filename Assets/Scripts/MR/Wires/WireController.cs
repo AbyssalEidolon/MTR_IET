@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Runtime;
 using UnityEngine;
 
 [RequireComponent(typeof(LineRenderer))]
@@ -40,8 +41,16 @@ public class WireController : MonoBehaviour
         {
             Vertices.Add(StrippedSegs[i].GetPosition(0));
         }
-        Vector3 midpoint = (Vertices[0] + Vertices[^1]) / 2f;
-        Vertices.Insert(1, midpoint);
+
+        //length between each sphere
+        Vector3 length = (Vertices[^1] - Vertices[^2]) / 10f;
+        //Vertices.Insert(1, Mid(Vertices[0], Vertices[^1]));
+        print(length);
+        //spawn sphere by that length
+        for(int i = 1; i < 10; i++){
+            Vertices.Insert(i, Vertices[0]+(length*i));
+        }
+
         foreach (Vector3 i in Vertices)
         {
             createsphere(i);
@@ -119,9 +128,18 @@ public class WireController : MonoBehaviour
         {
             Vertices[i] = spheres[i].transform.position;
         }
-        Vector3 dir = gay[0].transform.position - spheres[1].transform.position;
-        Vector3 projectdir = dir - Vector3.Project(dir, Vector3.forward);
-        projectdir = projectdir.normalized * 0.2475f;
-        gay[1].transform.position = projectdir;
+
+        if(gay.Count != 0){
+            Vector3 dir = gay[0].transform.position - spheres[1].transform.position;
+            Vector3 projectdir = dir - Vector3.Project(dir, Vector3.forward);
+            projectdir = projectdir.normalized * 0.2475f;
+            gay[1].transform.position = projectdir;
+        }
+    }
+
+    public Vector3 Mid(Vector3 a, Vector3 b)
+    {
+        Vector3 c = (a + b)/2;
+        return c;
     }
 }
