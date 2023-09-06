@@ -19,6 +19,8 @@ namespace TCPServer
         {
             "Thumb", "Pointer", "Mi9dddle", "Ring", "Pinky"
         };
+        string Palm = "Palm";
+        Vector4 Rotation;
         public Server() {
             i = this;
             server = new(serverIP, port);
@@ -72,14 +74,13 @@ namespace TCPServer
             if(FileName == null){
                 Console.WriteLine("Empty Filename. Returning.");
             }else{
-                Dictionary<string, Vector3> FuckYou = new();
+                Dictionary<string, object> FuckYou = new();
                 for (int i = 0; i < data.Fingers.Length; i++){
                     Console.WriteLine(data.Fingers[i].ToString("F4"));
                     FuckYou.Add(Figners[i], data.Fingers[i]);
                 };
+                FuckYou.Add(Palm, Rotation);
                 string jsonString = JsonConvert.SerializeObject(FuckYou, Formatting.Indented);
-                
-            
             File.WriteAllText($"saved\\{FileName}.json", jsonString);
             ConsoleFree = true;
             }
@@ -113,6 +114,7 @@ namespace TCPServer
     public class JointData
     {
         public Vector3[] Fingers = new Vector3[5];
+        public Vector4 Rotation;
         public JointData(byte[] bytes)
         {
             string raw = Encoding.UTF8.GetString(bytes);
@@ -124,6 +126,11 @@ namespace TCPServer
                 {
                     Fingers[i][ii] = float.Parse(splitToken[ii]);
                 }
+            }
+            string[] split = tokens[5].Split(",");
+            for(int i = 0; i < 4; i++)
+            {
+                Rotation[i] = float.Parse(split[i]);
             }
             Server.data = this;
             if(Server.ConsoleFree){

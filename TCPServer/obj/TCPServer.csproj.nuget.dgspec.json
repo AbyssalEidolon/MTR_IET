@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\IVE\\MTR-IET\\TCPServer\\TCPServer.csproj": {}
+    "D:\\Pacific\\GithubShenanigans\\MTR_IET\\TCPServer\\TCPServer.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\IVE\\MTR-IET\\TCPServer\\TCPServer.csproj": {
+    "D:\\Pacific\\GithubShenanigans\\MTR_IET\\TCPServer\\TCPServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\IVE\\MTR-IET\\TCPServer\\TCPServer.csproj",
+        "projectUniqueName": "D:\\Pacific\\GithubShenanigans\\MTR_IET\\TCPServer\\TCPServer.csproj",
         "projectName": "TCPServer",
-        "projectPath": "D:\\Documents\\IVE\\MTR-IET\\TCPServer\\TCPServer.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\IVE\\MTR-IET\\TCPServer\\obj\\",
+        "projectPath": "D:\\Pacific\\GithubShenanigans\\MTR_IET\\TCPServer\\TCPServer.csproj",
+        "packagesPath": "C:\\Users\\PCPG\\.nuget\\packages\\",
+        "outputPath": "D:\\Pacific\\GithubShenanigans\\MTR_IET\\TCPServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PCPG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

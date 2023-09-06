@@ -30,6 +30,7 @@ namespace TCPServer
             new Vector3(0, 0, 0),
             new Vector3(0, 0, 0)
         };
+        Vector4 Rotation = new();
         public TestClient(string host = "127.0.0.1", Int32 port = 12345)
         {
             this.Host = host;
@@ -45,7 +46,7 @@ namespace TCPServer
             TestClient client = i;
             while (true)
             {
-                byte[] message = Encoder.JointPosBytes(i.Vectors);
+                byte[] message = Encoder.JointPosBytes(i.Vectors, i.Rotation);
                 client.WriteMessage(message);
                 //i.vector3s[0][0]++;
                 Thread.Sleep(1000);
@@ -175,7 +176,7 @@ namespace TCPServer
     }
     public class Encoder
     {
-        public static byte[] JointPosBytes(Vector3[] vectors)
+        public static byte[] JointPosBytes(Vector3[] vectors, Vector4 Rotation)
         {
             if (vectors.Length != 5) return null;
             List<byte> temp = new();
@@ -183,6 +184,7 @@ namespace TCPServer
             {
                 temp.AddRange(Encoding.UTF8.GetBytes((vectors[i].ToString("F4") + ";").Replace("<", "").Replace(">", "")));
             }
+            temp.AddRange(Encoding.UTF8.GetBytes((Rotation.ToString("F4") + ";").Replace("<", "").Replace(">", "")));
             return temp.ToArray();
         }
     }
