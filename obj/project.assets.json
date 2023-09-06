@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.0": {}
+    ".NETStandard,Version=v2.0": {
+      "Microsoft.MixedReality.Toolkit.Demos.Gltf/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Microsoft.MixedReality.Toolkit.Demos.Gltf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Microsoft.MixedReality.Toolkit.Demos.Gltf.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Microsoft.MixedReality.Toolkit.Demos.Gltf/1.0.0": {
+      "type": "project",
+      "path": "Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj",
+      "msbuildProject": "Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.0": []
+    ".NETStandard,Version=v2.0": [
+      "Microsoft.MixedReality.Toolkit.Demos.Gltf >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\PCPG\\.nuget\\packages\\": {},
@@ -14,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj",
-      "projectName": "Microsoft.MixedReality.Toolkit.Demos.Audio",
-      "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj",
+      "projectUniqueName": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj",
+      "projectName": "Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors",
+      "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj",
       "packagesPath": "C:\\Users\\PCPG\\.nuget\\packages\\",
       "outputPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
       "projectStyle": "PackageReference",
@@ -38,7 +57,11 @@
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
+              "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

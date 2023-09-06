@@ -1179,7 +1179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   JointVisualiser: {fileID: 1283692440081040531, guid: d9b3933164cd66045b6424188ced6e00, type: 3}
-  Host: 
+  Host: 192.168.0.201
   VisualiseTargetJoints: 1
   handPresent: {fileID: 400998839}
   figners:
