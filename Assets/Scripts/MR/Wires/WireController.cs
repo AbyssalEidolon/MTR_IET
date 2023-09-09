@@ -21,7 +21,13 @@ public class WireController : MonoBehaviour
     public Material marginMat = null;
     public List<GameObject> spheres = new List<GameObject>();
     public GameObject Gsphere;
-    public List<GameObject> gay = new List<GameObject>();
+
+    //0 is the old sphere, 1 is the new sphere
+    public List<GameObject> theCircle = new List<GameObject>();
+    public List<GameObject> grap = new List<GameObject>();
+    public GameObject thePoint;
+
+    public float distanceSet;
 
     void Awake()
     {
@@ -55,6 +61,7 @@ public class WireController : MonoBehaviour
         {
             createsphere(i);
         }
+        distanceSet = Vector3.Distance(Vertices[0], Vertices[1]);
     }
     void FixedUpdate(){
         if (VertBasedUpdate) UpdateLine();
@@ -129,11 +136,28 @@ public class WireController : MonoBehaviour
             Vertices[i] = spheres[i].transform.position;
         }
 
-        if(gay.Count != 0){
-            Vector3 dir = gay[0].transform.position - spheres[1].transform.position;
+        if (grap.Count == 2)
+        {
+            //find there only one sphere between of that two grap sphere
+            int a = spheres.IndexOf(theCircle[1].gameObject);
+            int b = spheres.IndexOf(theCircle[3].gameObject);
+            int slength = a - b;
+            Debug.Log(a);
+            Debug.Log(b);
+            if (slength == 2 || slength == -2)
+            {
+                int c = (a + b) / 2;
+                print(c);
+                thePoint = spheres[c];
+            }
+        }
+
+        if (theCircle.Count == 4){
+            Vector3 dir = theCircle[2].transform.position - thePoint.transform.position;
             Vector3 projectdir = dir - Vector3.Project(dir, Vector3.forward);
-            projectdir = projectdir.normalized * 0.2475f;
-            gay[1].transform.position = projectdir;
+            //projectdir = projectdir.normalized * 0.2475f;
+            projectdir = projectdir.normalized * distanceSet;
+            theCircle[3].transform.position = projectdir;
         }
     }
 

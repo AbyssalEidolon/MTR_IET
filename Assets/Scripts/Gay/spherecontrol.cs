@@ -14,15 +14,20 @@ public class spherecontrol : MonoBehaviour
 
     public void grab()
     {
+        if(wireController.grap.Count <= 1)
+        {
+            wireController.grap.Add(this.gameObject);
+        }
         wiresphere = Instantiate(this.gameObject);
         replace(this.gameObject, wiresphere, wireController.spheres);
-        wireController.gay.Add(this.gameObject);
-        wireController.gay.Add(wiresphere);
+        wireController.theCircle.Add(this.gameObject);
+        wireController.theCircle.Add(wiresphere);
     }
     public void grabend()
     {
-        wireController.gay.Remove(this.gameObject);
-        wireController.gay.Remove(wiresphere);
+        wireController.theCircle.Remove(this.gameObject);
+        wireController.theCircle.Remove(wiresphere);
+        wireController.grap.Remove(this.gameObject);
         Destroy(this.gameObject);
     }
 
