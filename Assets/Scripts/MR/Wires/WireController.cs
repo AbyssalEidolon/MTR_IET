@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime;
+using Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking;
 using UnityEngine;
 
 [RequireComponent(typeof(LineRenderer))]
@@ -22,19 +23,16 @@ public class WireController : MonoBehaviour
     public Material marginMat = null;
     public List<GameObject> spheres = new List<GameObject>();
     public GameObject Gsphere;
-
-    //0!on, 1on, 2!on, 3on
-    public List<GameObject> theCircle = new List<GameObject>();
     //the sphere that grap rn
-    public List<GameObject> grap = new List<GameObject>();
+    public List<GameObject> grab = new List<GameObject>();
 
-    public bool update;
+    public bool updatesphere;
 
     public float distanceSet;
 
     void Awake()
     {
-        update = true;
+        updatesphere = true;
         print("WHAT");
         CheckParent();
         Self = this.GetComponent<LineRenderer>();
@@ -53,11 +51,11 @@ public class WireController : MonoBehaviour
             Vertices.Add(StrippedSegs[i].GetPosition(0));
         }
 
-        float CC = 9;
+        float num = 14;
 
-        for (int i = 1; i < CC; i++)
+        for (int i = 1; i < num; i++)
         {
-            float t = i*(1/CC);
+            float t = i*(1/num);
             print(t);
             Vector3 spawnPos = Vector3.Lerp(Vertices[0], Vertices[^1], t);
             Vertices.Insert(i, spawnPos);
@@ -135,7 +133,7 @@ public class WireController : MonoBehaviour
 
     public void Update()
     {
-        if (update)
+        if (updatesphere)
         {
             for (int i = 0; i < Vertices.Count; i++)
             {
@@ -143,13 +141,26 @@ public class WireController : MonoBehaviour
             }
         }
 
-        //if (theCircle.Count == 4)
-        //{
-        //    Vector3 dir = theCircle[2].transform.position - thePoint.transform.position;
-        //    Vector3 projectdir = dir - Vector3.Project(dir, Vector3.forward);
-        //    //projectdir = projectdir.normalized * 0.2475f;
-        //    projectdir = projectdir.normalized * distanceSet;
-        //    theCircle[3].transform.position = projectdir;
-        //}
+        if(grab.Count == 1){
+            for(int i = 0; i < spheres.Count;i++){
+                spheres[i].transform.SetParent(grab[0].transform,true);
+            }
+        }else if (grab.Count == 2){
+            // for(int i = 0; i < spheres.Count;i++){
+            //     spheres[i].transform.SetParent(this.gameObject.transform,true);
+            // }
+            float distanceMax = Vector3.Distance(spheres[0].transform.position,spheres[^1].transform.position);
+            bool head = Vector3.Distance(grab[1].transform.position, spheres[0].transform.position) < distanceMax;
+            bool tail = Vector3.Distance(grab[1].transform.position, spheres[^1].transform.position) < distanceMax;
+            if(head){
+                for(int i = 0; i < spheres.IndexOf(grab[0].gameObject);i++){
+                    spheres[i].transform.SetParent(grab[1].transform,true);
+                }
+            }else if(tail){
+                for(int i = 0; i > spheres.IndexOf(grab[0].gameObject);i++){
+                    spheres[i].transform.SetParent(grab[1].transform,true);
+                }
+            }
+        }
     }
 }
