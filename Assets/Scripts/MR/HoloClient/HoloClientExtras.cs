@@ -36,7 +36,7 @@ public class Poller : IMixedRealitySourceStateHandler
                     Positions[i] = pose.Position - palm.Position;
                 }
             }
-            if(hand.TryGetJoint(TrackedHandJoint.Palm, out palm)){
+            if(hand.TryGetJoint(TrackedHandJoint.Wrist, out palm)){
                 PalmRotation = palm.Rotation;
             };
 

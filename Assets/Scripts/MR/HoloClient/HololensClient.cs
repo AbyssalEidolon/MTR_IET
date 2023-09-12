@@ -10,6 +10,7 @@ public class HololensClient : MonoBehaviour
 {
     public GameObject JointVisualiser = null;
     GameObject[] jointVisualisers = new GameObject[5];
+    GameObject PalmRotVisualiser;
     public string Host = "192.168.0.201";
     const short Port = 12345;
     static Client client;
@@ -34,6 +35,9 @@ public class HololensClient : MonoBehaviour
                 visualiser.ind = i;
                 visualiser.poller = poller;
             }
+            PalmRotVisualiser = GameObject.CreatePrimitive(PrimitiveType.Capsule);
+            PalmRotVisualiser.transform.localScale = new(0.1f, 0.1f, 0.1f);
+            PalmRotVisualiser.AddComponent<PalmRotVisualiser>().poller = poller;
         }
     }
     public TextMeshProUGUI handPresent = null;
