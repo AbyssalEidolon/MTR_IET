@@ -377,9 +377,10 @@ MonoBehaviour:
   marginMat: {fileID: 2100000, guid: 9d63bd64cd8bdc9429ccf521c3070d71, type: 2}
   spheres: []
   Gsphere: {fileID: 5645411561190648555, guid: 999fb5b89f5522e409a3ed6beaac4ff1, type: 3}
-  projectSphere: {fileID: 38561549}
-  cursor: {fileID: 0}
-  cube: {fileID: 1384222394}
+  theCircle: []
+  grap: []
+  thePoint: {fileID: 0}
+  distanceSet: 0
 --- !u!1 &1054050404
 GameObject:
   m_ObjectHideFlags: 0
