@@ -20,7 +20,6 @@ namespace TCPServer
             "Thumb", "Pointer", "Mi9dddle", "Ring", "Pinky"
         };
         string Palm = "Palm";
-        Vector4 Rotation;
         public Server() {
             i = this;
             server = new(serverIP, port);
@@ -28,6 +27,10 @@ namespace TCPServer
             Console.WriteLine("Now accepting clients on " + serverIP.ToString() + ":" + port);
             server.BeginAcceptTcpClient(ConnectedClient, null);
             ReadInput();
+        }
+        void EnsureDirectory()
+        {
+            if (!Path.Exists("saved") )Directory.CreateDirectory("saved");
         }
         void updateData(JointData jointData) { data = jointData; }
         void ConnectedClient(IAsyncResult ar)
@@ -79,7 +82,7 @@ namespace TCPServer
                     Console.WriteLine(data.Fingers[i].ToString("F4"));
                     FuckYou.Add(Figners[i], data.Fingers[i]);
                 };
-                FuckYou.Add(Palm, Rotation);
+                FuckYou.Add(Palm, data.Rotation);
                 string jsonString = JsonConvert.SerializeObject(FuckYou, Formatting.Indented);
             File.WriteAllText($"saved\\{FileName}.json", jsonString);
             ConsoleFree = true;
