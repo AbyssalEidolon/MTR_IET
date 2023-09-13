@@ -6,13 +6,18 @@ using UnityEngine.UI;
 public class autoscoll : MonoBehaviour
 {
     public float scrollSpeed = 10.0f;
-
-    private RectTransform panelRectTransform;
-
+    Vector3 defaultPosition = new Vector3(0, 196, 0);
+    public RectTransform panelRectTransform;
+    private void OnEnable()
+    {
+        panelRectTransform.anchoredPosition = defaultPosition;
+    }
     void Start()
     {
         panelRectTransform = GetComponent<RectTransform>();
+        
     }
+    
 
     void Update()
     {

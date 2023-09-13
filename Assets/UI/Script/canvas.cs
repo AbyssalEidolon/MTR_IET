@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,16 +7,21 @@ using UnityEngine.UI;
 
 public class canvas : MonoBehaviour
 {
-    public Canvas[] CanVas = new Canvas[13];
+    public Canvas[] CanVas = new Canvas[11];
     int index = 0;
+    
+
     public void Next()
     {
         index ++;
+        Debug.Log(index);
         foreach (Canvas CanVAs in CanVas)
         {
             CanVAs.gameObject.SetActive(false);
+            ;
         }
         CanVas[index].gameObject.SetActive(true);
+        
     }
     public void Previous()
     {
@@ -31,9 +37,11 @@ public class canvas : MonoBehaviour
         foreach (Canvas CanVas in CanVas)
         {
             CanVas.gameObject.SetActive(false);
-            index=12;
+            index = 10;
+            
         }
-        CanVas[12].gameObject.SetActive(true);
+        CanVas[10].gameObject.SetActive(true);
+        
     }
 
     public void home(int i)
@@ -47,7 +55,7 @@ public class canvas : MonoBehaviour
     }
     private void Update()
     {
-        Debug.Log(index);
+        //Debug.Log(index);
     }
 }
 

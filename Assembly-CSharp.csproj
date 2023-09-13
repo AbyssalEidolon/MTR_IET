@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{09859FA7-3AF1-8EEC-68AB-CFD3222F4EC1}</ProjectGuid>
+    <ProjectGuid>{a79f8509-f13a-ec8e-68ab-cfd3222f4ec1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -21,17 +21,8 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2021_3_27;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_WINRT;TEXTCORE_1_0_OR_NEWER;PLATFORM_METRO;UNITY_METRO;UNITY_METRO_API;UNITY_WSA;UNITY_WSA_10_0;UNITY_WINRT_10_0;UNITY_WINRT;ENABLE_MOVIES;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_NETWORK;UNITY_PLATFORM_THREAD_TO_CORE_MAPPING;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;CURL_STATICLIB;PLATFORM_OVERRIDES_APPLICATION_PACKAGE_NAME;PLATFORM_IMPLEMENTS_ATTACH_DIALOG;DISABLE_PLUGIN_LOAD_WRAPPER;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;release;USE_INPUT_SYSTEM_POSE_CONTROL;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>Temp\bin\Release\</OutputPath>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2021_2_11;UNITY_2021_2;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_WINRT;TEXTCORE_1_0_OR_NEWER;PLATFORM_METRO;UNITY_METRO;UNITY_METRO_API;UNITY_WSA;UNITY_WSA_10_0;UNITY_WINRT_10_0;UNITY_WINRT;ENABLE_MOVIES;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_NETWORK;UNITY_PLATFORM_THREAD_TO_CORE_MAPPING;PLATFORM_SUPPORTS_ADS_ID;CURL_STATICLIB;PLATFORM_OVERRIDES_APPLICATION_PACKAGE_NAME;PLATFORM_IMPLEMENTS_ATTACH_DIALOG;DISABLE_PLUGIN_LOAD_WRAPPER;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;release;USE_INPUT_SYSTEM_POSE_CONTROL;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -44,1361 +35,1232 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
-  <PropertyGroup>
-    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.18</UnityProjectGeneratorVersion>
-    <UnityProjectType>Game:1</UnityProjectType>
-    <UnityBuildTarget>WSAPlayer:21</UnityBuildTarget>
-    <UnityVersion>2021.3.27f1</UnityVersion>
-  </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="D:\Visual Studio\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Experimental - Joystick\JoystickSliders.cs" />
-    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ProgressIndicator\Scripts\ProgressIndicatorDemoAnimation.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetSelections\Scripts\RotateWithConstSpeedDir.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoScrollPanZoom\Scripts\BaseClasses\PanZoomBaseRectTransf.cs" />
-    <Compile Include="Assets\Scripts\MR\Cutter.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Utils\DoNotRender.cs" />
-    <Compile Include="Assets\Scripts\CableMould.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetPositioning\Scripts\TransportToRespawnLocation.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Utils\EyeCalibrationChecker.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoBasicSetup\Scripts\FollowEyeGazeGazeProvider.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Input\Scenes\DisablePointers\DisablePointersExample.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Utils\Utils.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\HandInteractionTouch.cs" />
-    <Compile Include="Assets\Scripts\WireConstraints.cs" />
-    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ObjectManipulator\Scripts\ReturnToBounds.cs" />
-    <Compile Include="Assets\Scripts\CableController.cs" />
-    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\BoundingBox\Scripts\BoundingBoxExampleTest.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Utilities\Scripts\MixedRealityCapabilityDemo.cs" />
-    <Compile Include="Assets\Scripts\NonVR\Drag.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoScrollPanZoom\Scripts\BaseClasses\PanZoomBase.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\AudioFeedbackPlayer.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoBasicSetup\Scripts\ColorTap.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\ParticleHeatmapParticleData.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetPositioning\Scripts\GrabReleaseDetector.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\UserInputRecorder.cs" />
-    <Compile Include="Assets\Scripts\MR\ToolBase.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - SpatialAwareness\Scripts\ClearSpatialObservations.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Input\Scenes\InputActions\Rotator.cs" />
-    <Compile Include="Assets\UI\Script\autoscoll.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Solvers\Scripts\SolverExampleManager.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\BlendOut.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\UserInputPlayback.cs" />
-    <Compile Include="Assets\Scripts\MR\LineManipulator.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\DebugTextOutput.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - ScrollingObjectCollection\Scripts\ScrollableListPopulator.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Utils\ChangeRenderMode.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - PulseShader\Scripts\HideOnDevice.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\RotateWithPan.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetPositioning\Scripts\SnapTo.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\LeapMotionOrientationDisplay.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Solvers\Scripts\HideTapToPlaceLabel.cs" />
-    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\BoundsControl\Scripts\BoundsControlRuntimeExample.cs" />
-    <Compile Include="Assets\Scripts\NonVR\CutIndicator.cs" />
-    <Compile Include="Assets\Scripts\TestScripts\CutterTest.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetSelections\Scripts\TargetGroupIterator.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\GrabTouchExample.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\SolverTrackedTargetType.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - ScrollingObjectCollection\Scripts\ScrollablePagination.cs" />
-    <Compile Include="Assets\Scripts\TestScripts\ResetPos.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Input\Scenes\PrimaryPointer\PrimaryPointerHandlerExample.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetPositioning\Scripts\TriggerZonePlaceObjsWithin.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Targeting\DwellSelection.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\MoveWithCamera.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\LoadAdditiveScene.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetSelections\Scripts\TargetGroupCreatorRadial.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\LogStructure.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\CustomInputLogger.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoScrollPanZoom\Scripts\ScrollTexture.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\InputPointerVisualizer.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoScrollPanZoom\Scripts\PanZoomTexture.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Boundary\Scripts\BoundaryVisualizationDemo.cs" />
-    <Compile Include="Assets\Scripts\MR\SceneController.cs" />
-    <Compile Include="Assets\Scripts\NonVR\ModeSwap.cs" />
-    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ProgressIndicator\Scripts\ProgressIndicatorDemoAsyncMethod.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Input\SpeechVisualFeedback.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\LeapCoreAssetsDetector.cs" />
-    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\Dialog\Scripts\DialogExampleController.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Input\Scenes\PointerResult\SpawnOnPointerEvent.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetSelections\Scripts\ToggleGameObject.cs" />
-    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\Collections\Scripts\GridObjectLayoutControl.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Experimental - Elastic\Scripts\WidgetElasticDemo.cs" />
-    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\Dwell\BaseDwellSample.cs" />
-    <Compile Include="Assets\Scripts\TestScripts\ColliderTest.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\TetheredPlacement.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - ReadingMode\Scripts\ReadingModeSceneBehavior.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\KeepFacingCamera.cs" />
-    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ProgressIndicator\Scripts\IProgressIndicatorDemoObject.cs" />
-    <Compile Include="Assets\Scripts\TestScripts\SpawnCube.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\ParticleHeatmap.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\DrawOnTexture.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\SystemKeyboardExample.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\ToggleBoundingBox.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoScrollPanZoom\Scripts\BaseClasses\PanZoomBaseTexture.cs" />
-    <Compile Include="Assets\Scripts\NonVR\CableNonVR.cs" />
-    <Compile Include="Assets\Scripts\NonVR\SkinIndicator.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Utils\KeepThisAlive.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Targeting\TargetEventArgs.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoScrollPanZoom\Scripts\ScrollRectTransf.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoScrollPanZoom\Scripts\TargetMoveToCamera.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\LogStructureEyeGaze.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\GestureTester.cs" />
-    <Compile Include="Assets\Scripts\TestScripts\Rotation.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Experimental - NonNativeKeyboard\Scripts\KeyboardTest.cs" />
-    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ManipulationHandler\Scripts\ChangeManipulation.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\FollowEyeGaze.cs" />
-    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\Dwell\InstantDwellSample.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Experimental - SceneUnderstanding\Scripts\DemoSceneUnderstandingController.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\OnSelectVisualizerInputController.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\FaceUser.cs" />
-    <Compile Include="Assets\Scripts\NonVR\CableMove.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Input\Scenes\InputData\InputDataExampleGizmo.cs" />
-    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ProgressIndicator\Scripts\ProgressIndicatorDemo.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\UserInputRecorderFeedback.cs" />
-    <Compile Include="Assets\Scripts\FaceCamera.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\BasicInputLogger.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Input\Scenes\InputData\InputDataExample.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - SpatialAwareness\Scripts\ShowPlaneFindingInstructions.cs" />
-    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\Dwell\ToggleDwellSample.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Utils\StatusText.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\ChangeSize.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoScrollPanZoom\Scripts\PanZoomRectTransf.cs" />
-    <Compile Include="Assets\Scripts\MR\MRWireHandler.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\UserInputRecorderUIController.cs" />
-    <Compile Include="Assets\Scripts\TestScripts\CTestSubset.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\AsyncHelpers.cs" />
-    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\Slider\Scripts\SliderLunarLander.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\LaunchUri.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\OnLookAtShowHoverFeedback.cs" />
-    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ProgressIndicator\Scripts\ProgressIndicatorDemoSceneLoad.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetPositioning\Scripts\MoveObjByEyeGaze.cs" />
-    <Compile Include="Assets\UI\Script\canvas.cs" />
-    <Compile Include="Assets\Scripts\TestScripts\CTest.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetSelections\Scripts\HitBehaviorDestroyOnSelect.cs" />
-    <Compile Include="Assets\Scripts\NonVR\CutToggle.cs" />
-    <Compile Include="Assets\Scripts\WireStripping.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\OnLookAtRotateByEyeGaze.cs" />
-    <Compile Include="Assets\UI\Script\buttononclick.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\DemoTouchButton.cs" />
-    <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\Dwell\ListItemDwell.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\OnLoadStartScene.cs" />
-    <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\HandInteractionTouchRotate.cs" />
-    <Compile Include="Assets\Scripts\TestScripts\TestFollow.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\MRTK+\MRTK\Shaders\InstancedColored.shader" />
-    <None Include="Assets\Unity\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\MRTK+\MRTK\Shaders\MixedRealityStandard.shader" />
-    <None Include="Assets\MRTK\Shaders\Text3DShader.shader" />
-    <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\MRTK\Shaders\InstancedColored.shader" />
-    <None Include="Assets\MRTK\Shaders\MixedRealityTextMeshProSprite.shader" />
-    <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\MRTK\Shaders\ChannelPacker.shader" />
-    <None Include="Assets\MRTK+\MRTK\Shaders\MixedRealityTextMeshPro.shader" />
-    <None Include="Assets\Unity\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-    <None Include="Assets\MRTK+\MRTK\Shaders\DepthBufferPostProcess.shader" />
-    <None Include="Assets\MRTK+\MRTK\Shaders\Text3DShader.shader" />
-    <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\MRTK\Shaders\InvisibleShader.shader" />
-    <None Include="Assets\MRTK+\MRTK\Shaders\MixedRealityShaderUtils.cginc" />
-    <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\Stencils\Object.shader" />
-    <None Include="Assets\MRTK\MRTK\MixedRealityTextMeshProSprite.shader" />
-    <None Include="Assets\MRTK+\MRTK\Shaders\MixedRealityTextMeshProSprite.shader" />
-    <None Include="Assets\MRTK+\MRTK\Shaders\ChannelPacker.shader" />
-    <None Include="Assets\MRTK\MRTK\MixedRealityTextMeshPro.shader" />
-    <None Include="Assets\MRTK\MRTK\DepthBufferPostProcess.shader" />
-    <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\Unity\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets\Unity\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\Unity\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\Stencils\Mask.shader" />
-    <None Include="Assets\MRTK\MRTK\MRTK_Wireframe.shader" />
-    <None Include="Assets\MRTK+\MRTK\Shaders\MRTK_Wireframe.shader" />
-    <None Include="Assets\Unity\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\MRTK\MRTK\Text3DShader.shader" />
-    <None Include="Assets\MRTK+\MixedRealityToolkit.Generated\link.xml" />
-    <None Include="Assets\Unity\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\MRTK\MRTK\MixedRealityShaderUtils.cginc" />
-    <None Include="Assets\MRTK\Shaders\MixedRealityStandard.shader" />
-    <None Include="Assets\MRTK\MRTK\ChannelPacker.shader" />
-    <None Include="Assets\MRTK\Shaders\MixedRealityTextMeshPro.shader" />
-    <None Include="Assets\MRTK\Shaders\MRTK_Wireframe.shader" />
-    <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\MRTK\MRTK\InvisibleShader.shader" />
-    <None Include="Assets\MRTK\MRTK\MixedRealityStandard.shader" />
-    <None Include="Assets\MRTK\MRTK\InstancedColored.shader" />
-    <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\MRTK+\MRTK\Shaders\InvisibleShader.shader" />
-    <None Include="Assets\Unity\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\MRTK\Shaders\DepthBufferPostProcess.shader" />
-    <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-    <None Include="Assets\MRTK\Shaders\MixedRealityShaderUtils.cginc" />
-    <None Include="Assets\MRTK\MixedRealityToolkit.Generated\link.xml" />
-  </ItemGroup>
-  <ItemGroup>
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Experimental - Joystick\JoystickSliders.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ProgressIndicator\Scripts\ProgressIndicatorDemoAnimation.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetSelections\Scripts\RotateWithConstSpeedDir.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoScrollPanZoom\Scripts\BaseClasses\PanZoomBaseRectTransf.cs" />
+     <Compile Include="Assets\Scripts\MR\Cutter.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Utils\DoNotRender.cs" />
+     <Compile Include="Assets\Scripts\CableMould.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetPositioning\Scripts\TransportToRespawnLocation.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Utils\EyeCalibrationChecker.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoBasicSetup\Scripts\FollowEyeGazeGazeProvider.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Input\Scenes\DisablePointers\DisablePointersExample.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Utils\Utils.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\HandInteractionTouch.cs" />
+     <Compile Include="Assets\Scripts\WireConstraints.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ObjectManipulator\Scripts\ReturnToBounds.cs" />
+     <Compile Include="Assets\Scripts\CableController.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\BoundingBox\Scripts\BoundingBoxExampleTest.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Utilities\Scripts\MixedRealityCapabilityDemo.cs" />
+     <Compile Include="Assets\Scripts\NonVR\Drag.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoScrollPanZoom\Scripts\BaseClasses\PanZoomBase.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\AudioFeedbackPlayer.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoBasicSetup\Scripts\ColorTap.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\ParticleHeatmapParticleData.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetPositioning\Scripts\GrabReleaseDetector.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\UserInputRecorder.cs" />
+     <Compile Include="Assets\Scripts\MR\ToolBase.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - SpatialAwareness\Scripts\ClearSpatialObservations.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Input\Scenes\InputActions\Rotator.cs" />
+     <Compile Include="Assets\UI\Script\autoscoll.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Solvers\Scripts\SolverExampleManager.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\BlendOut.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\UserInputPlayback.cs" />
+     <Compile Include="Assets\Scripts\MR\LineManipulator.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\DebugTextOutput.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - ScrollingObjectCollection\Scripts\ScrollableListPopulator.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Utils\ChangeRenderMode.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - PulseShader\Scripts\HideOnDevice.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\RotateWithPan.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetPositioning\Scripts\SnapTo.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\LeapMotionOrientationDisplay.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Solvers\Scripts\HideTapToPlaceLabel.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\BoundsControl\Scripts\BoundsControlRuntimeExample.cs" />
+     <Compile Include="Assets\Scripts\NonVR\CutIndicator.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\CutterTest.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetSelections\Scripts\TargetGroupIterator.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\GrabTouchExample.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\SolverTrackedTargetType.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - ScrollingObjectCollection\Scripts\ScrollablePagination.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\ResetPos.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Input\Scenes\PrimaryPointer\PrimaryPointerHandlerExample.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetPositioning\Scripts\TriggerZonePlaceObjsWithin.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Targeting\DwellSelection.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\MoveWithCamera.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\LoadAdditiveScene.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetSelections\Scripts\TargetGroupCreatorRadial.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\LogStructure.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\CustomInputLogger.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoScrollPanZoom\Scripts\ScrollTexture.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\InputPointerVisualizer.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoScrollPanZoom\Scripts\PanZoomTexture.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Boundary\Scripts\BoundaryVisualizationDemo.cs" />
+     <Compile Include="Assets\Scripts\MR\SceneController.cs" />
+     <Compile Include="Assets\Scripts\NonVR\ModeSwap.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ProgressIndicator\Scripts\ProgressIndicatorDemoAsyncMethod.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Input\SpeechVisualFeedback.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\LeapCoreAssetsDetector.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\Dialog\Scripts\DialogExampleController.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Input\Scenes\PointerResult\SpawnOnPointerEvent.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetSelections\Scripts\ToggleGameObject.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\Collections\Scripts\GridObjectLayoutControl.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Experimental - Elastic\Scripts\WidgetElasticDemo.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\Dwell\BaseDwellSample.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\ColliderTest.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\TetheredPlacement.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - ReadingMode\Scripts\ReadingModeSceneBehavior.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\KeepFacingCamera.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ProgressIndicator\Scripts\IProgressIndicatorDemoObject.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\SpawnCube.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\ParticleHeatmap.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\DrawOnTexture.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\SystemKeyboardExample.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\ToggleBoundingBox.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoScrollPanZoom\Scripts\BaseClasses\PanZoomBaseTexture.cs" />
+     <Compile Include="Assets\Scripts\NonVR\CableNonVR.cs" />
+     <Compile Include="Assets\Scripts\NonVR\SkinIndicator.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Utils\KeepThisAlive.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Targeting\TargetEventArgs.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoScrollPanZoom\Scripts\ScrollRectTransf.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoScrollPanZoom\Scripts\TargetMoveToCamera.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\LogStructureEyeGaze.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\GestureTester.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\Rotation.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Experimental - NonNativeKeyboard\Scripts\KeyboardTest.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ManipulationHandler\Scripts\ChangeManipulation.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\FollowEyeGaze.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\Dwell\InstantDwellSample.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Experimental - SceneUnderstanding\Scripts\DemoSceneUnderstandingController.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\OnSelectVisualizerInputController.cs" />
+     <Compile Include="Assets\430Edit\Script\canvas_v2.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\FaceUser.cs" />
+     <Compile Include="Assets\Scripts\NonVR\CableMove.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Input\Scenes\InputData\InputDataExampleGizmo.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ProgressIndicator\Scripts\ProgressIndicatorDemo.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\UserInputRecorderFeedback.cs" />
+     <Compile Include="Assets\Scripts\FaceCamera.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\BasicInputLogger.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - Input\Scenes\InputData\InputDataExample.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - SpatialAwareness\Scripts\ShowPlaneFindingInstructions.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\Dwell\ToggleDwellSample.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\Utils\StatusText.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\ChangeSize.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoScrollPanZoom\Scripts\PanZoomRectTransf.cs" />
+     <Compile Include="Assets\Scripts\MR\MRWireHandler.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\UserInputRecorderUIController.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\CTestSubset.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoVisualizer\Scripts\AsyncHelpers.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\Slider\Scripts\SliderLunarLander.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\LaunchUri.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\OnLookAtShowHoverFeedback.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\ProgressIndicator\Scripts\ProgressIndicatorDemoSceneLoad.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetPositioning\Scripts\MoveObjByEyeGaze.cs" />
+     <Compile Include="Assets\UI\Script\canvas.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\CTest.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\DemoTargetSelections\Scripts\HitBehaviorDestroyOnSelect.cs" />
+     <Compile Include="Assets\Scripts\NonVR\CutToggle.cs" />
+     <Compile Include="Assets\Scripts\WireStripping.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\OnLookAtRotateByEyeGaze.cs" />
+     <Compile Include="Assets\UI\Script\buttononclick.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\DemoTouchButton.cs" />
+     <Compile Include="Assets\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - UX\Dwell\ListItemDwell.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - EyeTracking\General\Scripts\TargetBehaviors\OnLoadStartScene.cs" />
+     <Compile Include="Assets\MRTK+\Samples\Mixed Reality Toolkit Examples\2.8.3\Demos - HandTracking\Scripts\HandInteractionTouchRotate.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\TestFollow.cs" />
+     <None Include="Assets\MRTK+\MRTK\Shaders\InstancedColored.shader" />
+     <None Include="Assets\Unity\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\MRTK+\MRTK\Shaders\MixedRealityStandard.shader" />
+     <None Include="Assets\MRTK\Shaders\Text3DShader.shader" />
+     <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\MRTK\Shaders\InstancedColored.shader" />
+     <None Include="Assets\MRTK\Shaders\MixedRealityTextMeshProSprite.shader" />
+     <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\MRTK\Shaders\ChannelPacker.shader" />
+     <None Include="Assets\MRTK+\MRTK\Shaders\MixedRealityTextMeshPro.shader" />
+     <None Include="Assets\Unity\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\MRTK+\MRTK\Shaders\DepthBufferPostProcess.shader" />
+     <None Include="Assets\MRTK+\MRTK\Shaders\Text3DShader.shader" />
+     <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\MRTK\Shaders\InvisibleShader.shader" />
+     <None Include="Assets\MRTK+\MRTK\Shaders\MixedRealityShaderUtils.cginc" />
+     <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\Stencils\Object.shader" />
+     <None Include="Assets\MRTK\MRTK\MixedRealityTextMeshProSprite.shader" />
+     <None Include="Assets\MRTK+\MRTK\Shaders\MixedRealityTextMeshProSprite.shader" />
+     <None Include="Assets\MRTK+\MRTK\Shaders\ChannelPacker.shader" />
+     <None Include="Assets\MRTK\MRTK\MixedRealityTextMeshPro.shader" />
+     <None Include="Assets\MRTK\MRTK\DepthBufferPostProcess.shader" />
+     <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\Unity\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\Unity\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Unity\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Stencils\Mask.shader" />
+     <None Include="Assets\MRTK\MRTK\MRTK_Wireframe.shader" />
+     <None Include="Assets\MRTK+\MRTK\Shaders\MRTK_Wireframe.shader" />
+     <None Include="Assets\Unity\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\MRTK\MRTK\Text3DShader.shader" />
+     <None Include="Assets\MRTK+\MixedRealityToolkit.Generated\link.xml" />
+     <None Include="Assets\Unity\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\MRTK\MRTK\MixedRealityShaderUtils.cginc" />
+     <None Include="Assets\MRTK\Shaders\MixedRealityStandard.shader" />
+     <None Include="Assets\MRTK\MRTK\ChannelPacker.shader" />
+     <None Include="Assets\MRTK\Shaders\MixedRealityTextMeshPro.shader" />
+     <None Include="Assets\MRTK\Shaders\MRTK_Wireframe.shader" />
+     <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\MRTK\MRTK\InvisibleShader.shader" />
+     <None Include="Assets\MRTK\MRTK\MixedRealityStandard.shader" />
+     <None Include="Assets\MRTK\MRTK\InstancedColored.shader" />
+     <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\MRTK+\MRTK\Shaders\InvisibleShader.shader" />
+     <None Include="Assets\Unity\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\MRTK\Shaders\DepthBufferPostProcess.shader" />
+     <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Unity\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\MRTK\Shaders\MixedRealityShaderUtils.cginc" />
+     <None Include="Assets\MRTK\MixedRealityToolkit.Generated\link.xml" />
     <Reference Include="UnityEngine">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ARModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AccessibilityModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AndroidJNIModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CrashReportingModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.DSPGraphModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.DirectorModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GIModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GameCenterModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GridModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.HotReloadModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ImageConversionModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.JSONSerializeModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.LocalizationModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PerformanceReportingModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Physics2DModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ProfilerModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ScreenCaptureModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SharedInternalsModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpriteMaskModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpriteShapeModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StreamingModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SubstanceModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SubsystemsModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TLSModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TerrainModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TerrainPhysicsModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextCoreFontEngineModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextCoreTextEngineModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TilemapModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsNativeModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UNETModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UmbraModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityConnectModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityCurlModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityTestProtocolModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VFXModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VRModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VehiclesModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VideoModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VirtualTexturingModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.WindModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XRModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.CoreModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.DeviceSimulatorModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.DiagnosticsModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.GraphViewModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.PackageManagerUIModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.QuickSearchModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SceneTemplateModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TextCoreFontEngineModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TextCoreTextEngineModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UIBuilderModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UIElementsModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UIElementsSamplesModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UIServiceModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.3\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="netstandard">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+    <Reference Include="Unity.Android.Types">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Win32.Primitives">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.AppContext">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Buffers">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections.Concurrent">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections.NonGeneric">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections.Specialized">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.EventBasedAsync">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.Primitives">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.TypeConverter">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Console">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Data.Common">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Contracts">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Debug">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.FileVersionInfo">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Process">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.StackTrace">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.TextWriterTraceListener">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Tools">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.TraceSource">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Tracing">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Drawing.Primitives">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Dynamic.Runtime">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Globalization.Calendars">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Globalization">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Globalization.Extensions">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Compression">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Compression.ZipFile">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem.DriveInfo">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem.Primitives">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem.Watcher">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.IsolatedStorage">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.MemoryMappedFiles">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Pipes">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.UnmanagedMemoryStream">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq.Expressions">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq.Parallel">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq.Queryable">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Memory">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Http">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.NameResolution">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.NetworkInformation">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Ping">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Primitives">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Requests">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Security">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Sockets">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.WebHeaderCollection">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.WebSockets.Client">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.WebSockets">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Numerics.Vectors">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ObjectModel">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection.DispatchProxy">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection.Emit">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection.Emit.ILGeneration">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection.Emit.Lightweight">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection.Extensions">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection.Primitives">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Resources.Reader">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Resources.ResourceManager">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Resources.Writer">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.CompilerServices.VisualC">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Extensions">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Handles">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.InteropServices">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Numerics">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Formatters">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Json">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Primitives">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Xml">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Claims">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Algorithms">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Csp">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Encoding">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Primitives">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.X509Certificates">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Principal">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.SecureString">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.Encoding">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.Encoding.Extensions">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.RegularExpressions">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Overlapped">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Tasks">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Tasks.Extensions">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Tasks.Parallel">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Thread">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.ThreadPool">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Timer">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ValueTuple">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.ReaderWriter">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XDocument">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XmlDocument">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XmlSerializer">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XPath">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XPath.XDocument">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    <Reference Include="Unity.Android.Gradle">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.Composition">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Core">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Data">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="System">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.dll</HintPath>
     </Reference>
-    <Reference Include="System.Drawing">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Compression.FileSystem">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Numerics">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+    <Reference Include="System.Core">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Core.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ServiceModel.Web">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Transactions">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Windows">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Runtime.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.Linq.dll</HintPath>
     </Reference>
-    <Reference Include="System.Xml.Serialization">
-      <HintPath>D:\Unity\Unity Editor\2021.3.27f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+    <Reference Include="System.Numerics">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.DispatchProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+        <HintPath>D:\Unity\2021.2.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.WorldLocking.ASA">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.WorldLocking.ASA.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.Tracking.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Gltf">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputAnimation">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.TeleportSystem">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.WorldLocking.Tools">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.WorldLocking.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.PlaneFinding">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.PlaneFinding.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.WorldLocking.Core.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.WorldLocking.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.SceneSystem">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.Fbx">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Autodesk.Fbx.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Unity.FrozenWorld.Engine">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Unity.FrozenWorld.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.MicStream">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.MicStream.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Tests.Utilities">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Tests.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ObjectAnchors.Runtime.Core">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.ObjectAnchors.Runtime.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARSubsystems.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARSubsystems">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARFoundation.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.Fbx.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.OpenXR">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Tools.Runtime">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Tools.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Subsystem.Registration">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.OpenXR">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TerrainTools">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.TerrainTools.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="AzureSpatialAnchors.SDK.Windows.Runtime">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\AzureSpatialAnchors.SDK.Windows.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TerrainTools.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.ClassExtensions">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.CoreUtils">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.WorldLocking.Engine">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.WorldLocking.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Gltf.Importers">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Tools">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Formats.Fbx.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.OpenXR.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.HandPhysics">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="AzureSpatialAnchors.SDK.Core.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\AzureSpatialAnchors.SDK.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.CoreUtils.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.GpuStats">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.GpuStats.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Formats.Fbx.Runtime">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Extensions.Tracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="FigmaToolkit">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\FigmaToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.Inspectors">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll</HintPath>
+    </Reference>
+    <Reference Include="AzureSpatialAnchors.SDK.Core.Runtime">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\AzureSpatialAnchors.SDK.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.SDK">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Examples">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Examples.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.CameraSystem">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Polybrush.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Polybrush">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.Polybrush.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Providers.OpenXR.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="WorldLocking.Tools.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\WorldLocking.Tools.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Async">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ObjectAnchors.Initializer.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.ObjectAnchors.Initializer.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.WorldLocking.Core">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.WorldLocking.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ObjectAnchors.Runtime.Api">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.ObjectAnchors.Runtime.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARFoundation">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.StandardAssets.Editor">
+        <HintPath>D:\文件\GitHub\MTR_IET\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.csproj">
-      <Project>{E026D731-9E88-619B-F7E6-4942C969CA92}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.WorldLocking.ASA.csproj">
-      <Project>{A245ADCD-3F3E-1E49-627A-FF11E3BBD31E}</Project>
-      <Name>Microsoft.MixedReality.WorldLocking.ASA</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{3C315D34-5AB5-1E15-ED26-190DC3C39A14}</Project>
-      <Name>Unity.VSCode.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking.Editor.csproj">
-      <Project>{7B8DDE95-2B6D-2B01-53BF-AF84B4F37EC1}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Extensions.Tracking.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.csproj">
-      <Project>{B069F9F3-3905-C259-C10A-9069DBA1BAAC}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Gltf.csproj">
-      <Project>{C48CEB3B-C234-572D-B2E5-D4F6F5D8C8F2}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Gltf</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
-      <Project>{47310B63-DD4F-9547-2330-6774D4E1A816}</Project>
-      <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
-      <Project>{E761BFF2-C457-26C6-641B-6B7BA108B915}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputAnimation.csproj">
-      <Project>{B199CFC6-7271-4B21-8051-9296CDF4F07B}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Services.InputAnimation</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.TeleportSystem.csproj">
-      <Project>{489582BA-7F89-3D6D-A3C3-9B903EFFD201}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Services.TeleportSystem</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.WorldLocking.Tools.csproj">
-      <Project>{43FA680C-E7CF-0DAB-ACF1-CBB382952781}</Project>
-      <Name>Microsoft.MixedReality.WorldLocking.Tools</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.PlaneFinding.csproj">
-      <Project>{C1CF7908-F8F9-B5D4-B4A7-65C825258A62}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.PlaneFinding</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.WorldLocking.Core.Editor.csproj">
-      <Project>{E8D891B8-C8AC-3F6A-25D8-4168C558CA56}</Project>
-      <Name>Microsoft.MixedReality.WorldLocking.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
-      <Project>{857FEE6C-660B-5559-1FB4-1C233B0C3402}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.SceneSystem.csproj">
-      <Project>{BE601C99-D22D-D9B9-2D96-5385409BB39F}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Services.SceneSystem</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{670AC6BF-B353-3C11-D43E-3FCC5167CEC5}</Project>
-      <Name>Unity.Rider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Autodesk.Fbx.csproj">
-      <Project>{6BDB0A16-C332-8833-2037-1C5016ECF9D1}</Project>
-      <Name>Autodesk.Fbx</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{B518FCC3-C225-9390-7E8B-571137B19921}</Project>
-      <Name>UnityEngine.SpatialTracking</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Unity.FrozenWorld.Engine.csproj">
-      <Project>{72ED2B3B-2185-67B9-39B6-2F4AF25022FD}</Project>
-      <Name>Microsoft.MixedReality.Unity.FrozenWorld.Engine</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.csproj">
-      <Project>{BE2533A9-F36B-8929-2657-A34E98542EEA}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
-      <Project>{78DE0076-664A-6F21-4F67-C5EFEE6D7F7F}</Project>
-      <Name>Unity.EditorCoroutines.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.csproj">
-      <Project>{78B7A9DD-0E58-E3CF-7A4E-51A57B34810B}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.csproj">
-      <Project>{440E8BB0-322B-F54C-3521-0495ECDEE439}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.MicStream.csproj">
-      <Project>{D8979891-1355-685B-09B1-ECC160D064B1}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.MicStream</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Tests.Utilities.csproj">
-      <Project>{0CD3F48F-4621-133A-ABB0-FB061165A627}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Tests.Utilities</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.ObjectAnchors.Runtime.Core.csproj">
-      <Project>{D0ED9806-C9E8-A733-63D3-277C2F299805}</Project>
-      <Name>Microsoft.ObjectAnchors.Runtime.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARSubsystems.Editor.csproj">
-      <Project>{A03EA050-ECBA-B732-1ECA-3C2A6FA5F307}</Project>
-      <Name>Unity.XR.ARSubsystems.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.csproj">
-      <Project>{6ECB0C80-2E10-AAB4-4084-ABE04F765CC3}</Project>
-      <Name>Unity.XR.OpenXR.Features.MetaQuestSupport.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
-      <Project>{3684EF3E-4292-389F-4799-09395AAF59D1}</Project>
-      <Name>Unity.XR.ARSubsystems</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.csproj">
-      <Project>{9A461973-CC54-7F45-8372-CF8F3864F693}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion.csproj">
-      <Project>{8AB9C3A3-CFC7-7A87-32B1-715D50C6FD44}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Providers.LeapMotion</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARFoundation.Editor.csproj">
-      <Project>{67D751B8-AD40-B47A-9CF1-57F06BD37195}</Project>
-      <Name>Unity.XR.ARFoundation.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.csproj">
-      <Project>{046BBF87-2B3B-5387-A999-C23CE6624F4A}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared</Name>
-    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj">
-      <Project>{0E57C253-25E9-7ABF-EBA8-45814D38784B}</Project>
+      <Project>{53c2570e-e925-bf7a-eba8-45814d38784b}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.ProBuilder.AddOns.Editor.csproj">
-      <Project>{083E4F36-C9D3-0C0E-83B5-BF9BB0079F16}</Project>
-      <Name>Unity.ProBuilder.AddOns.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Autodesk.Fbx.Editor.csproj">
-      <Project>{9B9FCC2B-2048-CF65-6024-45B3DAC6D62F}</Project>
-      <Name>Autodesk.Fbx.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{39C4323C-22BA-2393-5C73-A051D6D6DBCA}</Project>
-      <Name>Unity.XR.Management.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{D0021971-1D10-528D-3DB4-57AECA33A5D0}</Project>
-      <Name>Unity.VisualScripting.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{CE5473B7-3D2E-B895-164B-D725F9CE9FAF}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.OpenXR.csproj">
-      <Project>{926EA8CE-CC45-1128-BCAF-243E7650369F}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Providers.OpenXR</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Tools.Runtime.csproj">
-      <Project>{C7303F3E-8949-C658-EC1B-B16F697FAA2B}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Tools.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Subsystem.Registration.csproj">
-      <Project>{DB076A8E-7F69-7316-73B6-8658E064321C}</Project>
-      <Name>Unity.Subsystem.Registration</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ProBuilder.Editor.csproj">
-      <Project>{DCB68F81-A932-487D-99B1-74C3D04D7608}</Project>
-      <Name>Unity.ProBuilder.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{E9473D75-88C7-9AD0-D1D1-06506CFCDC9E}</Project>
-      <Name>Unity.PlasticSCM.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.csproj">
-      <Project>{DCA79334-AB64-2551-8E04-61DDCF1963E4}</Project>
-      <Name>Unity.XR.OpenXR.Features.OculusQuestSupport</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.OpenXR.csproj">
-      <Project>{C940DAA1-FC94-61FB-D0C4-CFFCCB5733D2}</Project>
-      <Name>Microsoft.MixedReality.OpenXR</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TerrainTools.csproj">
-      <Project>{FC178392-BE7F-0401-127F-DCE4D8A0E2ED}</Project>
-      <Name>Unity.TerrainTools</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.csproj">
-      <Project>{A5CDC873-9DDE-33D7-A5D7-37089F1D3DB7}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK</Name>
-    </ProjectReference>
-    <ProjectReference Include="AzureSpatialAnchors.SDK.Windows.Runtime.csproj">
-      <Project>{CFEC956E-7518-2EC1-9F92-8842D61B7568}</Project>
-      <Name>AzureSpatialAnchors.SDK.Windows.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ProBuilder.AssetIdRemapUtility.csproj">
-      <Project>{5E7C06FF-C6C8-FD21-AAA4-C77919684843}</Project>
-      <Name>Unity.ProBuilder.AssetIdRemapUtility</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TerrainTools.Editor.csproj">
-      <Project>{1E395C88-849B-2DE2-871D-62C82E955E89}</Project>
-      <Name>Unity.TerrainTools.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
-      <Project>{82CB4892-7238-3F0B-B2D1-88B2A1226C5C}</Project>
-      <Name>Unity.VisualScripting.Shared.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.Editor.csproj">
-      <Project>{2A04E422-9CB2-B251-75DB-8C859F927F7C}</Project>
-      <Name>Unity.XR.OpenXR.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.csproj">
-      <Project>{2EE465F4-63EF-11E2-6F06-DA85A764D711}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Editor.ClassExtensions</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR.csproj">
-      <Project>{700464C6-ED10-1F0F-9842-44F03D38141D}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Providers.UnityAR</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.CoreUtils.csproj">
-      <Project>{440B5E14-0894-BA33-7D03-5FE9F028A0ED}</Project>
-      <Name>Unity.XR.CoreUtils</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
-      <Project>{9F3DC0D5-9FC3-F7EE-A6F1-6888B6653BB5}</Project>
-      <Name>UnityEditor.XR.LegacyInputHelpers</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.csproj">
-      <Project>{D072FDEE-DC7C-8760-B737-46DDD1C34909}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.csproj">
-      <Project>{65EC5D47-F4AB-8F94-659A-1FBF8B46D2DF}</Project>
-      <Name>Unity.XR.OpenXR</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.WorldLocking.Engine.csproj">
-      <Project>{BA9B6EE5-5A7C-88FF-8FA3-49BB2344DE55}</Project>
-      <Name>Microsoft.MixedReality.WorldLocking.Engine</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
-      <Project>{A89CE6DD-DF1C-9822-D7E7-97B033EA88B5}</Project>
-      <Name>UnityEditor.SpatialTracking</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Gltf.Importers.csproj">
-      <Project>{D2B8B743-6EFA-757A-AC85-B66E34715260}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Gltf.Importers</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.csproj">
-      <Project>{F94A944A-9578-7FEA-DCEC-6EB0CC1AD0C6}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Tools.csproj">
-      <Project>{B28CE261-A213-F919-408A-3C473712DA3C}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Tools</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.csproj">
-      <Project>{29B38FDA-FE75-909E-522F-6CFF2C6BEF83}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus</Name>
-    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.Audio.csproj">
-      <Project>{5C096F3E-1113-23DE-B555-C2E02753DBF2}</Project>
+      <Project>{3e6f095c-1311-de23-b555-c2e02753dbf2}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.Audio</Name>
     </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Editor.csproj">
-      <Project>{5A121BEA-8FC4-8358-FFBA-61EEFECC2C7D}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.SDK.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{FDEB006F-FD0F-80F3-B8AF-94C6291A4AA5}</Project>
-      <Name>Unity.TextMeshPro.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Formats.Fbx.Editor.csproj">
-      <Project>{AE586A38-53BA-78D6-19D6-C7A6CFEAD54B}</Project>
-      <Name>Unity.Formats.Fbx.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.OpenXR.Editor.csproj">
-      <Project>{06CFCC7B-BC10-8865-35B0-5C3B1EC69393}</Project>
-      <Name>Microsoft.MixedReality.OpenXR.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
-      <Project>{BF795BEA-BC5F-5ECE-758B-8AE041870164}</Project>
-      <Name>Unity.VisualScripting.State.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.csproj">
-      <Project>{2B50FE6D-3ACC-1C82-CE7B-642B3DC7437E}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Extensions.HandPhysics</Name>
-    </ProjectReference>
-    <ProjectReference Include="AzureSpatialAnchors.SDK.Core.Editor.csproj">
-      <Project>{C7A96D73-77FE-ADE5-F4F6-66D5706F4B07}</Project>
-      <Name>AzureSpatialAnchors.SDK.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{88EDF186-946F-28B2-356C-497A82E0D5A4}</Project>
-      <Name>Microsoft.MixedReality.Toolkit</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
-      <Project>{D125D8CF-DD81-61F5-4ED4-70846EDB05CB}</Project>
-      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ProBuilder.csproj">
-      <Project>{909AB2B6-C7F2-2A2D-9797-321383306E41}</Project>
-      <Name>Unity.ProBuilder</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{91BB236F-F12D-5F0D-A970-3246B1D117E5}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{275AEAF8-6F1F-476B-8B0D-33B8E324B80E}</Project>
-      <Name>Unity.InputSystem</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.csproj">
-      <Project>{FC357EC0-298D-DEAF-438B-23595B4466E5}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{98891247-A731-02DA-ADDA-B1E18AADBFE6}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.csproj">
-      <Project>{EE5A8A79-3DC5-C175-B2F6-133A5BD48976}</Project>
-      <Name>Unity.XR.OpenXR.Features.MetaQuestSupport</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService.csproj">
-      <Project>{6452B13A-BA70-D17F-12A7-0F3F5B9D4B33}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj">
-      <Project>{DF871EFD-FF5A-712D-718D-283829565DF3}</Project>
-      <Name>Unity.XR.CoreUtils.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.csproj">
-      <Project>{51B18B49-A024-FCA9-A50E-AD4FA2F7ED0E}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.csproj">
-      <Project>{CAE1B45F-4163-944A-D1B0-06774321561C}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.GpuStats.csproj">
-      <Project>{508C1E3D-84B9-65B6-8CA0-591BE580C70B}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.GpuStats</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj">
-      <Project>{F937D354-7429-980C-99EE-C209CA1110D9}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Editor.Utilities</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.csproj">
-      <Project>{364577E7-03B5-909E-7521-FDB8FC79A034}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Services.InputSimulation</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Formats.Fbx.Runtime.csproj">
-      <Project>{D486017C-8A15-FDAE-7BE3-71E1EBB9CD2B}</Project>
-      <Name>Unity.Formats.Fbx.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking.csproj">
-      <Project>{8741C1BF-60AE-1E4E-450C-068B56B990B7}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Extensions.Tracking</Name>
-    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj">
-      <Project>{8B53D86B-78CF-A192-87F3-C0D7EA8BFA09}</Project>
+      <Project>{6bd8538b-cf78-92a1-87f3-c0d7ea8bfa09}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.InspectorFields</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{D92E9A48-C709-D908-AFF4-BF287A3EC37F}</Project>
-      <Name>Unity.XR.Management</Name>
-    </ProjectReference>
-    <ProjectReference Include="FigmaToolkit.csproj">
-      <Project>{DF39C4D9-8E4D-F155-1CE7-28BD07721265}</Project>
-      <Name>FigmaToolkit</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Inspectors.csproj">
-      <Project>{04BCEE1C-782A-0EFB-727C-206A681C7403}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Editor.Inspectors</Name>
-    </ProjectReference>
-    <ProjectReference Include="AzureSpatialAnchors.SDK.Core.Runtime.csproj">
-      <Project>{31B98F09-C54C-689F-8750-02212B7A8553}</Project>
-      <Name>AzureSpatialAnchors.SDK.Core.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.csproj">
-      <Project>{60C8F370-94C3-55C7-B5BF-73132C4CF129}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.SDK</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Examples.csproj">
-      <Project>{AC39BB55-60AC-594A-F41F-D7FBF8F6EE1E}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Examples</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
-      <Project>{EEBB2ABA-48C9-949B-6F78-47FB417640E8}</Project>
-      <Name>Unity.VisualScripting.Flow.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.csproj">
-      <Project>{C90726B9-B46B-B446-4C7A-AC4B69DB8BDC}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.csproj">
-      <Project>{115429DD-0BD7-DED8-C7E0-108F285B3639}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.CameraSystem.csproj">
-      <Project>{3AFA2506-6E30-7A77-4647-0B5BF0773067}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Services.CameraSystem</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.csproj">
-      <Project>{8D052031-6F65-CC58-0C6C-B489D5ED992F}</Project>
-      <Name>Unity.XR.OpenXR.Features.OculusQuestSupport.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{1A300F8D-1189-BD47-96A3-EC8F4427963E}</Project>
-      <Name>Unity.VisualStudio.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{8F12AC08-2A2E-601A-0444-2AD5F8E4018E}</Project>
-      <Name>Unity.Timeline</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.csproj">
-      <Project>{C98E7976-48D4-FCC9-8BFA-CD927646AFE3}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj">
-      <Project>{33AC8FC0-50CC-6C7A-FB39-9BCD0BE7055D}</Project>
+      <Project>{c08fac33-cc50-7a6c-fb39-9bcd0be7055d}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors</Name>
     </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.csproj">
-      <Project>{81406913-298A-3830-2C16-17130778D149}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{59C3E99F-6169-F0C5-3182-251E64F74E7E}</Project>
-      <Name>Unity.VisualScripting.Flow</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Polybrush.Editor.csproj">
-      <Project>{38F68802-5E90-6650-7093-5A31036A4745}</Project>
-      <Name>Unity.Polybrush.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Polybrush.csproj">
-      <Project>{0A0F5318-C793-94D4-007A-690C9003FDF8}</Project>
-      <Name>Unity.Polybrush</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{6F2A5531-06D5-9EB5-8250-D46AE514E6F0}</Project>
-      <Name>Unity.VisualScripting.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
-      <Project>{F0B2EEA3-2258-BC27-E5AA-C954D8421C67}</Project>
-      <Name>UnityEngine.XR.LegacyInputHelpers</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.csproj">
-      <Project>{E4EDED21-9D3C-A697-9184-DAD5286D112D}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InputSystem.ForUI.csproj">
-      <Project>{6975E011-CD80-3E54-72A4-460528869679}</Project>
-      <Name>Unity.InputSystem.ForUI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.csproj">
-      <Project>{5A4B1896-FEA7-CE20-B34C-2F8774BE2A5E}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj">
-      <Project>{33CA0C91-A589-6E33-EB93-FC04B27278FF}</Project>
+      <Project>{910cca33-89a5-336e-eb93-fc04b27278ff}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.UX.Interactables</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{D19A169C-365A-FEBD-BEAA-8DFCE39A42BF}</Project>
-      <Name>Unity.Timeline.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj">
-      <Project>{9D1FEDEF-5CA5-03FC-FEDA-765DC538E5F6}</Project>
+      <Project>{efed1f9d-a55c-fc03-feda-765dc538e5f6}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.Gltf</Name>
     </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.OpenXR.Editor.csproj">
-      <Project>{72692475-DF97-7D8C-0995-76F17EDFC191}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Providers.OpenXR.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.csproj">
-      <Project>{9574B0B2-7EE9-4C6D-7A6A-EB79395C4CDC}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem</Name>
-    </ProjectReference>
-    <ProjectReference Include="WorldLocking.Tools.Editor.csproj">
-      <Project>{7C18A8E0-2FD6-1821-E06C-BCF6A314A3EA}</Project>
-      <Name>WorldLocking.Tools.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.csproj">
-      <Project>{359F7876-ABC4-C820-3FD6-8B7E4CBDAF5F}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Async</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.ObjectAnchors.Initializer.Editor.csproj">
-      <Project>{235843BD-3BB4-B6F3-02CE-B50820EE17B0}</Project>
-      <Name>Microsoft.ObjectAnchors.Initializer.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
-      <Project>{3C0BFBA9-71D9-A10C-6409-93FF76146117}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.Features.ConformanceAutomation.csproj">
-      <Project>{D06886F0-AC0D-D537-595D-289F004AC4D3}</Project>
-      <Name>Unity.XR.OpenXR.Features.ConformanceAutomation</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.WorldLocking.Core.csproj">
-      <Project>{B2D26B73-3585-971B-4CAF-A629841A93A6}</Project>
-      <Name>Microsoft.MixedReality.WorldLocking.Core</Name>
-    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj">
-      <Project>{2B9CB700-CCC2-4361-A607-C9A413C030DA}</Project>
+      <Project>{00b79c2b-c2cc-6143-a607-c9a413c030da}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.csproj">
-      <Project>{25261E0C-E125-4ABF-620B-C7C0527CF1E6}</Project>
-      <Name>Unity.XR.OpenXR.Features.RuntimeDebugger.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.ObjectAnchors.Runtime.Api.csproj">
-      <Project>{8AAC44CF-A4CB-EC92-5E5E-CF9C64C4DD7E}</Project>
-      <Name>Microsoft.ObjectAnchors.Runtime.Api</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.csproj">
-      <Project>{ABF9B346-0D3F-1011-2AF9-2834BABDBC73}</Project>
-      <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARFoundation.csproj">
-      <Project>{55C044BC-D9B7-514A-D504-448C43FA60EF}</Project>
-      <Name>Unity.XR.ARFoundation</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.csproj">
-      <Project>{7F34CE6D-FF72-2FD2-9E03-EC3CD6C0B2E1}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.StandardAssets.Editor.csproj">
-      <Project>{3180C0BC-9A7E-B055-7341-5D7D87B2656F}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.StandardAssets.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

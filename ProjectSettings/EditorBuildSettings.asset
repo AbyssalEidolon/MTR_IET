@@ -17,42 +17,42 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/UI/scene/Start_page.unity
     guid: fdadda47b2c49554aa2a08434aece9d7
-  - enabled: 1
+  - enabled: 0
     path: Assets/UI/scene/Step1.unity
     guid: f9d6fa4e596b60445ad99623d05bd28b
-  - enabled: 1
+  - enabled: 0
     path: Assets/UI/scene/Step2.unity
     guid: e870114e59bfccb4a9170919bc92aa73
-  - enabled: 1
+  - enabled: 0
     path: Assets/UI/scene/Step3.unity
     guid: dccb7af6085a5ed4196fd9694e30a0d9
-  - enabled: 1
+  - enabled: 0
     path: Assets/UI/scene/Step4.unity
     guid: 1607f6b4915978e48b36c16be04d4728
-  - enabled: 1
+  - enabled: 0
     path: Assets/UI/scene/Step5.unity
     guid: 66699ac728eb8af4b858fcbdf2a6acd8
-  - enabled: 1
+  - enabled: 0
     path: Assets/UI/scene/Step6.unity
     guid: 936a0f32becacfe4a9f6ce45beee12c6
-  - enabled: 1
+  - enabled: 0
     path: Assets/UI/scene/Step7.unity
     guid: 8fb51d3cec0c0614888c9e247199b802
-  - enabled: 1
+  - enabled: 0
     path: Assets/UI/scene/Step8.unity
     guid: 78bb30d2508572b4aa0878eac99768d3
-  - enabled: 1
+  - enabled: 0
     path: Assets/UI/scene/Step9.unity
     guid: 893936d8fd65d214abb5f5282d2d3871
-  - enabled: 1
-    path: Assets/UI/scene/Step10.unity
-    guid: ad09595e4fad8e845b2989d1f19deb85
-  - enabled: 1
-    path: Assets/UI/scene/Step11.unity
-    guid: c406e13dc4079de438db8f9a4eff55ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/UI/scene/Credit.unity
     guid: 83d31dad20dd0b741b644045f63d5ddc
+  - enabled: 0
+    path: Assets/UI/scene/Step10.unity
+    guid: ad09595e4fad8e845b2989d1f19deb85
+  - enabled: 0
+    path: Assets/UI/scene/Step11.unity
+    guid: c406e13dc4079de438db8f9a4eff55ab
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: df7fa154f601e9448ac35c1e4448b673, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c5d3e7d0b24fedf4babecba4a1915c22, type: 2}

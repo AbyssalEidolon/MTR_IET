@@ -6,6 +6,7 @@ public class CTest : MonoBehaviour
 {
     public List<GameObject> WithCollider = new();
     void Start(){
+        /*
         GameObject[] Gamering = GameObject.FindObjectsByType<GameObject>(FindObjectsSortMode.None);
         foreach(GameObject obj in Gamering){
             if(obj.GetComponent<Collider>()){
@@ -13,6 +14,7 @@ public class CTest : MonoBehaviour
                 obj.AddComponent<CTestSubset>();
             }
         }
+        */
     }
     
     public void CallColliders(){
