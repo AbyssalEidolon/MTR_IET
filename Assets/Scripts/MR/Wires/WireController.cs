@@ -146,19 +146,27 @@ public class WireController : MonoBehaviour
                 spheres[i].transform.SetParent(grab[0].transform,true);
             }
         }else if (grab.Count == 2){
-            // for(int i = 0; i < spheres.Count;i++){
-            //     spheres[i].transform.SetParent(this.gameObject.transform,true);
-            // }
-            float distanceMax = Vector3.Distance(spheres[0].transform.position,spheres[^1].transform.position);
-            bool head = Vector3.Distance(grab[1].transform.position, spheres[0].transform.position) < distanceMax;
-            bool tail = Vector3.Distance(grab[1].transform.position, spheres[^1].transform.position) < distanceMax;
-            if(head){
-                for(int i = 0; i < spheres.IndexOf(grab[0].gameObject);i++){
-                    spheres[i].transform.SetParent(grab[1].transform,true);
+            int firstGrap = spheres.IndexOf(grab[0]);
+            int secondGrap = spheres.IndexOf(grab[1]);
+            Debug.Log(firstGrap+" "+secondGrap);
+            if(secondGrap > firstGrap)
+            {
+                for(int i = firstGrap+1; i < spheres.Count ;i++)
+                {
+                    spheres[i].transform.SetParent(GameObject.Find("empty").transform);
                 }
-            }else if(tail){
-                for(int i = 0; i > spheres.IndexOf(grab[0].gameObject);i++){
-                    spheres[i].transform.SetParent(grab[1].transform,true);
+                for(int i = firstGrap-1; i >= 0 ;i--)
+                {
+                    spheres[i].transform.SetParent(grab[0].transform);
+                }
+            }else{
+                for(int i = firstGrap-1; i >= 0 ;i--)
+                {
+                    spheres[i].transform.SetParent(GameObject.Find("empty").transform);
+                }
+                for(int i = firstGrap+1; i < spheres.Count ;i++)
+                {
+                    spheres[i].transform.SetParent(grab[0].transform);
                 }
             }
         }
