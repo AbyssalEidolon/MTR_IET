@@ -15,10 +15,6 @@ public class spherecontrol : MonoBehaviour
     public void grab()
     {
         wireController.grab.Add(this.gameObject);
-        if (wireController.grab.Count == 2)
-        {
-            
-        }
     }
 
     public void grabend()

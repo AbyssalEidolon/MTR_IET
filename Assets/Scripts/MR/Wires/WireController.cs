@@ -148,7 +148,7 @@ public class WireController : MonoBehaviour
         }
         else if (grab.Count == 2)
         {
-
+            //Bending...
         }
     }
 }
