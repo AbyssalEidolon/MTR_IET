@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Assembly-CSharp-Editor.csproj": {}
+    "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Assembly-CSharp-Editor.csproj": {}
   },
   "projects": {
-    "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Assembly-CSharp-Editor.csproj": {
+    "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Assembly-CSharp-Editor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Assembly-CSharp-Editor.csproj",
+        "projectUniqueName": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Assembly-CSharp-Editor.csproj",
         "projectName": "Assembly-CSharp-Editor",
-        "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Assembly-CSharp-Editor.csproj",
+        "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Assembly-CSharp-Editor.csproj",
         "packagesPath": "C:\\Users\\PCPG\\.nuget\\packages\\",
-        "outputPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
+        "outputPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,41 +32,41 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Assembly-CSharp.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Assembly-CSharp.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Assembly-CSharp.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Assembly-CSharp.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\MRScripts.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\MRScripts.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\MRScripts.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\MRScripts.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\NonVR.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\NonVR.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\NonVR.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\NonVR.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\TestScripts.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\TestScripts.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\TestScripts.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\TestScripts.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Utils.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Utils.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Utils.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Utils.csproj"
               }
             }
           }
@@ -95,14 +95,14 @@
         }
       }
     },
-    "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Assembly-CSharp.csproj": {
+    "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Assembly-CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Assembly-CSharp.csproj",
+        "projectUniqueName": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Assembly-CSharp.csproj",
         "projectName": "Assembly-CSharp",
-        "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Assembly-CSharp.csproj",
+        "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Assembly-CSharp.csproj",
         "packagesPath": "C:\\Users\\PCPG\\.nuget\\packages\\",
-        "outputPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
+        "outputPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -123,38 +123,38 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\MRScripts.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\MRScripts.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\MRScripts.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\MRScripts.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\NonVR.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\NonVR.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\NonVR.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\NonVR.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\TestScripts.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\TestScripts.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\TestScripts.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\TestScripts.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Utils.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Utils.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Utils.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Utils.csproj"
               }
             }
           }
@@ -183,14 +183,14 @@
         }
       }
     },
-    "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj": {
+    "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj",
+        "projectUniqueName": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj",
         "projectName": "Microsoft.MixedReality.Toolkit.Demos.Audio",
-        "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj",
+        "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Audio.csproj",
         "packagesPath": "C:\\Users\\PCPG\\.nuget\\packages\\",
-        "outputPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
+        "outputPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -237,14 +237,14 @@
         }
       }
     },
-    "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
+    "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj",
+        "projectUniqueName": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj",
         "projectName": "Microsoft.MixedReality.Toolkit.Demos.Gltf",
-        "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj",
+        "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj",
         "packagesPath": "C:\\Users\\PCPG\\.nuget\\packages\\",
-        "outputPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
+        "outputPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -291,14 +291,14 @@
         }
       }
     },
-    "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj": {
+    "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj",
+        "projectUniqueName": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj",
         "projectName": "Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors",
-        "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj",
+        "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj",
         "packagesPath": "C:\\Users\\PCPG\\.nuget\\packages\\",
-        "outputPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
+        "outputPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -319,8 +319,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
               }
             }
           }
@@ -349,14 +349,14 @@
         }
       }
     },
-    "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj": {
+    "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj",
+        "projectUniqueName": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj",
         "projectName": "Microsoft.MixedReality.Toolkit.Demos.InspectorFields",
-        "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj",
+        "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj",
         "packagesPath": "C:\\Users\\PCPG\\.nuget\\packages\\",
-        "outputPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
+        "outputPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -403,14 +403,14 @@
         }
       }
     },
-    "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj": {
+    "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj",
+        "projectUniqueName": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj",
         "projectName": "Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors",
-        "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj",
+        "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj",
         "packagesPath": "C:\\Users\\PCPG\\.nuget\\packages\\",
-        "outputPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
+        "outputPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -431,8 +431,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj"
               }
             }
           }
@@ -461,14 +461,14 @@
         }
       }
     },
-    "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj": {
+    "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj",
+        "projectUniqueName": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj",
         "projectName": "Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors",
-        "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj",
+        "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj",
         "packagesPath": "C:\\Users\\PCPG\\.nuget\\packages\\",
-        "outputPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
+        "outputPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -515,14 +515,14 @@
         }
       }
     },
-    "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {
+    "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj",
+        "projectUniqueName": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj",
         "projectName": "Microsoft.MixedReality.Toolkit.Demos.UX.Interactables",
-        "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj",
+        "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj",
         "packagesPath": "C:\\Users\\PCPG\\.nuget\\packages\\",
-        "outputPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
+        "outputPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -569,14 +569,14 @@
         }
       }
     },
-    "d:\\Pacific\\GithubShenanigans\\MTR_IET\\MRScripts.csproj": {
+    "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\MRScripts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\MRScripts.csproj",
+        "projectUniqueName": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\MRScripts.csproj",
         "projectName": "MRScripts",
-        "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\MRScripts.csproj",
+        "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\MRScripts.csproj",
         "packagesPath": "C:\\Users\\PCPG\\.nuget\\packages\\",
-        "outputPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
+        "outputPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -597,11 +597,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj"
               },
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Utils.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Utils.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Utils.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Utils.csproj"
               }
             }
           }
@@ -630,14 +630,14 @@
         }
       }
     },
-    "d:\\Pacific\\GithubShenanigans\\MTR_IET\\NonVR.csproj": {
+    "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\NonVR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\NonVR.csproj",
+        "projectUniqueName": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\NonVR.csproj",
         "projectName": "NonVR",
-        "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\NonVR.csproj",
+        "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\NonVR.csproj",
         "packagesPath": "C:\\Users\\PCPG\\.nuget\\packages\\",
-        "outputPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
+        "outputPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -684,14 +684,14 @@
         }
       }
     },
-    "d:\\Pacific\\GithubShenanigans\\MTR_IET\\TestScripts.csproj": {
+    "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\TestScripts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\TestScripts.csproj",
+        "projectUniqueName": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\TestScripts.csproj",
         "projectName": "TestScripts",
-        "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\TestScripts.csproj",
+        "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\TestScripts.csproj",
         "packagesPath": "C:\\Users\\PCPG\\.nuget\\packages\\",
-        "outputPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
+        "outputPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -738,14 +738,14 @@
         }
       }
     },
-    "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Utils.csproj": {
+    "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Utils.csproj",
+        "projectUniqueName": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Utils.csproj",
         "projectName": "Utils",
-        "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Utils.csproj",
+        "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Utils.csproj",
         "packagesPath": "C:\\Users\\PCPG\\.nuget\\packages\\",
-        "outputPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
+        "outputPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -766,8 +766,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
-                "projectPath": "d:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
               }
             }
           }

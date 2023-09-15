@@ -54,15 +54,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\TestScripts\ResetPos.cs" />
-    <Compile Include="Assets\Scripts\TestScripts\WireUpdateTest.cs" />
     <Compile Include="Assets\Scripts\TestScripts\ColliderTest.cs" />
     <Compile Include="Assets\Scripts\TestScripts\SpawnCube.cs" />
+    <Compile Include="Assets\Scripts\TestScripts\KILLME.cs" />
     <Compile Include="Assets\Scripts\TestScripts\Rotation.cs" />
     <Compile Include="Assets\Scripts\TestScripts\CustomGrip\PalmTest.cs" />
     <Compile Include="Assets\Scripts\TestScripts\CTestSubset.cs" />
     <Compile Include="Assets\Scripts\TestScripts\CTest.cs" />
     <Compile Include="Assets\Scripts\TestScripts\TestFollow.cs" />
-    <Compile Include="Assets\Scripts\TestScripts\KILLME.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\TestScripts\TestScripts.asmdef" />
