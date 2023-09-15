@@ -25,14 +25,10 @@ public class WireController : MonoBehaviour
     public GameObject Gsphere;
     //the sphere that grap rn
     public List<GameObject> grab = new List<GameObject>();
-
-    public bool updatesphere;
-
     public float distanceSet;
 
     void Awake()
     {
-        updatesphere = true;
         print("WHAT");
         CheckParent();
         Self = this.GetComponent<LineRenderer>();
@@ -51,22 +47,7 @@ public class WireController : MonoBehaviour
             Vertices.Add(StrippedSegs[i].GetPosition(0));
         }
 
-        float num = 14;
-
-        for (int i = 1; i < num; i++)
-        {
-            float t = i*(1/num);
-            print(t);
-            Vector3 spawnPos = Vector3.Lerp(Vertices[0], Vertices[^1], t);
-            Vertices.Insert(i, spawnPos);
-        }
-
-        distanceSet = Vector3.Distance(Vertices[0], Vertices[1]);
-
-        foreach (Vector3 i in Vertices)
-        {
-            createsphere(i, distanceSet, Vertices.IndexOf(i));
-        }
+        spawnSpheres();
     }
     void FixedUpdate()
     {
@@ -131,44 +112,43 @@ public class WireController : MonoBehaviour
         spheres.Insert(where, sphere);
     }
 
-    public void Update()
+    public void spawnSpheres()
     {
-        if (updatesphere)
+        float num = 14;
+
+        for (int i = 1; i < num; i++)
         {
-            for (int i = 0; i < Vertices.Count; i++)
-            {
-                Vertices[i] = spheres[i].transform.position;
-            }
+            float t = i * (1 / num);
+            print(t);
+            Vector3 spawnPos = Vector3.Lerp(Vertices[0], Vertices[^1], t);
+            Vertices.Insert(i, spawnPos);
         }
 
-        if(grab.Count == 1){
-            for(int i = 0; i < spheres.Count;i++){
-                spheres[i].transform.SetParent(grab[0].transform,true);
-            }
-        }else if (grab.Count == 2){
-            int firstGrap = spheres.IndexOf(grab[0]);
-            int secondGrap = spheres.IndexOf(grab[1]);
-            Debug.Log(firstGrap+" "+secondGrap);
-            if(secondGrap > firstGrap)
+        distanceSet = Vector3.Distance(Vertices[0], Vertices[1]);
+
+        foreach (Vector3 i in Vertices)
+        {
+            createsphere(i, distanceSet, Vertices.IndexOf(i));
+        }
+    }
+
+    public void Update()
+    {
+        for (int i = 0; i < Vertices.Count; i++)
+        {
+            Vertices[i] = spheres[i].transform.position;
+        }
+
+        if (grab.Count == 1)
+        {
+            for (int i = 0; i < spheres.Count; i++)
             {
-                for(int i = firstGrap+1; i < spheres.Count ;i++)
-                {
-                    spheres[i].transform.SetParent(GameObject.Find("empty").transform);
-                }
-                for(int i = firstGrap-1; i >= 0 ;i--)
-                {
-                    spheres[i].transform.SetParent(grab[0].transform);
-                }
-            }else{
-                for(int i = firstGrap-1; i >= 0 ;i--)
-                {
-                    spheres[i].transform.SetParent(GameObject.Find("empty").transform);
-                }
-                for(int i = firstGrap+1; i < spheres.Count ;i++)
-                {
-                    spheres[i].transform.SetParent(grab[0].transform);
-                }
+                spheres[i].transform.SetParent(grab[0].transform, true);
             }
+        }
+        else if (grab.Count == 2)
+        {
+
         }
     }
 }

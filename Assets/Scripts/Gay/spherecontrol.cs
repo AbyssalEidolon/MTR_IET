@@ -15,17 +15,21 @@ public class spherecontrol : MonoBehaviour
     public void grab()
     {
         wireController.grab.Add(this.gameObject);
-        if(wireController.grab.Count == 1){
-            empty = new GameObject("empty");
-            empty.transform.SetParent(wireController.grab[0].transform);
+        if (wireController.grab.Count == 2)
+        {
+            
         }
     }
 
-    public void grabend(){
+    public void grabend()
+    {
         wireController.grab.Remove(this.gameObject);
-        for(int i = 0; i < wireController.spheres.Count;i++)
+        if (wireController.grab.Count == 0)
         {
-            wireController.spheres[i].transform.parent = null;
+            for (int i = 0; i < wireController.spheres.Count; i++)
+            {
+                wireController.spheres[i].transform.parent = null;
+            }
         }
     }
 }
