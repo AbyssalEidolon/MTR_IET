@@ -54,7 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\CTestEditor.cs" />
-    <Compile Include="Assets\Editor\LoadJsonEditor.cs" />
+    <Compile Include="Assets\Editor\SpawnTestEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

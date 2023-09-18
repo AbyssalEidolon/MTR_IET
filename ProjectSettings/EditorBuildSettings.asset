@@ -17,9 +17,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Unity/Scenes/StripTest.unity
     guid: cf6ccc3e75ce1ad47840721538988d66
-  - enabled: 1
+  - enabled: 0
     path: Assets/Unity/ExtScenes/HandClient.unity
     guid: 4c81974fdb65fe9499ef5f2a135309ff
+  - enabled: 1
+    path: Assets/Unity/ExtScenes/HandVisualiser.unity
+    guid: 90eff8147dd4a1249b4ddadee7b18090
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: df7fa154f601e9448ac35c1e4448b673, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c5d3e7d0b24fedf4babecba4a1915c22, type: 2}

@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\MR\Pulley\MRWireHandler.cs" />
     <Compile Include="Assets\Scripts\MR\EmiyaHasStrongArms\JointCheckController.cs" />
     <Compile Include="Assets\Scripts\MR\Wires\WireBender.cs" />
+    <Compile Include="Assets\Scripts\MR\HoloClient\SpawnTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\MR\HoloClient\Hololens.txt" />

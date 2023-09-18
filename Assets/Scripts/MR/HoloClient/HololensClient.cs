@@ -8,6 +8,8 @@ using UnityEngine;
 
 public class HololensClient : MonoBehaviour
 {
+    public bool Online = true;
+    public List<GameObject> bruh = new();
     public GameObject JointVisualiser = null;
     GameObject[] jointVisualisers = new GameObject[5];
     GameObject PalmRotVisualiser;
@@ -21,6 +23,7 @@ public class HololensClient : MonoBehaviour
     {
         poller = new();
         SetupPoller();
+        if(Online)
         client = new(Host == "" ? "127.0.0.1" : Host, Port, this);
         CoreServices.InputSystem?.RegisterHandler<IMixedRealitySourceStateHandler>(poller);
     }
@@ -36,7 +39,7 @@ public class HololensClient : MonoBehaviour
                 visualiser.poller = poller;
             }
             PalmRotVisualiser = GameObject.CreatePrimitive(PrimitiveType.Capsule);
-            PalmRotVisualiser.transform.localScale = new(0.1f, 0.1f, 0.1f);
+            PalmRotVisualiser.transform.localScale = new(0.03f, 0.03f, 0.03f);
             PalmRotVisualiser.AddComponent<PalmRotVisualiser>().poller = poller;
         }
     }
@@ -51,6 +54,7 @@ public class HololensClient : MonoBehaviour
         {
             figners[i].text = poller.FingerPos[i].ToString("F4");
         }
+        if(!Online && bruh.Count > 0) foreach(GameObject gameObject in bruh) gameObject.transform.rotation = poller.PalmRot;
     }
     IEnumerator updatePositions()
     {

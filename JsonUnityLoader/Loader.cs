@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using JsonUnityLoader;
+using Newtonsoft.Json;
 using System;
 using System.Linq.Expressions;
 using System.Numerics;
@@ -39,16 +40,18 @@ public class Loader
 	  - Active: 1
 	    startPosition: {x: 0, y: 0, z: 0}
 	    endPosition: {x: 0, y: 0, z: 0}
-	
+	  palmRots:
+	  - {x: 0, y: 0, z: 0, w: 0}
+	  - {x: 0, y: 0, z: 0, w: 0}
 	""";
     private const string Input = ".\\Input";
     private const string Output = ".\\Output";
-    Vector3[] Start = new Vector3[5];
-	Vector3[] End = new Vector3[5];
+	Auto Start;
+	Auto End;
 	string Name;
 	public Loader()
 	{
-		Start = Load(readLine("start"));
+		Start = Load(readLine("start"));//remove vars
         End = Load(readLine("end"));
         Console.WriteLine("Enter File Name");
         Name = readLine();
@@ -87,6 +90,7 @@ public class Loader
 		Console.Clear();
 		return line;
     }
+	/*
     Vector3[] Load(string FilePath)
 	{
 		string file = File.ReadAllText(FilePath);
@@ -96,9 +100,25 @@ public class Loader
 			Console.WriteLine("File read error.");
 			throw new Exception();
 		}
-		return data.Values.ToArray();
+        data.Remove("Palm");
+        //		return data.Values.ToArray();
+        return null;
 	}
-	public void Write()
+	*/
+	Auto Load(string FilePath)
+	{
+		string file = File.ReadAllText(FilePath);
+        Auto? data = JsonConvert.DeserializeObject<Auto>(file);
+        //Dictionary<string, Vector3>? data = JsonConvert.DeserializeObject<Dictionary<string, Vector3>>(file);
+        if (data == null)
+        {
+            Console.WriteLine("File read error.");
+            throw new Exception();
+        }
+		data.GenerateHandles();
+		return data;
+    }
+    public void Write()
 	{
 		string target = new(Template);
 		string[] tokens = Template.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
@@ -106,11 +126,18 @@ public class Loader
 		for(int j = 0; j < tokens.Length; j++)
 		{
 			if (tokens[j].Contains("m_Name: Template")) tokens[j] = tokens[j].Replace("Template", Name);
-			else if (tokens[j].Contains("startPosition")) tokens[j] = tokens[j].Replace($"{{x: 0, y: 0, z: 0}}", $"{{x: {Start[i][0]}, y: {Start[i][1]}, z: {Start[i][2]}}}");
+			else if (tokens[j].Contains("startPosition")) tokens[j] = tokens[j].Replace($"{{x: 0, y: 0, z: 0}}", $"{{x: {Start.Positions[i][0]}, y: {Start.Positions[i][1]}, z: {Start.Positions[i][2]}}}");
 			else if (tokens[j].Contains("endPosition"))
 			{
-                tokens[j] = tokens[j].Replace($"{{x: 0, y: 0, z: 0}}", $"{{x: {End[i][0]}, y: {End[i][1]}, z: {End[i][2]}}}");
+                tokens[j] = tokens[j].Replace($"{{x: 0, y: 0, z: 0}}", $"{{x: {End.Positions[i][0]} , y:  {End.Positions[i][1]}, z: {End.Positions[i][2]}}}");
 				i++;
+            }
+			else if (tokens[j].Contains("palmRots"))
+			{
+				Console.WriteLine(tokens[j+1]);
+				tokens[j + 1] = tokens[j + 1].Replace($"{{x: 0, y: 0, z: 0, w: 0}}", $"{{x: {Start.PalmRot[0]} , y:  {Start.PalmRot[1]}, z: {Start.PalmRot[2]}, w: {Start.PalmRot[3]}}}");
+                tokens[j + 2] = tokens[j + 2].Replace($"{{x: 0, y: 0, z: 0, w: 0}}", $"{{x: {End.PalmRot[0]} , y:  {End.PalmRot[1]}, z: {End.PalmRot[2]}, w: {End.PalmRot[3]}}}");
+
             }
         }
 		foreach(string token in tokens) Console.WriteLine(token);

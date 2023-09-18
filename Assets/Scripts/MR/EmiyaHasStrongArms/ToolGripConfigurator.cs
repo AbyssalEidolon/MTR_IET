@@ -15,6 +15,11 @@ public class ToolGripConfigurator : ScriptableObject{
         new(),
         new(),
         };
+    [LabelledArray(new string[]{"BeginRot", "EndRot"})]
+    public Quaternion[] palmRots = new Quaternion[2]{
+        Quaternion.identity,
+        Quaternion.identity
+    };
 }
 [Serializable]
 public struct FingerConfig{
