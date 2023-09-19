@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\Editor\CTestEditor.cs" />
     <Compile Include="Assets\Editor\SpawnTestEditor.cs" />
+    <Compile Include="Assets\Editor\AnchorSpawnerEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

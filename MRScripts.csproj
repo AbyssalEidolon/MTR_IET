@@ -56,6 +56,7 @@
     <Compile Include="Assets\Scripts\MR\Tools\Cutter.cs" />
     <Compile Include="Assets\Scripts\MR\EmiyaHasStrongArms\ToolBase.cs" />
     <Compile Include="Assets\Scripts\MR\Button\ButtonController.cs" />
+    <Compile Include="Assets\Scripts\MR\HoloClient\SpawnTest.cs" />
     <Compile Include="Assets\Scripts\MR\Button\SpawnWire.cs" />
     <Compile Include="Assets\Scripts\MR\Tools\ToolBase.cs" />
     <Compile Include="Assets\Scripts\MR\HoloClient\JointVisualiser.cs" />
@@ -73,7 +74,6 @@
     <Compile Include="Assets\Scripts\MR\Pulley\MRWireHandler.cs" />
     <Compile Include="Assets\Scripts\MR\EmiyaHasStrongArms\JointCheckController.cs" />
     <Compile Include="Assets\Scripts\MR\Wires\WireBender.cs" />
-    <Compile Include="Assets\Scripts\MR\HoloClient\SpawnTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\MR\HoloClient\Hololens.txt" />
