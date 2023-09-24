@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JQPc762iQr/wuNmeuVqDXdR/66EUbiRpjkR6QAx8i3evU28yrBKG0M1KSfTOo9j3p2SAROw6EwZY8kszujFJMg==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\leo81\\Desktop\\Files\\GitHubDesktop\\MRTK\\MRTK IET\\MTR_IET\\Assembly-CSharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leo81\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\leo81\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

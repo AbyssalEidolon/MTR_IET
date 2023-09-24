@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class canvas_v2 : MonoBehaviour
 {
+    public bool grabbed;
+    public GameObject Camera;
+    public GameObject theBox;
     public GameObject[] wire_step = new GameObject[9];
     public Canvas[] CanVas = new Canvas[11];
     int index = 0;
@@ -79,7 +82,16 @@ public class canvas_v2 : MonoBehaviour
     }
     private void Update()
     {
-        //Debug.Log(index);
+        foreach (Canvas CanVas in CanVas)
+        {
+            CanVas.transform.LookAt(Camera.transform);
+            CanVas.transform.rotation *= Quaternion.Euler(0f, 180f, 0f);
+        }
+        if(grabbed == true)
+        {
+            theBox.transform.LookAt(Camera.transform);
+            theBox.transform.rotation *= Quaternion.Euler(-55f, 180f, 0f);
+        }
     }
 
     private void Start()
@@ -88,5 +100,15 @@ public class canvas_v2 : MonoBehaviour
         {
             Wire_Step.gameObject.SetActive(false);
         }
+    }
+
+    public void grab()
+    {
+        grabbed = true;
+    }
+
+    public void grabend()
+    {
+        grabbed = false;
     }
 }
