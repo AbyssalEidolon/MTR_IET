@@ -13,8 +13,10 @@ public class Poller : IMixedRealitySourceStateHandler
 {
     TrackedHandJoint[] targetJoints => HandInteractionController.targetJoints;
     public Vector3[] FingerPos { get { return Positions; } }
+    public Quaternion[] FingerRot { get { return Rotations; } }
     public Quaternion PalmRot { get { return PalmRotation;}}
     Vector3[] Positions = Enumerable.Repeat(new Vector3(), 5).ToArray();
+    Quaternion[] Rotations = Enumerable.Repeat(new Quaternion(), 5).ToArray();
     Quaternion PalmRotation = Quaternion.identity;
     public IMixedRealityHand hand { get { return Hand; } }
     IMixedRealityHand Hand = null;
@@ -34,6 +36,7 @@ public class Poller : IMixedRealitySourceStateHandler
                 if (hand.TryGetJoint(targetJoints[i], out pose))
                 {
                     Positions[i] = pose.Position - palm.Position;
+                    Rotations[i] = pose.Rotation;
                 }
             }
             if(hand.TryGetJoint(TrackedHandJoint.Wrist, out palm)){

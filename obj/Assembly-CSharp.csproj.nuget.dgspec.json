@@ -620,7 +620,11 @@
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Utils.csproj": {
+                "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Utils.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

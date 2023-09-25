@@ -4,9 +4,12 @@ public class JointVisualiser : MonoBehaviour {
     public Poller poller;
     public int ind = 0;
     Vector3 Pos => poller.FingerPos[ind];
+    Quaternion Rot => poller.FingerRot[ind];
     void FixedUpdate(){
-        if(Pos != null)
+        if(Pos != null && Rot != null){
         transform.position = Pos;
+        transform.rotation = Rot;
+        }
     }
 }
 public class PalmRotVisualiser : MonoBehaviour {

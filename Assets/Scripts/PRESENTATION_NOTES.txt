@@ -1,0 +1,32 @@
+-----Improvements we made-----
+4_MIN
++++++++++++++++++++++++++++++++++++++++++++
+
+<<Importance of people being able to accurately interact with virtual objects
+>WHY
+>GENERAL USE CASES
+>IMPACT ON MR
+
+What did we add
+>BIDEO MOMENT
+>FORCE PEOPLE TO MAKE THE VIDEO OTHERWISE ILL DIE
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+<<VIRTUAL_REAL_OBJECT INTERACTION
+>IMPROVEMENTS
+>HOW
+>ADD PRINCIPLES OF IMPLEMENTATIONS
+>IMPACT ON MR
+>VIDEOS
+
+++++++++++++++++++++++++++++++++
+
+<<NETWORKING APPLICATIONS
+>DEPENDING ON AVAILABILITY
+
+
+
+++++++++++++++++++++++++++++++++++

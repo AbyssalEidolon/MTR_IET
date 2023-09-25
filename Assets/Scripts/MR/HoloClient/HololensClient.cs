@@ -19,6 +19,7 @@ public class HololensClient : MonoBehaviour
     [Header("Poller Settings")]
     public bool VisualiseTargetJoints = true;
     Poller poller;
+    public bool LogPalmRot = false;
     void Start()
     {
         poller = new();
@@ -48,6 +49,7 @@ public class HololensClient : MonoBehaviour
     void FixedUpdate()
     {
         poller.PollFingers();
+        if(LogPalmRot)
         print(poller.PalmRot.ToString("F4"));
         handPresent.text = poller.hand == null ? "Not Present" : poller.hand.ControllerHandedness == Handedness.Left ? "Left" : "Right";
         for (int i = 0; i < figners.Length; i++)

@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj",
-      "projectName": "Microsoft.MixedReality.Toolkit.Demos.Gltf",
-      "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj",
+      "projectUniqueName": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj",
+      "projectName": "Microsoft.MixedReality.Toolkit.Demos.InspectorFields",
+      "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj",
       "packagesPath": "C:\\Users\\PCPG\\.nuget\\packages\\",
       "outputPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\obj\\",
       "projectStyle": "PackageReference",

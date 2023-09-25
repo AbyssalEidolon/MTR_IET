@@ -2,7 +2,8 @@
     "name": "TestScripts",
     "rootNamespace": "",
     "references": [
-        "GUID:75469ad4d38634e559750d17036d5f7c"
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:ababfe0aa0d239e4a8d356004cc30830"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
