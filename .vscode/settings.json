@@ -53,6 +53,13 @@
         "Temp/":true
     },
     "dotnet.defaultSolution": "MTR_IET.sln",
-
+    
+        "dotnetAcquisitionExtension.existingDotnetPath": [
+          {
+            "extensionId": "msazuretools.azurerm-vscode-tools",
+            "path": "C\\Program Files\\dotnet\\dotnet.exe"
+          }
+        ]
+      
       
 }

@@ -4,6 +4,6 @@ using UnityEngine;
 public class LineCollider : MonoBehaviour{
     MeshCollider collider;
     void GenerateCollider(){
-         collider = !collider? gameObject.GetComponent<MeshCollider>(); 
+        //  collider = !collider? gameObject.GetComponent<MeshCollider>(); 
     }
 }
