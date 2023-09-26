@@ -1,23 +1,22 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-[RequireComponent(typeof(HandControllerNew))]
+[RequireComponent(typeof(HandController))]
 public class PalmBoxController : MonoBehaviour
 {
-    HandControllerNew controller;
+    HandController controller;
     public List<GameObject> TempToolSet = new();
-
     void Start()
     {
-        controller = GetComponent<HandControllerNew>();
+        controller = GetComponent<HandController>();
     }
     void OnTriggerEnter(Collider other)
     {
-        if (TempToolSet.Contains(other.gameObject))
-        {
-            controller.enabled = true;
-            controller.constraints = other.GetComponent<NewToolBase>().constraints;
-        };
+        GameObject that = other.transform.root.gameObject;
+        if (TempToolSet.Contains(that))  controller.LoadTB(that.GetComponent<NewToolBase>(), that);
     }
-
+    void OnTriggetExit(Collider other){
+        GameObject that = other.transform.root.gameObject;
+        if (TempToolSet.Contains(that))  controller.UnloadTB(that.GetComponent<NewToolBase>());
+    } 
 }

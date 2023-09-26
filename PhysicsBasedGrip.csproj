@@ -53,9 +53,10 @@
     <Analyzer Include="C:\Users\PCPG\.vscode\extensions\visualstudiotoolsforunity.vstuc-0.9.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\MR\PhysicsBased\HandControllerNew.cs" />
     <Compile Include="Assets\Scripts\MR\PhysicsBased\PalmBoxController.cs" />
+    <Compile Include="Assets\Scripts\MR\PhysicsBased\HandControllerNew.cs" />
     <Compile Include="Assets\Scripts\MR\PhysicsBased\NewToolBase.cs" />
+    <Compile Include="Assets\Scripts\MR\PhysicsBased\HandController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\MR\PhysicsBased\PhysicsBasedGrip.asmdef" />
