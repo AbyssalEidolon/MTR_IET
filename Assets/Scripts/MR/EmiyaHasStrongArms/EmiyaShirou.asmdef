@@ -1,0 +1,17 @@
+{
+    "name": "EmiyaShirou",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a7a4c34601384f9389d5c4207f3c6331",
+        "GUID:ababfe0aa0d239e4a8d356004cc30830"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

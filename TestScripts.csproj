@@ -53,6 +53,7 @@
     <Analyzer Include="C:\Users\PCPG\.vscode\extensions\visualstudiotoolsforunity.vstuc-0.9.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\TestScripts\NORMALISDAWDASER.cs" />
     <Compile Include="Assets\Scripts\TestScripts\PrintDist.cs" />
     <Compile Include="Assets\Scripts\TestScripts\CutterTest.cs" />
     <Compile Include="Assets\Scripts\TestScripts\ResetPos.cs" />
@@ -64,7 +65,6 @@
     <Compile Include="Assets\Scripts\TestScripts\CTestSubset.cs" />
     <Compile Include="Assets\Scripts\TestScripts\CTest.cs" />
     <Compile Include="Assets\Scripts\TestScripts\TestFollow.cs" />
-    <Compile Include="Assets\Scripts\TestScripts\NORMALISDAWDASER.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\TestScripts\TestScripts.asmdef" />

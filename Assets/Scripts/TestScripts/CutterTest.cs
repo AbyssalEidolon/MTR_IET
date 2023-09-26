@@ -6,7 +6,7 @@ public class CutterTest : MonoBehaviour
 {
    public GameObject ASide;
    public GameObject BSide;
-   public float CurAngle;
+   float CurAngle;
 
    void FixedUpdate(){
         CurAngle = Quaternion.Angle(ASide.transform.rotation, BSide.transform.rotation);

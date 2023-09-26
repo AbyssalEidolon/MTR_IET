@@ -11,7 +11,9 @@ using UnityEngine;
 
 public class Poller : IMixedRealitySourceStateHandler
 {
-    TrackedHandJoint[] targetJoints => HandInteractionController.targetJoints;
+    TrackedHandJoint[] targetJoints = {
+        TrackedHandJoint.ThumbProximalJoint, TrackedHandJoint.IndexDistalJoint, TrackedHandJoint.MiddleDistalJoint, TrackedHandJoint.RingDistalJoint, TrackedHandJoint.PinkyDistalJoint
+    };
     public Vector3[] FingerPos { get { return Positions; } }
     public Quaternion[] FingerRot { get { return Rotations; } }
     public Quaternion PalmRot { get { return PalmRotation;}}

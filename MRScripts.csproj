@@ -54,32 +54,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MR\Tools\Cutter.cs" />
-    <Compile Include="Assets\Scripts\MR\EmiyaHasStrongArms\ToolBase.cs" />
     <Compile Include="Assets\Scripts\MR\Button\ButtonController.cs" />
-    <Compile Include="Assets\Scripts\MR\HoloClient\SpawnTest.cs" />
     <Compile Include="Assets\Scripts\MR\Button\SpawnWire.cs" />
     <Compile Include="Assets\Scripts\MR\Tools\ToolBase.cs" />
     <Compile Include="Assets\Scripts\MR\Tools\NoIdea\ToolController.cs" />
-    <Compile Include="Assets\Scripts\MR\HoloClient\JointVisualiser.cs" />
     <Compile Include="Assets\Scripts\MR\Wires\SpawnMargins.cs" />
-    <Compile Include="Assets\Scripts\MR\EmiyaHasStrongArms\HandInteractionController.cs" />
     <Compile Include="Assets\Scripts\MR\Wires\WireValidation.cs" />
     <Compile Include="Assets\Scripts\MR\SceneController.cs" />
     <Compile Include="Assets\Scripts\MR\Pulley\Pulley.cs" />
-    <Compile Include="Assets\Scripts\MR\EmiyaHasStrongArms\JointTriggerArea.cs" />
-    <Compile Include="Assets\Scripts\MR\HoloClient\HoloClientExtras.cs" />
-    <Compile Include="Assets\Scripts\MR\EmiyaHasStrongArms\ToolGripConfigurator.cs" />
-    <Compile Include="Assets\Scripts\MR\HoloClient\HololensClient.cs" />
-    <Compile Include="Assets\Scripts\MR\EmiyaHasStrongArms\Joint.cs" />
     <Compile Include="Assets\Scripts\MR\Wires\WireController.cs" />
     <Compile Include="Assets\Scripts\MR\Pulley\MRWireHandler.cs" />
-    <Compile Include="Assets\Scripts\MR\EmiyaHasStrongArms\JointCheckController.cs" />
     <Compile Include="Assets\Scripts\MR\Wires\WireBender.cs" />
-    <Compile Include="Assets\Scripts\MR\IBrokeHisLimbs\Figner.cs" />
-    <Compile Include="Assets\Scripts\MR\IBrokeHisLimbs\HandControllerNew.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Scripts\MR\HoloClient\Hololens.txt" />
     <None Include="Assets\Scripts\MR\MRScripts.asmdef" />
   </ItemGroup>
   <ItemGroup>

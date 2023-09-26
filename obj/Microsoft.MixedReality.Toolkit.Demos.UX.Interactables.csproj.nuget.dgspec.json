@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {}
+    "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {}
   },
   "projects": {
-    "D:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {
+    "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj",
+        "projectUniqueName": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj",
         "projectName": "Microsoft.MixedReality.Toolkit.Demos.UX.Interactables",
-        "projectPath": "D:\\Pacific\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj",
+        "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj",
         "packagesPath": "C:\\Users\\PCPG\\.nuget\\packages\\",
-        "outputPath": "D:\\Pacific\\GithubShenanigans\\MTR_IET\\obj\\",
+        "outputPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

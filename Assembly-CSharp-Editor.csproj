@@ -1117,10 +1117,12 @@
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.Audio.csproj" />
     <ProjectReference Include="NonVR.csproj" />
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj" />
-    <ProjectReference Include="MRScripts.csproj" />
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj" />
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj" />
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj" />
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj" />
+    <ProjectReference Include="PhysicsBasedGrip.csproj" />
+    <ProjectReference Include="HoloClient.csproj" />
+    <ProjectReference Include="EmiyaShirou.csproj" />
   </ItemGroup>
 </Project>
