@@ -45624,8 +45624,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u6B61\u8FCE\u4F86\u5230\u661F\u89D2\u4E09\u76F8\u8D77\u52D5\u5668\u6559\u7A0B\u3002"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 099179412f61e684cba75777bc43a4d5, type: 2}
+  m_sharedMaterial: {fileID: 5238483015262872600, guid: 099179412f61e684cba75777bc43a4d5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -48455,7 +48455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 181cd563a8349c34ea8978b0bc8d9c7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 5368115490658464157}
   manipulationType: 3
   twoHandedManipulationType: 7
   allowFarManipulation: 1
@@ -48472,7 +48472,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 0}
+  constraintsManager: {fileID: 5368115490658464163}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -56477,7 +56477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 181cd563a8349c34ea8978b0bc8d9c7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 7553446456152345699}
   manipulationType: 3
   twoHandedManipulationType: 7
   allowFarManipulation: 1
@@ -56494,7 +56494,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 0}
+  constraintsManager: {fileID: 7553446456276514607}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
