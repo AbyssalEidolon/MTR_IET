@@ -8,6 +8,7 @@ public class autoscoll : MonoBehaviour
     public float scrollSpeed = 10.0f;
     Vector3 defaultPosition = new Vector3(0, 196, 0);
     public RectTransform panelRectTransform;
+    public GameObject text;
     private void OnEnable()
     {
         panelRectTransform.anchoredPosition = defaultPosition;
@@ -15,6 +16,7 @@ public class autoscoll : MonoBehaviour
     void Start()
     {
         panelRectTransform = GetComponent<RectTransform>();
+        text.SetActive(true);
         
     }
     
@@ -30,5 +32,10 @@ public class autoscoll : MonoBehaviour
         }
 
         panelRectTransform.anchoredPosition = new Vector2(panelRectTransform.anchoredPosition.x, newPosition);
+
+        if (newPosition == maxPosition)
+        {
+            text.SetActive(false);
+        }
     }
 }

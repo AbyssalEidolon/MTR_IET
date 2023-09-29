@@ -26,6 +26,7 @@ public class canvas_v2 : MonoBehaviour
         }
         CanVas[index].gameObject.SetActive(true);
         CanVas[index].gameObject.transform.position = CanVas[index - 1].gameObject.transform.position;
+        CanVas[index].gameObject.transform.localScale = CanVas[index - 1].gameObject.transform.localScale;
 
 
         if (wire_index >= 0 && wire_index != 10)
@@ -57,6 +58,7 @@ public class canvas_v2 : MonoBehaviour
         }
         CanVas[index].gameObject.SetActive(true);
         CanVas[index].gameObject.transform.position = CanVas[index + 1].gameObject.transform.position;
+        CanVas[index].gameObject.transform.localScale = CanVas[index + 1].gameObject.transform.localScale;
 
         if (wire_index >= 0)
         {
