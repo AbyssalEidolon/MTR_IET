@@ -26,6 +26,7 @@ public class WireController : MonoBehaviour
     //the sphere that grap rn
     public List<GameObject> grab = new List<GameObject>();
     public float distanceSet;
+    public List<GameObject> ForChange = new List<GameObject>();
 
     void Awake()
     {
@@ -141,6 +142,7 @@ public class WireController : MonoBehaviour
 
         if (grab.Count == 1)
         {
+            Destroy(GameObject.Find("empty"));
             for (int i = 0; i < spheres.Count; i++)
             {
                 spheres[i].transform.SetParent(grab[0].transform, true);
@@ -148,7 +150,11 @@ public class WireController : MonoBehaviour
         }
         else if (grab.Count == 2)
         {
+            GameObject empty = GameObject.Find("empty");
             //Bending...
+            empty.transform.position = grab[1].transform.position;
+            empty.transform.LookAt(grab[0].transform);
+            empty.transform.Rotate(0, -90, 0);
         }
     }
 }
