@@ -1,22 +1,33 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Microsoft.MixedReality.Toolkit.Input;
+using Microsoft.MixedReality.Toolkit.Utilities;
+using UnityEngine.Animations;
 [RequireComponent(typeof(HandController))]
 public class PalmBoxController : MonoBehaviour
 {
-    HandController controller;
+    public HandController handController;
     public List<GameObject> TempToolSet = new();
-    void Start()
+    Vector3 Start = new();
+    void Awawke()
     {
-        controller = GetComponent<HandController>();
+        handController = GetComponent<HandController>();
+        Start = gameObject.transform.localPosition;
     }
     void OnTriggerEnter(Collider other)
     {
         GameObject that = other.transform.root.gameObject;
-        if (TempToolSet.Contains(that))  controller.LoadTB(that.GetComponent<NewToolBase>(), that);
+        if (TempToolSet.Contains(that))  handController.LoadTB(that.GetComponent<NewToolBase>(), that);
     }
     void OnTriggetExit(Collider other){
         GameObject that = other.transform.root.gameObject;
-        if (TempToolSet.Contains(that))  controller.UnloadTB(that.GetComponent<NewToolBase>());
+        if (TempToolSet.Contains(that))  handController.UnloadTB(that.GetComponent<NewToolBase>());
     } 
+    public void UpdateHand(Handedness hand){
+        foreach(GameObject gameObject in TempToolSet){
+            gameObject.GetComponent<ParentConstraint>().SetRotationOffset(0, hand == Handedness.Right? new(180, 0, 30) : new(180, 0, -30));
+        }
+        gameObject.transform.localPosition = new(hand == Handedness.Left? Start.x : -Start.x, hand == Handedness.Left? Start.y : -Start.y, Start.z);
+    }
 }

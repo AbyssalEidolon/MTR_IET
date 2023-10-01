@@ -54,9 +54,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MR\PhysicsBased\PalmBoxController.cs" />
-    <Compile Include="Assets\Scripts\MR\PhysicsBased\HandControllerNew.cs" />
-    <Compile Include="Assets\Scripts\MR\PhysicsBased\NewToolBase.cs" />
     <Compile Include="Assets\Scripts\MR\PhysicsBased\HandController.cs" />
+    <Compile Include="Assets\Scripts\MR\PhysicsBased\HandControllerBase.cs" />
+    <Compile Include="Assets\Scripts\MR\PhysicsBased\MRTrackJoint.cs" />
+    <Compile Include="Assets\Scripts\MR\PhysicsBased\NewToolBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\MR\PhysicsBased\PhysicsBasedGrip.asmdef" />
@@ -709,6 +710,9 @@
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit">
       <HintPath>Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>

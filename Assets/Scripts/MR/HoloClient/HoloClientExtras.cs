@@ -11,9 +11,7 @@ using UnityEngine;
 
 public class Poller : IMixedRealitySourceStateHandler
 {
-    TrackedHandJoint[] targetJoints = {
-        TrackedHandJoint.ThumbProximalJoint, TrackedHandJoint.IndexDistalJoint, TrackedHandJoint.MiddleDistalJoint, TrackedHandJoint.RingDistalJoint, TrackedHandJoint.PinkyDistalJoint
-    };
+    TrackedHandJoint[] targetJoints;
     public Vector3[] FingerPos { get { return Positions; } }
     public Quaternion[] FingerRot { get { return Rotations; } }
     public Quaternion PalmRot { get { return PalmRotation;}}
@@ -22,11 +20,14 @@ public class Poller : IMixedRealitySourceStateHandler
     Quaternion PalmRotation = Quaternion.identity;
     public IMixedRealityHand hand { get { return Hand; } }
     IMixedRealityHand Hand = null;
+    public Poller(TrackedHandJoint Thumb = TrackedHandJoint.ThumbProximalJoint, TrackedHandJoint Index = TrackedHandJoint.IndexDistalJoint, TrackedHandJoint Middle = TrackedHandJoint.MiddleDistalJoint, TrackedHandJoint Ring = TrackedHandJoint.RingDistalJoint, TrackedHandJoint Pinky = TrackedHandJoint.PinkyDistalJoint){
+        targetJoints = new TrackedHandJoint[]{Thumb, Index, Middle, Ring, Pinky};
+    }
     public void OnSourceDetected(SourceStateEventData eventData)
     {
         Hand = eventData.Controller as IMixedRealityHand;
     }
-    public void PollFingers()
+    public void PollFingers(bool DePalmed = false)
     {
         if (Hand != null)
         {
@@ -37,7 +38,7 @@ public class Poller : IMixedRealitySourceStateHandler
                 MixedRealityPose pose = new();
                 if (hand.TryGetJoint(targetJoints[i], out pose))
                 {
-                    Positions[i] = pose.Position - palm.Position;
+                    Positions[i] = DePalmed? pose.Position - palm.Position : pose.Position;
                     Rotations[i] = pose.Rotation;
                 }
             }

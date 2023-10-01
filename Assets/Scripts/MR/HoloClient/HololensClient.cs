@@ -48,7 +48,7 @@ public class HololensClient : MonoBehaviour
     public TextMeshProUGUI[] figners = new TextMeshProUGUI[5];
     void FixedUpdate()
     {
-        poller.PollFingers();
+        poller.PollFingers(true);
         if(LogPalmRot)
         print(poller.PalmRot.ToString("F4"));
         handPresent.text = poller.hand == null ? "Not Present" : poller.hand.ControllerHandedness == Handedness.Left ? "Left" : "Right";
