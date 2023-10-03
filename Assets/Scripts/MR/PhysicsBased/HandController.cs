@@ -21,7 +21,7 @@ public class HandController : MonoBehaviour
     NewToolBase toolBase;
     public float[] PullOutGame = null;
     public void LoadTB(NewToolBase tb, GameObject tg) { handInternal.LoadConstraints(tb, tg); toolBase = tb; }
-    public void UnloadTB(NewToolBase tb) { if (toolBase == tb) handInternal.UnloadConstraints(); }
+    public void UnloadTB(NewToolBase tb = null) { if (toolBase == tb && tb != null) handInternal.UnloadConstraints(); }
     public void UpdateHand(IMixedRealityHand hand){if(hand != null)foreach(GameObject gameObject in constraintParents) gameObject.transform.localEulerAngles = hand.ControllerHandedness == Handedness.Left ? new(0, 180, 0) : new();}
     void Start()
     {

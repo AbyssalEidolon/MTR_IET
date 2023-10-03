@@ -29,6 +29,7 @@ public class MRTrackJoint : MonoBehaviour, IMixedRealitySourceStateHandler{
 
     public void OnSourceDetected(SourceStateEventData eventData)
     {
+        palmController.handController.UnloadTB();
         Hand = eventData.Controller as IMixedRealityHand;
         palmController.handController.UpdateHand(Hand);
         if(Hand != null)
@@ -37,6 +38,7 @@ public class MRTrackJoint : MonoBehaviour, IMixedRealitySourceStateHandler{
 
     public void OnSourceLost(SourceStateEventData eventData)
     {
+        palmController.handController.UnloadTB();
         // throw new System.NotImplementedException();
     }
 }

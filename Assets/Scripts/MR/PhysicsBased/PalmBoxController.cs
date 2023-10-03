@@ -9,8 +9,8 @@ public class PalmBoxController : MonoBehaviour
 {
     public HandController handController;
     public List<GameObject> TempToolSet = new();
-    Vector3 Start = new();
-    void Awawke()
+    public Vector3 Start;
+    void Awake()
     {
         handController = GetComponent<HandController>();
         Start = gameObject.transform.localPosition;
@@ -28,6 +28,6 @@ public class PalmBoxController : MonoBehaviour
         foreach(GameObject gameObject in TempToolSet){
             gameObject.GetComponent<ParentConstraint>().SetRotationOffset(0, hand == Handedness.Right? new(180, 0, 30) : new(180, 0, -30));
         }
-        gameObject.transform.localPosition = new(hand == Handedness.Left? Start.x : -Start.x, hand == Handedness.Left? Start.y : -Start.y, Start.z);
+        gameObject.transform.localPosition = new(hand == Handedness.Left? Start.x : -Start.x, Start.y, Start.z);
     }
 }

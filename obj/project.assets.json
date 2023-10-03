@@ -11,6 +11,19 @@
         "runtime": {
           "bin/placeholder/Microsoft.MixedReality.Toolkit.Demos.Gltf.dll": {}
         }
+      },
+      "Utils/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.MixedReality.Toolkit.Demos.Gltf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utils.dll": {}
+        }
       }
     }
   },
@@ -19,11 +32,16 @@
       "type": "project",
       "path": "Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj",
       "msbuildProject": "Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
+    },
+    "Utils/1.0.0": {
+      "type": "project",
+      "path": "Utils.csproj",
+      "msbuildProject": "Utils.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Microsoft.MixedReality.Toolkit.Demos.Gltf >= 1.0.0"
+      "Utils >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -33,9 +51,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj",
-      "projectName": "Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors",
-      "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj",
+      "projectUniqueName": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\EmiyaShirou.csproj",
+      "projectName": "EmiyaShirou",
+      "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\EmiyaShirou.csproj",
       "packagesPath": "C:\\Users\\PCPG\\.nuget\\packages\\",
       "outputPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\obj\\",
       "projectStyle": "PackageReference",
@@ -58,8 +76,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj": {
-              "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj"
+            "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Utils.csproj": {
+              "projectPath": "c:\\Users\\PCPG\\Desktop\\GithubShenanigans\\MTR_IET\\Utils.csproj"
             }
           }
         }
