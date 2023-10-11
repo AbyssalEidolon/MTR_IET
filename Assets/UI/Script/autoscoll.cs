@@ -6,36 +6,73 @@ using UnityEngine.UI;
 public class autoscoll : MonoBehaviour
 {
     public float scrollSpeed = 10.0f;
-    Vector3 defaultPosition = new Vector3(0, 196, 0);
-    public RectTransform panelRectTransform;
-    public GameObject text;
+    public List<GameObject> childs = new List<GameObject>();
+    public List<GameObject> able = new List<GameObject>();
+    public List<Vector3> childspos = new List<Vector3>();
+    public Vector3 maxpos;
+    public Vector3 minpos;
+    public GameObject btn;
+    public float runTime;
+    public float endTime;
+
     private void OnEnable()
     {
-        panelRectTransform.anchoredPosition = defaultPosition;
+        runTime = 0;
+        if (childs.Count != 0)
+        {
+            for (int i = 0; i < childspos.Count; i++)
+            {
+                childs[i].GetComponent<RectTransform>().localPosition = childspos[i];
+            }
+        }
     }
     void Start()
     {
-        panelRectTransform = GetComponent<RectTransform>();
-        text.SetActive(true);
-        
+        foreach (Transform childTrans in transform)
+        {
+            if (childTrans.gameObject != btn)
+            {
+                childs.Add(childTrans.gameObject);
+            }
+        }
     }
-    
+
 
     void Update()
     {
-        float newPosition = panelRectTransform.anchoredPosition.y - (scrollSpeed * Time.deltaTime);
-        float maxPosition = Mathf.Max(panelRectTransform.sizeDelta.y - GetComponentInParent<RectTransform>().sizeDelta.y, 0);
-
-        if (newPosition < -maxPosition)
+        runTime += 1 * Time.deltaTime;
+        if (runTime < endTime)
         {
-            newPosition = -maxPosition;
+            foreach (GameObject child in childs)
+            {
+                RectTransform rect = child.GetComponent<RectTransform>();
+                rect.localPosition += new Vector3(0, -10f, 0) * Time.deltaTime;
+                if (rect.localPosition.y <= maxpos.y || rect.localPosition.y >= minpos.y)
+                {
+                    child.SetActive(false);
+                    if (able.Count != 0)
+                    {
+                        able.Remove(child);
+                    }
+                }
+                else
+                {
+                    child.SetActive(true);
+                    if (able.Count == 0)
+                    {
+                        able.Add(child);
+                    }
+                }
+            }
         }
 
-        panelRectTransform.anchoredPosition = new Vector2(panelRectTransform.anchoredPosition.x, newPosition);
-
-        if (newPosition == maxPosition)
+        if (able.Count == 0)
         {
-            text.SetActive(false);
+            btn.SetActive(true);
+        }
+        else
+        {
+            btn.SetActive(false);
         }
     }
 }

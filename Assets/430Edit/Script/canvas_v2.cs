@@ -9,8 +9,8 @@ public class canvas_v2 : MonoBehaviour
     public GameObject theBox;
     public GameObject[] wire_step = new GameObject[9];
     public Canvas[] CanVas = new Canvas[11];
-    int index = 0;
-    int wire_index = 0;
+    public int index = 0;
+    public int wire_index = 0;
 
 
     public void Next()
@@ -81,6 +81,8 @@ public class canvas_v2 : MonoBehaviour
 
     public void home(int i)
     {
+        CanVas[0].gameObject.transform.position = CanVas[index].gameObject.transform.position;
+        Debug.Log("changed"+ CanVas[index].gameObject.name);
         foreach (Canvas CanVas in CanVas)
         {
             CanVas.gameObject.SetActive(false);
